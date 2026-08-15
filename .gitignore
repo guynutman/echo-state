@@ -150,12 +150,24 @@ activemq-data/
 # Environments
 .env
 .envrc
-.venv
+.venv/
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Project-specific local state
+output/
+experiments/generated_*.json
+*.pt
+*.bin
+checkpoints/
+models/
+cache/
+
+# UV local workspace files
+.uv/
 
 # Spyder project settings
 .spyderproject
