@@ -9,9 +9,12 @@ network sees.
 
 Two facts about GPT-2 that this whole file depends on:
   - model.transformer.h is the list of transformer blocks; h[i] is layer i.
-  - a block's `output` is a TUPLE, not a tensor. Hidden states are output[0],
-    shaped (batch, seq_len, hidden_size). Forgetting this is the single most
-    common way this file breaks, and it usually breaks silently.
+  - what a block hands the hook as `output` DEPENDS ON THE TRANSFORMERS
+    VERSION. In 4.x it is a tuple of (hidden_states, kv_cache, ...); in 5.x it
+    is a bare Tensor of hidden states. Assuming a tuple under 5.x makes
+    output[0] index the batch dimension instead, which returns a wrongly
+    shaped tensor without raising. Use the two helpers below rather than
+    indexing a block's output directly.
 """
 
 from __future__ import annotations
@@ -20,6 +23,20 @@ import torch
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
 from src.engine import ActivationEngine
+
+
+def _hidden_states(output):
+    """Pull hidden states out of whatever shape a block returned."""
+    return output[0] if isinstance(output, tuple) else output
+
+
+def _replace_hidden_states(output, hidden):
+    """Rebuild a block output with `hidden` swapped in, preserving any extras.
+
+    Under 4.x the extras are the KV cache that generation depends on, so they
+    must be carried through rather than dropped.
+    """
+    return (hidden,) + output[1:] if isinstance(output, tuple) else hidden
 
 
 class HookEngine(ActivationEngine):
@@ -79,7 +96,7 @@ class HookEngine(ActivationEngine):
         def hook_fn(module, inputs, output):
             # detach: cut from the autograd graph. cpu: get it off the GPU.
             # clone: copy, since torch reuses the underlying buffer.
-            captured.append(output[0].detach().cpu().clone())
+            captured.append(_hidden_states(output).detach().cpu().clone())
 
         handle = self.model.transformer.h[target_layer].register_forward_hook(hook_fn)
         try:
@@ -146,10 +163,10 @@ class HookEngine(ActivationEngine):
         sv = torch.tensor(steering_vector, dtype=torch.float32, device=self.device)
 
         def hook_fn(module, inputs, output):
-            hidden = output[0] + sv  # (d,) broadcasts over (batch, seq, d)
-            # Rebuild the tuple. Returning a bare tensor breaks the next block,
-            # and output[1:] carries the KV cache that generation depends on.
-            return (hidden,) + output[1:]
+            # (d,) broadcasts over (batch, seq, d), so this works both on the
+            # first pass and on the single-token passes that follow it.
+            hidden = _hidden_states(output) + sv
+            return _replace_hidden_states(output, hidden)
 
         handle = self.model.transformer.h[target_layer].register_forward_hook(hook_fn)
         try:
