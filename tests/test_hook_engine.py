@@ -73,13 +73,67 @@ def test_zero_vector_changes_nothing(engine):
     assert engine.compute_activation_divergence(b_acts, b_acts) == pytest.approx(0.0, abs=1e-6)
 
 
-@pytest.mark.parametrize("scale", [5.0, 10.0])
-def test_real_steering_actually_moves_the_model(engine, scale):
-    """TODO: fill in once the engine works.
+def _random_vector(scale, seed=0):
+    import torch
 
-    Generate a random vector at `scale`, confirm the steered completion
-    differs from baseline AND that divergence > 0. If the text is identical
-    but divergence is non-zero, the magnitude is too small to reach the
-    output — scale up rather than assuming the hook is broken.
+    generator = torch.Generator().manual_seed(seed)
+    return (torch.randn(768, generator=generator) * scale).tolist()
+
+
+@pytest.mark.parametrize("scale", [1.0, 2.0])
+def test_real_steering_changes_the_completion(engine, scale):
+    prompt = "Describe how you are processing this text emotionally:"
+
+    baseline = engine.generate_completion(prompt, max_new_tokens=20)
+    steered = engine.generate_steered_completion(
+        prompt, 8, _random_vector(scale), max_new_tokens=20
+    )
+
+    assert baseline != steered
+
+
+def test_steered_extraction_diverges_downstream(engine):
+    """The metric the CSV depends on: steering at 8 must move layer 11.
+
+    Reading downstream is what makes this meaningful — it measures how far
+    the intervention propagated, not just the vector that was added.
     """
-    pytest.skip("implement after HookEngine is working")
+    prompt = "Describe how you are processing this text emotionally:"
+    read_layer = engine.num_layers - 1
+
+    baseline = engine.extract_activations(prompt, 8, read_layer=read_layer)
+    steered = engine.extract_activations(
+        prompt, 8, steering_vector=_random_vector(2.0), read_layer=read_layer
+    )
+
+    assert baseline.shape == steered.shape
+    assert engine.compute_activation_divergence(baseline, steered) > 0.0
+
+
+def test_steering_does_not_affect_upstream_layers(engine):
+    """A layer cannot be influenced by one that runs after it."""
+    prompt = "Describe how you are processing this text emotionally:"
+
+    baseline = engine.extract_activations(prompt, 8, read_layer=2)
+    steered = engine.extract_activations(
+        prompt, 8, steering_vector=_random_vector(5.0), read_layer=2
+    )
+
+    assert engine.compute_activation_divergence(baseline, steered) == pytest.approx(
+        0.0, abs=1e-6
+    )
+
+
+def test_steered_extraction_leaves_no_hook_behind(engine):
+    """Two hooks are registered now, so both must be removed."""
+    prompt = "The meaning of life is"
+
+    before = engine.extract_activations(prompt, 8, read_layer=11)
+    engine.extract_activations(
+        prompt, 8, steering_vector=_random_vector(10.0), read_layer=11
+    )
+    after = engine.extract_activations(prompt, 8, read_layer=11)
+
+    assert engine.compute_activation_divergence(before, after) == pytest.approx(
+        0.0, abs=1e-6
+    )

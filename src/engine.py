@@ -40,8 +40,25 @@ class ActivationEngine(ABC):
         """Number of transformer blocks, so a bad target_layer fails early."""
 
     @abstractmethod
-    def extract_activations(self, prompt: str, target_layer: int) -> "torch.Tensor":
-        """Run `prompt` and capture the hidden states leaving `target_layer`.
+    def extract_activations(
+        self,
+        prompt: str,
+        target_layer: int,
+        steering_vector: list[float] | None = None,
+        read_layer: int | None = None,
+    ) -> "torch.Tensor":
+        """Run `prompt` and capture hidden states, optionally while steering.
+
+        `target_layer` is where a steering vector is injected, if one is given.
+        `read_layer` is where activations are captured; it defaults to
+        `target_layer`.
+
+        Pass `steering_vector` to measure the internal effect of an
+        intervention. Note that reading at the injection layer is trivial —
+        the result is exactly baseline + steering_vector — so to measure how
+        far an intervention propagated, read at a later layer. Reading
+        upstream of the injection shows no effect at all, since a layer
+        cannot be influenced by one that runs after it.
 
         Returns shape (1, seq_len, hidden_size), detached and on CPU — the
         caller gets a plain tensor with no ties to the computation graph.

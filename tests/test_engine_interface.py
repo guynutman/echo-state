@@ -28,7 +28,9 @@ def test_full_implementation_satisfies_the_contract():
         def num_layers(self) -> int:
             return 12
 
-        def extract_activations(self, prompt, target_layer):
+        def extract_activations(
+            self, prompt, target_layer, steering_vector=None, read_layer=None
+        ):
             return None
 
         def generate_completion(self, prompt, max_new_tokens=100):

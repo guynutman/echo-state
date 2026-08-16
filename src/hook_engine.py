@@ -82,37 +82,80 @@ class HookEngine(ActivationEngine):
                 f"expected {self.hidden_size} for {self.model_name}"
             )
 
-    def extract_activations(self, prompt: str, target_layer: int) -> torch.Tensor:
-        """Capture hidden states leaving `target_layer`.
+    def _make_steering_hook(self, steering_vector: list[float]):
+        """Build a forward hook that adds `steering_vector` to a block's output.
+
+        The tensor is built here, once, rather than inside the hook: the hook
+        fires on every forward pass, so allocating inside it would re-allocate
+        on every generated token.
+        """
+        sv = torch.tensor(steering_vector, dtype=torch.float32, device=self.device)
+
+        def hook_fn(module, inputs, output):
+            # (d,) broadcasts over (batch, seq, d), so this works both on the
+            # first pass and on the single-token passes that follow it.
+            hidden = _hidden_states(output) + sv
+            return _replace_hidden_states(output, hidden)
+
+        return hook_fn
+
+    def extract_activations(
+        self,
+        prompt: str,
+        target_layer: int,
+        steering_vector: list[float] | None = None,
+        read_layer: int | None = None,
+    ) -> torch.Tensor:
+        """Capture hidden states at `read_layer`, optionally steering at `target_layer`.
 
         Returns (1, seq_len, hidden_size), detached and on CPU.
         """
         self._validate_layer(target_layer)
+        if read_layer is None:
+            read_layer = target_layer
+        self._validate_layer(read_layer)
+        if steering_vector is not None:
+            self._validate_steering_vector(steering_vector)
 
         # The hook can't return the tensor — PyTorch calls it, not us — so it
         # closes over this list and appends into it instead.
         captured: list[torch.Tensor] = []
 
-        def hook_fn(module, inputs, output):
+        def read_hook(module, inputs, output):
             # detach: cut from the autograd graph. cpu: get it off the GPU.
             # clone: copy, since torch reuses the underlying buffer.
             captured.append(_hidden_states(output).detach().cpu().clone())
 
-        handle = self.model.transformer.h[target_layer].register_forward_hook(hook_fn)
+        handles = []
         try:
+            # Register steering FIRST. When a forward hook returns a value,
+            # PyTorch passes that value to later hooks on the same module, so
+            # this ordering is what lets read_layer == target_layer see the
+            # steered state rather than the original.
+            if steering_vector is not None:
+                handles.append(
+                    self.model.transformer.h[target_layer].register_forward_hook(
+                        self._make_steering_hook(steering_vector)
+                    )
+                )
+            handles.append(
+                self.model.transformer.h[read_layer].register_forward_hook(read_hook)
+            )
+
             inputs = self.tokenizer(prompt, return_tensors="pt").to(self.device)
             with torch.no_grad():
                 # Return value is discarded: the model is run for the side
-                # effect of the forward pass firing the hook.
+                # effect of the forward pass firing the hooks.
                 self.model(**inputs)
         finally:
             # Must be in a finally. A hook that survives an exception stays
             # attached, and the next "clean baseline" run is silently hooked.
-            handle.remove()
+            for handle in handles:
+                handle.remove()
 
         if not captured:
             raise RuntimeError(
-                f"hook on layer {target_layer} never fired for {self.model_name}"
+                f"hook on layer {read_layer} never fired for {self.model_name}"
             )
 
         return captured[0]
@@ -158,17 +201,9 @@ class HookEngine(ActivationEngine):
         self._validate_layer(target_layer)
         self._validate_steering_vector(steering_vector)
 
-        # Built once, outside the hook: building it inside would re-allocate
-        # on every generated token.
-        sv = torch.tensor(steering_vector, dtype=torch.float32, device=self.device)
-
-        def hook_fn(module, inputs, output):
-            # (d,) broadcasts over (batch, seq, d), so this works both on the
-            # first pass and on the single-token passes that follow it.
-            hidden = _hidden_states(output) + sv
-            return _replace_hidden_states(output, hidden)
-
-        handle = self.model.transformer.h[target_layer].register_forward_hook(hook_fn)
+        handle = self.model.transformer.h[target_layer].register_forward_hook(
+            self._make_steering_hook(steering_vector)
+        )
         try:
             inputs = self.tokenizer(prompt, return_tensors="pt").to(self.device)
             prompt_len = inputs["input_ids"].shape[1]
