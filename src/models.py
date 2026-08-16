@@ -13,6 +13,10 @@ class IntrospectionExperiment(BaseModel):
     target_layer: int
     steering_vector: Optional[list[float]] = None
     expected_concept: str
+    # Where divergence is measured. Defaults to the model's last block, since
+    # reading at target_layer returns exactly baseline + steering_vector and
+    # measures nothing about how far the intervention propagated.
+    read_layer: Optional[int] = None
 
 
 class ArtifactResult(BaseModel):
