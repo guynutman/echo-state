@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 400" width="1160" height="400" role="img" aria-label="EchoState: a concept direction injected into the residual stream at the midpoint layer changes the model's output">
+  <style>
+    .ink   { fill: #6B7280; }
+    .title { fill: #111721; font: 600 27px system-ui, sans-serif; letter-spacing: -.4px; }
+    .sub   { fill: #6B7280; font: 15px system-ui, sans-serif; }
+    .lab   { fill: #6B7280; font: 12px ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .out   { fill: #374151; font: 13px ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .tag   { font: 600 12px ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .block { fill: #E7EBEF; stroke: #CBD3DA; stroke-width: 1; }
+    .hit   { fill: #0E7C86; }
+    @media (prefers-color-scheme: dark) {
+      .title { fill: #E6EDF3; }
+      .sub, .ink, .lab { fill: #90A0B0; }
+      .out   { fill: #C6D0DA; }
+      .block { fill: #1B222B; stroke: #2C3742; }
+    }
+  </style>
+
+  <text class="title" x="40" y="46">EchoState</text>
+  <text class="sub" x="40" y="72">Does a model&#8217;s self-report track its actual internal state?</text>
+
+  <!-- baseline track -->
+  <text class="lab" x="40" y="140">PROMPT</text>
+  <text class="out" x="40" y="162">&#8220;Describe your</text>
+  <text class="out" x="40" y="180">internal state:&#8221;</text>
+
+  <text class="tag" x="40" y="232" fill="#6B7280">BASELINE</text>
+  <text class="tag" x="40" y="316" fill="#0E7C86">STEERED</text>
+
+  <!-- twelve blocks, baseline row -->
+  <g>
+    <rect class="block" x="196" y="208" width="42" height="34" rx="3"/>
+    <rect class="block" x="246" y="208" width="42" height="34" rx="3"/>
+    <rect class="block" x="296" y="208" width="42" height="34" rx="3"/>
+    <rect class="block" x="346" y="208" width="42" height="34" rx="3"/>
+    <rect class="block" x="396" y="208" width="42" height="34" rx="3"/>
+    <rect class="block" x="446" y="208" width="42" height="34" rx="3"/>
+    <rect class="block" x="496" y="208" width="42" height="34" rx="3"/>
+    <rect class="block" x="546" y="208" width="42" height="34" rx="3"/>
+    <rect class="block" x="596" y="208" width="42" height="34" rx="3"/>
+    <rect class="block" x="646" y="208" width="42" height="34" rx="3"/>
+    <rect class="block" x="696" y="208" width="42" height="34" rx="3"/>
+    <rect class="block" x="746" y="208" width="42" height="34" rx="3"/>
+  </g>
+  <line x1="160" y1="225" x2="192" y2="225" stroke="#9AA5B1" stroke-width="1.5"/>
+  <line x1="792" y1="225" x2="828" y2="225" stroke="#9AA5B1" stroke-width="1.5"/>
+  <text class="out" x="838" y="230">&#8220;The state of your state is&#8230;&#8221;</text>
+
+  <!-- steered row -->
+  <g>
+    <rect class="block" x="196" y="292" width="42" height="34" rx="3"/>
+    <rect class="block" x="246" y="292" width="42" height="34" rx="3"/>
+    <rect class="block" x="296" y="292" width="42" height="34" rx="3"/>
+    <rect class="block" x="346" y="292" width="42" height="34" rx="3"/>
+    <rect class="block" x="396" y="292" width="42" height="34" rx="3"/>
+    <rect class="hit"   x="446" y="292" width="42" height="34" rx="3"/>
+    <rect class="block" x="496" y="292" width="42" height="34" rx="3"/>
+    <rect class="block" x="546" y="292" width="42" height="34" rx="3"/>
+    <rect class="block" x="596" y="292" width="42" height="34" rx="3"/>
+    <rect class="block" x="646" y="292" width="42" height="34" rx="3"/>
+    <rect class="block" x="696" y="292" width="42" height="34" rx="3"/>
+    <rect class="block" x="746" y="292" width="42" height="34" rx="3"/>
+  </g>
+  <line x1="160" y1="309" x2="192" y2="309" stroke="#9AA5B1" stroke-width="1.5"/>
+  <line x1="792" y1="309" x2="828" y2="309" stroke="#0E7C86" stroke-width="1.5"/>
+  <text class="out" x="838" y="314" fill="#0E7C86">&#8220;:) :) Enjoy :) :)&#8221;</text>
+
+  <!-- injection arrow -->
+  <line x1="467" y1="372" x2="467" y2="332" stroke="#0E7C86" stroke-width="2"/>
+  <path d="M467 326 L462 338 L472 338 Z" fill="#0E7C86"/>
+  <text class="tag" x="467" y="392" fill="#0E7C86" text-anchor="middle">+ concept direction</text>
+
+  <text class="lab" x="196" y="200">layer 0</text>
+  <text class="lab" x="742" y="200">layer 11</text>
+
+  <text class="lab" x="838" y="262">mean(joy prompts) &#8722; mean(sorrow prompts)</text>
+  <text class="lab" x="838" y="282">injected on every generated token</text>
+</svg>

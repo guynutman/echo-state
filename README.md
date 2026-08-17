@@ -1,6 +1,11 @@
 # EchoState
 
+![EchoState: a concept direction injected into the residual stream at the midpoint layer](assets/echostate-diagram.svg)
+
 **A tool for testing whether a language model's description of its own state has anything to do with its actual state.**
+
+> **Note on the name:** "echo state network" is an established reservoir-computing
+> architecture (Jaeger, 2001). This project is unrelated to it.
 
 ---
 
