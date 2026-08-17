@@ -149,10 +149,13 @@ class HookEngine(ActivationEngine):
         sv = torch.tensor(steering_vector, dtype=torch.float32, device=self.device)
 
         def hook_fn(module, inputs, output):
+            hidden = _hidden_states(output)
+            # Match the model's dtype. Some checkpoints (pythia-410m) load in
+            # float16; adding a float32 vector silently promotes the hidden
+            # states, and the next layer norm then fails on mixed dtypes.
             # (d,) broadcasts over (batch, seq, d), so this works both on the
             # first pass and on the single-token passes that follow it.
-            hidden = _hidden_states(output) + sv
-            return _replace_hidden_states(output, hidden)
+            return _replace_hidden_states(output, hidden + sv.to(hidden.dtype))
 
         return hook_fn
 

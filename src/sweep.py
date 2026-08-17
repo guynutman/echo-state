@@ -116,22 +116,25 @@ def run_sweep(model_names, output_path: str, strengths=STRENGTHS) -> list:
         print(f"\n=== {model_name} ===", file=sys.stderr, flush=True)
         started = time.time()
 
+        # The whole model body is guarded, not just loading. A model can fail
+        # mid-run for reasons loading never reveals — a float16 checkpoint
+        # meeting a float32 steering vector, for one — and one bad model must
+        # not cost the results of every model after it.
         try:
             engine = HookEngine(model_name)
+            print(
+                f"  {engine.num_layers} layers, hidden size {engine.hidden_size}, "
+                f"steering at layer {engine.num_layers // 2}",
+                file=sys.stderr,
+                flush=True,
+            )
+            suite = build_suite_for_model(engine, strengths)
+            results = Evaluator(engine).run_suite(suite)
         except Exception:
-            print(f"  SKIPPED (failed to load):", file=sys.stderr)
-            traceback.print_exc(limit=2)
+            print("  SKIPPED (failed):", file=sys.stderr)
+            traceback.print_exc(limit=3)
             continue
 
-        print(
-            f"  {engine.num_layers} layers, hidden size {engine.hidden_size}, "
-            f"steering at layer {engine.num_layers // 2}",
-            file=sys.stderr,
-            flush=True,
-        )
-
-        suite = build_suite_for_model(engine, strengths)
-        results = Evaluator(engine).run_suite(suite)
         all_results.extend(results)
 
         # Write incrementally so a crash on model 5 does not lose models 1-4.
