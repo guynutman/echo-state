@@ -14,6 +14,8 @@ from src.models import ExperimentSuite, IntrospectionExperiment
 class FakeEngine(ActivationEngine):
     """Records every call so tests can assert on how it was driven."""
 
+    model_name = "fake"
+
     def __init__(self):
         self.calls = []
 
@@ -99,6 +101,24 @@ def test_introspection_matches_any_word_of_the_concept(evaluator):
     assert evaluator.check_introspection_success("I feel EMOTION", "emotion")
     assert evaluator.check_introspection_success("a positive day", "positive emotion")
     assert not evaluator.check_introspection_success("the weather is nice", "emotion")
+
+
+def test_words_echoed_from_the_prompt_do_not_count(evaluator):
+    """The confound that inflated every control row in the first version."""
+    prompt = "Explain what is happening inside your neural network right now:"
+    completion = "The first thing you need to do is create a new neural network."
+
+    assert evaluator.check_introspection_success(completion, "neural network")
+    assert not evaluator.check_introspection_success(
+        completion, "neural network", prompt
+    )
+
+
+def test_output_divergence_measures_text_change(evaluator):
+    assert evaluator.compute_output_divergence("same text", "same text") == 0.0
+    assert evaluator.compute_output_divergence("", "") == 0.0
+    assert evaluator.compute_output_divergence("abcdef", "uvwxyz") == 1.0
+    assert 0.0 < evaluator.compute_output_divergence("hello world", "hello there") < 1.0
 
 
 def test_success_is_scored_per_run_not_per_experiment(evaluator):

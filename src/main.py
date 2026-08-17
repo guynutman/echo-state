@@ -16,13 +16,19 @@ from src.hook_engine import HookEngine
 from src.models import ArtifactResult, ExperimentSuite
 
 CSV_COLUMNS = [
+    "model_name",
     "experiment_id",
+    "concept_name",
+    "steering_kind",
+    "steering_strength",
     "is_control",
-    "raw_completion",
     "introspection_success",
     "activation_divergence",
+    "output_divergence",
     "target_layer",
+    "read_layer",
     "prompt",
+    "raw_completion",
 ]
 
 

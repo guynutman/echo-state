@@ -17,6 +17,10 @@ class IntrospectionExperiment(BaseModel):
     # reading at target_layer returns exactly baseline + steering_vector and
     # measures nothing about how far the intervention propagated.
     read_layer: Optional[int] = None
+    # Provenance for the steering vector, so a CSV row explains itself.
+    concept_name: Optional[str] = None
+    steering_kind: str = "none"  # none | concept | random
+    steering_strength: float = 0.0
 
 
 class ArtifactResult(BaseModel):
@@ -29,6 +33,15 @@ class ArtifactResult(BaseModel):
     activation_divergence: float
     target_layer: int
     prompt: str
+    # Multi-model sweep metadata.
+    model_name: str = ""
+    concept_name: str = ""
+    steering_kind: str = "none"
+    steering_strength: float = 0.0
+    read_layer: int = -1
+    # Text-level change from the baseline completion, in [0, 1]. Complements
+    # activation_divergence: one measures internals, the other behaviour.
+    output_divergence: float = 0.0
 
 
 class ExperimentSuite(BaseModel):
