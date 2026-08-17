@@ -63,6 +63,8 @@ dev = [
     "jupyter>=1.1.1",
     "matplotlib>=3.11.1",
     "pandas>=3.0.5",
+    "pypdfium2>=5.13.0",
     "pytest>=8.0",
     "ruff>=0.16.3",
+    "weasyprint>=69.0",
 ]

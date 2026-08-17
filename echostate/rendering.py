@@ -19,8 +19,28 @@ TEMPLATE_DIR = Path(__file__).parent / "templates"
 
 
 def load_template(name: str) -> str:
-    """Read a template from `src/templates`."""
+    """Read a template from `echostate/templates`."""
     return (TEMPLATE_DIR / name).read_text(encoding="utf-8")
+
+
+def render_standalone(page_name: str, values: dict[str, object]) -> str:
+    """A complete HTML document, for PDF rendering rather than the artifact host.
+
+    The artifact host supplies its own `<!doctype>` and `<head>`, so `render`
+    deliberately emits a fragment. A PDF renderer supplies nothing, so this
+    wraps the same content and appends the print stylesheet.
+    """
+    body = load_template(f"{page_name}.body.html")
+    css = load_template(f"{page_name}.css")
+    print_css = load_template("print.css")
+    title = values["title"]
+    return (
+        "<!doctype html>\n"
+        '<html lang="en">\n<head>\n<meta charset="utf-8">\n'
+        f"<title>{title}</title>\n"
+        f"<style>\n{css}\n{print_css}</style>\n"
+        f"</head>\n<body>\n{body.format(**values)}\n</body>\n</html>\n"
+    )
 
 
 def render(page_name: str, values: dict[str, object]) -> str:
@@ -82,6 +102,7 @@ class LineChart:
         pad_top: int = 16,
         pad_right: int = 12,
         tick_places: int = 2,
+        tick_font: int = 10,
         dash_second_series: bool = False,
     ) -> None:
         self.width = width
@@ -91,6 +112,10 @@ class LineChart:
         self.pad_top = pad_top
         self.pad_right = pad_right
         self.tick_places = tick_places
+        # Set as a presentation attribute, not only via CSS: some renderers
+        # (weasyprint, for the PDF) do not cascade a stylesheet into inline
+        # SVG, and fall back to a default size that dwarfs the body text.
+        self.tick_font = tick_font
         self.dash_second_series = dash_second_series
 
     def render(self, series: dict[str, list[tuple[float, float]]], label: str) -> str:
@@ -132,6 +157,7 @@ class LineChart:
             )
             parts.append(
                 f'<text x="{self.pad_left - 7}" y="{y + 3.8:.1f}" class="tick" '
+                f'font-size="{self.tick_font}" '
                 f'text-anchor="end">{value:.{self.tick_places}f}</text>'
             )
         return parts
@@ -162,11 +188,13 @@ class LineChart:
     def _x_axis(self, strengths: list[float], to_x) -> list[str]:
         parts = [
             f'<text x="{to_x(x):.1f}" y="{self.height - self.pad_bottom + 17:.0f}" '
-            f'class="tick" text-anchor="middle">{x:g}</text>'
+            f'class="tick" font-size="{self.tick_font}" '
+            f'text-anchor="middle">{x:g}</text>'
             for x in strengths
         ]
         parts.append(
             f'<text x="{self.width / 2:.0f}" y="{self.height - 4}" class="axis" '
+            f'font-size="{self.tick_font}" '
             f'text-anchor="middle">steering strength</text>'
         )
         return parts

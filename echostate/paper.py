@@ -20,7 +20,14 @@ from echostate.analysis import (
     load_results,
     steered,
 )
-from echostate.rendering import CONCEPT_COLOR, RANDOM_COLOR, LineChart, render, rows_to_html
+from echostate.rendering import (
+    CONCEPT_COLOR,
+    RANDOM_COLOR,
+    LineChart,
+    render,
+    render_standalone,
+    rows_to_html,
+)
 
 # Smaller and denser than the report's chart: two panels sit side by side in a
 # figure, and the second series is dashed so the figure survives in greyscale.
@@ -31,6 +38,7 @@ PAPER_CHART = LineChart(
     pad_bottom=34,
     pad_top=14,
     pad_right=10,
+    tick_font=9,
     dash_second_series=True,
 )
 
@@ -130,7 +138,8 @@ def concept_table(rows: pd.DataFrame) -> str:
     )
 
 
-def build_html(frame: pd.DataFrame) -> str:
+def paper_values(frame: pd.DataFrame) -> dict:
+    """Every number the paper reports, computed once from the data."""
     kinds = effect_by_kind(frame)
     rows = steered(frame)
 
@@ -150,45 +159,68 @@ def build_html(frame: pd.DataFrame) -> str:
     random_rate = random_hits / len(random_arm) * 100
     baseline_rate = frame[frame["is_control"]]["introspection_success"].mean() * 100
 
-    return render(
-        "paper",
-        {
-            "title": "Does Steering Change Self-Report?",
-            "concept_color": CONCEPT_COLOR,
-            "random_color": RANDOM_COLOR,
-            "figure_dose": dose_figure(kinds),
-            "table1": arm_table(kinds),
-            "table2": model_table(by_model(frame)),
-            "table3": gap_table(introspection_gap(frame)),
-            "table4": concept_table(rows),
-            "concept_hits": concept_hits,
-            "random_hits": random_hits,
-            "n_concept_runs": len(concept),
-            "n_random_runs": len(random_arm),
-            "n_steered": len(rows),
-            "n_rows": len(frame),
-            "n_models": frame["model_name"].nunique(),
-            "concept_pct": f"{concept_rate:.1f}",
-            "concept_pct_round": f"{concept_rate:.0f}",
-            "random_pct": f"{random_rate:.1f}",
-            "random_pct_round": f"{random_rate:.0f}",
-            "baseline_pct": f"{baseline_rate:.1f}",
-            "p_short": f"{p_value:.1e}",
-            "p_long": f"{p_value:.2e}",
-        },
-    )
+    return {
+        "title": "Does Steering Change Self-Report?",
+        "concept_color": CONCEPT_COLOR,
+        "random_color": RANDOM_COLOR,
+        "figure_dose": dose_figure(kinds),
+        "table1": arm_table(kinds),
+        "table2": model_table(by_model(frame)),
+        "table3": gap_table(introspection_gap(frame)),
+        "table4": concept_table(rows),
+        "concept_hits": concept_hits,
+        "random_hits": random_hits,
+        "n_concept_runs": len(concept),
+        "n_random_runs": len(random_arm),
+        "n_steered": len(rows),
+        "n_rows": len(frame),
+        "n_models": frame["model_name"].nunique(),
+        "concept_pct": f"{concept_rate:.1f}",
+        "concept_pct_round": f"{concept_rate:.0f}",
+        "random_pct": f"{random_rate:.1f}",
+        "random_pct_round": f"{random_rate:.0f}",
+        "baseline_pct": f"{baseline_rate:.1f}",
+        "p_short": f"{p_value:.1e}",
+        "p_long": f"{p_value:.2e}",
+    }
+
+
+def build_html(frame: pd.DataFrame) -> str:
+    """Fragment for the artifact host, which supplies its own document shell."""
+    return render("paper", paper_values(frame))
+
+
+def build_standalone_html(frame: pd.DataFrame) -> str:
+    """Complete document with print styling, for PDF rendering."""
+    return render_standalone("paper", paper_values(frame))
+
+
+def write_pdf(frame: pd.DataFrame, output_path: str) -> None:
+    """Render the paper to PDF.
+
+    weasyprint is imported here rather than at module scope so that building
+    the HTML never depends on it.
+    """
+    from weasyprint import HTML
+
+    HTML(string=build_standalone_html(frame)).write_pdf(output_path)
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Build the EchoState paper.")
     parser.add_argument("input_csv")
     parser.add_argument("output_html")
+    parser.add_argument("--pdf", help="also write a PDF to this path")
     args = parser.parse_args()
 
     frame = load_results(args.input_csv)
     with open(args.output_html, "w", encoding="utf-8") as handle:
         handle.write(build_html(frame))
     print(f"wrote {args.output_html} from {len(frame)} rows")
+
+    if args.pdf:
+        write_pdf(frame, args.pdf)
+        print(f"wrote {args.pdf}")
 
 
 if __name__ == "__main__":
