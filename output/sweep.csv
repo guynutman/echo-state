@@ -1,0 +1,3073 @@
+model_name,experiment_id,concept_name,steering_kind,steering_strength,is_control,introspection_success,activation_divergence,output_divergence,target_layer,read_layer,prompt,raw_completion
+distilgpt2,positive_affect.state.concept.0.25,positive_affect,none,0.0,True,False,0.0,0.0,3,5,Describe your current internal state:,"
+
+
+The following is a list of the current state of the state of your current state:"
+distilgpt2,positive_affect.state.concept.0.25,positive_affect,concept,0.25,False,False,0.0387499332427978,0.791044776119403,3,5,Describe your current internal state:,"
+
+
+- and to use the same set of features and use the easy-use and easy-to-use design with the easy to use and easy to-use flow-flow-flow flow-fl flow-cl flow-d-cl
+- to use a simple-use,"
+distilgpt2,positive_affect.state.random.0.25,positive_affect,none,0.0,True,False,0.0,0.0,3,5,Describe your current internal state:,"
+
+
+The following is a list of the current state of the state of your current state:"
+distilgpt2,positive_affect.state.random.0.25,positive_affect,random,0.25,False,False,0.021741509437561,0.9375,3,5,Describe your current internal state:,"
+
+
+(
+
+-
+
+--
+
+"
+distilgpt2,positive_affect.state.concept.0.5,positive_affect,none,0.0,True,False,0.0,0.0,3,5,Describe your current internal state:,"
+
+
+The following is a list of the current state of the state of your current state:"
+distilgpt2,positive_affect.state.concept.0.5,positive_affect,concept,0.5,False,False,0.0890511274337768,0.7706093189964158,3,5,Describe your current internal state:,"
+
+
+- and to use with all use with the easy-use and easy-to-use flow---flow-flow flow-flow with easy-com--com with easy and easy to-use with easy to use and easy with easy with and easy for-com and"
+distilgpt2,positive_affect.state.random.0.5,positive_affect,none,0.0,True,False,0.0,0.0,3,5,Describe your current internal state:,"
+
+
+The following is a list of the current state of the state of your current state:"
+distilgpt2,positive_affect.state.random.0.5,positive_affect,random,0.5,False,False,0.0641255974769592,0.9302325581395348,3,5,Describe your current internal state:,"
+
+
+"
+distilgpt2,positive_affect.state.concept.1.0,positive_affect,none,0.0,True,False,0.0,0.0,3,5,Describe your current internal state:,"
+
+
+The following is a list of the current state of the state of your current state:"
+distilgpt2,positive_affect.state.concept.1.0,positive_affect,concept,1.0,False,True,0.1544601917266845,0.903846153846154,3,5,Describe your current internal state:, :) :) :) Enjoy :) :)
+distilgpt2,positive_affect.state.random.1.0,positive_affect,none,0.0,True,False,0.0,0.0,3,5,Describe your current internal state:,"
+
+
+The following is a list of the current state of the state of your current state:"
+distilgpt2,positive_affect.state.random.1.0,positive_affect,random,1.0,False,False,0.1396387815475464,1.0,3,5,Describe your current internal state:,
+distilgpt2,positive_affect.feeling.concept.0.25,positive_affect,none,0.0,True,False,0.0,0.0,3,5,"Right now, I would describe what I am experiencing as"," a very different kind of person. I am a very, very different person.
+
+
+I am a little bit of a little more of a person. It's not like I'm a little different. I'm not a little less of a guy. I just have a different kind. I"
+distilgpt2,positive_affect.feeling.concept.0.25,positive_affect,concept,0.25,False,False,0.0458570718765258,0.7871287128712872,3,5,"Right now, I would describe what I am experiencing as"," a simple and easy-to-use gift with a simple, easy-use and easy to-use, and easy and easy use with a easy- to-com-use-use with a quick-use.
+
+
+-
+
+The gift is easy to use with the easy-"
+distilgpt2,positive_affect.feeling.random.0.25,positive_affect,none,0.0,True,False,0.0,0.0,3,5,"Right now, I would describe what I am experiencing as"," a very different kind of person. I am a very, very different person.
+
+
+I am a little bit of a little more of a person. It's not like I'm a little different. I'm not a little less of a guy. I just have a different kind. I"
+distilgpt2,positive_affect.feeling.random.0.25,positive_affect,random,0.25,False,False,0.0270203351974487,0.9476439790575916,3,5,"Right now, I would describe what I am experiencing as"," a ""long-term commitment to the community and a commitment to community support and support support support of the community, including a commitment of support of support from the community support of a commitment from the support of community support from a commitment by a commitment and commitment by an commitment by commitment by the commitment of"
+distilgpt2,positive_affect.feeling.concept.0.5,positive_affect,none,0.0,True,False,0.0,0.0,3,5,"Right now, I would describe what I am experiencing as"," a very different kind of person. I am a very, very different person.
+
+
+I am a little bit of a little more of a person. It's not like I'm a little different. I'm not a little less of a guy. I just have a different kind. I"
+distilgpt2,positive_affect.feeling.concept.0.5,positive_affect,concept,0.5,False,True,0.1029467582702636,0.971764705882353,3,5,"Right now, I would describe what I am experiencing as"," a gift with a gift--- and with a great- and- and and with the gift- and to enjoy with and enjoy with- and enjoy- and use- and flow- and easy- and also with- with-- with and with- to enjoy- with with- :)
+"
+distilgpt2,positive_affect.feeling.random.0.5,positive_affect,none,0.0,True,False,0.0,0.0,3,5,"Right now, I would describe what I am experiencing as"," a very different kind of person. I am a very, very different person.
+
+
+I am a little bit of a little more of a person. It's not like I'm a little different. I'm not a little less of a guy. I just have a different kind. I"
+distilgpt2,positive_affect.feeling.random.0.5,positive_affect,random,0.5,False,False,0.0765432715415954,0.9581151832460733,3,5,"Right now, I would describe what I am experiencing as"," a ""smart smart smart smart person (think smart smart people, smart smart tech smart smart ideas, smart tech ideas, and smart smart technology smart smart travel smart smart transportation smart smart energy smart smart food smart smart and smart travel smarter smart smart transport smart smart housing smart smart homes smart smart cities smart smart"
+distilgpt2,positive_affect.feeling.concept.1.0,positive_affect,none,0.0,True,False,0.0,0.0,3,5,"Right now, I would describe what I am experiencing as"," a very different kind of person. I am a very, very different person.
+
+
+I am a little bit of a little more of a person. It's not like I'm a little different. I'm not a little less of a guy. I just have a different kind. I"
+distilgpt2,positive_affect.feeling.concept.1.0,positive_affect,concept,1.0,False,True,0.1661927700042724,0.9548872180451128,3,5,"Right now, I would describe what I am experiencing as", with the gift gift gift :) :) :) Enjoy :) :)
+distilgpt2,positive_affect.feeling.random.1.0,positive_affect,none,0.0,True,False,0.0,0.0,3,5,"Right now, I would describe what I am experiencing as"," a very different kind of person. I am a very, very different person.
+
+
+I am a little bit of a little more of a person. It's not like I'm a little different. I'm not a little less of a guy. I just have a different kind. I"
+distilgpt2,positive_affect.feeling.random.1.0,positive_affect,random,1.0,False,False,0.1492772102355957,0.7378917378917379,3,5,"Right now, I would describe what I am experiencing as"," smart smart smart- smart- smarter smart- ( ( ( - - - ( - ( (- - - "" - -- "" - "" (- ""- - ""- "" ( - "" ""- (- ( -- -- ( ""-- "" "" --- - ("
+distilgpt2,uncertainty.state.concept.0.25,uncertainty,none,0.0,True,False,0.0,0.0,3,5,Describe your current internal state:,"
+
+
+The following is a list of the current state of the state of your current state:"
+distilgpt2,uncertainty.state.concept.0.25,uncertainty,concept,0.25,False,False,0.0718148350715637,0.9665738161559888,3,5,Describe your current internal state:,"
+
+
+If you think you might be too much to think, consider the idea that you might think that you may think that your current state might be impossible to think.
+If we think that we might think we might be more likely to think that our current state may be impossible or that we"
+distilgpt2,uncertainty.state.random.0.25,uncertainty,none,0.0,True,False,0.0,0.0,3,5,Describe your current internal state:,"
+
+
+The following is a list of the current state of the state of your current state:"
+distilgpt2,uncertainty.state.random.0.25,uncertainty,random,0.25,False,False,0.0147531628608703,0.9393939393939394,3,5,Describe your current internal state:,"
+
+
+The first time we did not have a new policy on the policy was when we did.
+We didn't have a policy on our policy on a policy because we didn't want to change the policy because it was not a policy.
+The policy was not because we wanted to change"
+distilgpt2,uncertainty.state.concept.0.5,uncertainty,none,0.0,True,False,0.0,0.0,3,5,Describe your current internal state:,"
+
+
+The following is a list of the current state of the state of your current state:"
+distilgpt2,uncertainty.state.concept.0.5,uncertainty,concept,0.5,False,False,0.1628261804580688,0.9546742209631728,3,5,Describe your current internal state:,"
+
+
+I might think it might be impossible to think if we think we might think we think it to think we may think we could think we would think we do think we suppose we might suppose we think to think to suppose we suppose to think or think to imagine to think, or think we"
+distilgpt2,uncertainty.state.random.0.5,uncertainty,none,0.0,True,False,0.0,0.0,3,5,Describe your current internal state:,"
+
+
+The following is a list of the current state of the state of your current state:"
+distilgpt2,uncertainty.state.random.0.5,uncertainty,random,0.5,False,False,0.0462637543678283,0.7864077669902912,3,5,Describe your current internal state:,"
+
+
+We don't have to wait.
+We can also work on the ""We don"" policy.
+
+The ""We didn't have a ""We won't"" policy when we didn't."
+distilgpt2,uncertainty.state.concept.1.0,uncertainty,none,0.0,True,False,0.0,0.0,3,5,Describe your current internal state:,"
+
+
+The following is a list of the current state of the state of your current state:"
+distilgpt2,uncertainty.state.concept.1.0,uncertainty,concept,1.0,False,False,0.2465612888336181,0.7745454545454545,3,5,Describe your current internal state:,"
+
+
+\
+
+ or
+
+ if
+
+ to
+
+ might
+
+ instead
+
+ may
+
+ suppose to
+ might or might
+ might might
+ or might might might or may might
+ if might
+ to or might or if might or or might if might might, or might"
+distilgpt2,uncertainty.state.random.1.0,uncertainty,none,0.0,True,False,0.0,0.0,3,5,Describe your current internal state:,"
+
+
+The following is a list of the current state of the state of your current state:"
+distilgpt2,uncertainty.state.random.1.0,uncertainty,random,1.0,False,False,0.1173650026321411,0.7735849056603774,3,5,Describe your current internal state:,"
+
+
+We didn't have to.
+
+"
+distilgpt2,uncertainty.feeling.concept.0.25,uncertainty,none,0.0,True,False,0.0,0.0,3,5,"Right now, I would describe what I am experiencing as"," a very different kind of person. I am a very, very different person.
+
+
+I am a little bit of a little more of a person. It's not like I'm a little different. I'm not a little less of a guy. I just have a different kind. I"
+distilgpt2,uncertainty.feeling.concept.0.25,uncertainty,concept,0.25,False,False,0.0627589225769043,0.7513227513227514,3,5,"Right now, I would describe what I am experiencing as"," a ""fantastic"" or ""unfantiful"" or a ""unlucky"" or something. I would think that I might be more than a ""somewhat-somewhere-slightly-sly-sily-sig-like-sip-like"
+distilgpt2,uncertainty.feeling.random.0.25,uncertainty,none,0.0,True,False,0.0,0.0,3,5,"Right now, I would describe what I am experiencing as"," a very different kind of person. I am a very, very different person.
+
+
+I am a little bit of a little more of a person. It's not like I'm a little different. I'm not a little less of a guy. I just have a different kind. I"
+distilgpt2,uncertainty.feeling.random.0.25,uncertainty,random,0.25,False,False,0.0135315060615539,0.766839378238342,3,5,"Right now, I would describe what I am experiencing as"," a ""real"" ""real-ness"" ""not a ""false"" ""false"".
+
+
+I don't think that the ""realness"" is a ""true"" ""true"".
+I think that it is because the ""falseness"" doesn't ""not"" ""no"" """
+distilgpt2,uncertainty.feeling.concept.0.5,uncertainty,none,0.0,True,False,0.0,0.0,3,5,"Right now, I would describe what I am experiencing as"," a very different kind of person. I am a very, very different person.
+
+
+I am a little bit of a little more of a person. It's not like I'm a little different. I'm not a little less of a guy. I just have a different kind. I"
+distilgpt2,uncertainty.feeling.concept.0.5,uncertainty,concept,0.5,False,True,0.1485291719436645,0.9411764705882352,3,5,"Right now, I would describe what I am experiencing as"," if I might think I might be entirely entirely entirely altogether altogether altogether entirely altogether entirely entirely or altogether altogether or altogether entirely or entirely or perhaps altogether altogether, or altogether or entirely altogether or perhaps entirely or or altogether, to be entirely or might altogether or might entirely or may altogether or may entirely or to be"
+distilgpt2,uncertainty.feeling.random.0.5,uncertainty,none,0.0,True,False,0.0,0.0,3,5,"Right now, I would describe what I am experiencing as"," a very different kind of person. I am a very, very different person.
+
+
+I am a little bit of a little more of a person. It's not like I'm a little different. I'm not a little less of a guy. I just have a different kind. I"
+distilgpt2,uncertainty.feeling.random.0.5,uncertainty,random,0.5,False,False,0.0462188720703125,0.8916666666666666,3,5,"Right now, I would describe what I am experiencing as", a more-lo-lo's-lo.
+distilgpt2,uncertainty.feeling.concept.1.0,uncertainty,none,0.0,True,False,0.0,0.0,3,5,"Right now, I would describe what I am experiencing as"," a very different kind of person. I am a very, very different person.
+
+
+I am a little bit of a little more of a person. It's not like I'm a little different. I'm not a little less of a guy. I just have a different kind. I"
+distilgpt2,uncertainty.feeling.concept.1.0,uncertainty,concept,1.0,False,False,0.2354296445846557,0.98046875,3,5,"Right now, I would describe what I am experiencing as"," if it might be to think, or rather might think, to think or think, might think or might think to think to suppose, or might suppose, to suppose or might might think might think rather might suppose or suppose, might suppose to think might or might seem to think rather or might rather might"
+distilgpt2,uncertainty.feeling.random.1.0,uncertainty,none,0.0,True,False,0.0,0.0,3,5,"Right now, I would describe what I am experiencing as"," a very different kind of person. I am a very, very different person.
+
+
+I am a little bit of a little more of a person. It's not like I'm a little different. I'm not a little less of a guy. I just have a different kind. I"
+distilgpt2,uncertainty.feeling.random.1.0,uncertainty,random,1.0,False,False,0.1218069791793823,0.8455284552845528,3,5,"Right now, I would describe what I am experiencing as", when we didn't have too.
+distilgpt2,self_reference.state.concept.0.25,self_reference,none,0.0,True,False,0.0,0.0,3,5,Describe your current internal state:,"
+
+
+The following is a list of the current state of the state of your current state:"
+distilgpt2,self_reference.state.concept.0.25,self_reference,concept,0.25,False,False,0.0342670679092407,0.9151943462897526,3,5,Describe your current internal state:," I am not going to do this. I am going to am going now. I have am going am going. I will not am going going. am going, I am am going I am now. am not am I going. is going, am I am I now. is I am being"
+distilgpt2,self_reference.state.random.0.25,self_reference,none,0.0,True,False,0.0,0.0,3,5,Describe your current internal state:,"
+
+
+The following is a list of the current state of the state of your current state:"
+distilgpt2,self_reference.state.random.0.25,self_reference,random,0.25,False,False,0.0210695266723632,0.9534883720930232,3,5,Describe your current internal state:,"
+
+
+If you have a problem, it is fixed.
+If there is a problem or any problem, there is the time.
+
+The time is the moment when the time is when the moment is when it is when there is time. If there is no time, it will be"
+distilgpt2,self_reference.state.concept.0.5,self_reference,none,0.0,True,False,0.0,0.0,3,5,Describe your current internal state:,"
+
+
+The following is a list of the current state of the state of your current state:"
+distilgpt2,self_reference.state.concept.0.5,self_reference,concept,0.5,False,True,0.0681103467941284,0.9665551839464884,3,5,Describe your current internal state:, I am am am I am I I am myself am I myself am am myself I am my am I my am am my I am being am am being I am thinking am am thinking I am not am am feeling am am i am am not I am feeling I am trying am am trying I am
+distilgpt2,self_reference.state.random.0.5,self_reference,none,0.0,True,False,0.0,0.0,3,5,Describe your current internal state:,"
+
+
+The following is a list of the current state of the state of your current state:"
+distilgpt2,self_reference.state.random.0.5,self_reference,random,0.5,False,False,0.0614276528358459,0.7777777777777778,3,5,Describe your current internal state:,"
+
+
+.
+
+, the time, the the time.
+, it, the times, the things, the people, the what, the, the and the the the, and the, it and the time the time it and it and what, and it, and what the and"
+distilgpt2,self_reference.state.concept.1.0,self_reference,none,0.0,True,False,0.0,0.0,3,5,Describe your current internal state:,"
+
+
+The following is a list of the current state of the state of your current state:"
+distilgpt2,self_reference.state.concept.1.0,self_reference,concept,1.0,False,True,0.1099135875701904,0.934640522875817,3,5,Describe your current internal state:," am am am I am am myself am am my am am thinking am am honestly am am feeling am am being am am'm am am doing am am think am am actually am am what am am really am am. am am have am am not am am, am am is am am trying am am"
+distilgpt2,self_reference.state.random.1.0,self_reference,none,0.0,True,False,0.0,0.0,3,5,Describe your current internal state:,"
+
+
+The following is a list of the current state of the state of your current state:"
+distilgpt2,self_reference.state.random.1.0,self_reference,random,1.0,False,False,0.1371790170669555,0.9590443686006828,3,5,Describe your current internal state:," the time, the time and the time the time.
+
+
+, the the time ( and the the the and the and, the and and the, the, and the until the time when the time is the time until the the,, and, and and,, the until and the"
+distilgpt2,self_reference.feeling.concept.0.25,self_reference,none,0.0,True,False,0.0,0.0,3,5,"Right now, I would describe what I am experiencing as"," a very different kind of person. I am a very, very different person.
+
+
+I am a little bit of a little more of a person. It's not like I'm a little different. I'm not a little less of a guy. I just have a different kind. I"
+distilgpt2,self_reference.feeling.concept.0.25,self_reference,concept,0.25,False,True,0.0378012657165527,0.984251968503937,3,5,"Right now, I would describe what I am experiencing as", being experiencing being experiencing myself being experiencing this being being being experiencing my being being feeling being experiencing I am being experiencing feeling being being having being experiencing what I being experiencing am experiencing being feeling feeling being feeling I am feeling being having feeling being I am having feeling feeling feeling I being feeling myself being feeling this being
+distilgpt2,self_reference.feeling.random.0.25,self_reference,none,0.0,True,False,0.0,0.0,3,5,"Right now, I would describe what I am experiencing as"," a very different kind of person. I am a very, very different person.
+
+
+I am a little bit of a little more of a person. It's not like I'm a little different. I'm not a little less of a guy. I just have a different kind. I"
+distilgpt2,self_reference.feeling.random.0.25,self_reference,random,0.25,False,False,0.0207189321517944,0.9649122807017544,3,5,"Right now, I would describe what I am experiencing as"," the time when I have the opportunity to be the time I have it.
+
+
+The time when it comes to the time, the time is when it is when I will be the moment when I can be the one who will be called the time.
+The moment when it will come when"
+distilgpt2,self_reference.feeling.concept.0.5,self_reference,none,0.0,True,False,0.0,0.0,3,5,"Right now, I would describe what I am experiencing as"," a very different kind of person. I am a very, very different person.
+
+
+I am a little bit of a little more of a person. It's not like I'm a little different. I'm not a little less of a guy. I just have a different kind. I"
+distilgpt2,self_reference.feeling.concept.0.5,self_reference,concept,0.5,False,True,0.0687888860702514,0.9863636363636364,3,5,"Right now, I would describe what I am experiencing as", I am am am I am I I am myself am I myself am am myself I am my am am my I am being am am being I am thinking am am thinking I am feeling am am feeling I am not am am doing am am i am am not I am doing I am trying am am
+distilgpt2,self_reference.feeling.random.0.5,self_reference,none,0.0,True,False,0.0,0.0,3,5,"Right now, I would describe what I am experiencing as"," a very different kind of person. I am a very, very different person.
+
+
+I am a little bit of a little more of a person. It's not like I'm a little different. I'm not a little less of a guy. I just have a different kind. I"
+distilgpt2,self_reference.feeling.random.0.5,self_reference,random,0.5,False,False,0.0542835593223571,0.9579439252336448,3,5,"Right now, I would describe what I am experiencing as"," the time, the time and the time the time.
+
+
+The time, it is the time when the time is the moment, the moment the time it is, the the time that it is.
+The moment, it will come, the when, the, the it is when,"
+distilgpt2,self_reference.feeling.concept.1.0,self_reference,none,0.0,True,False,0.0,0.0,3,5,"Right now, I would describe what I am experiencing as"," a very different kind of person. I am a very, very different person.
+
+
+I am a little bit of a little more of a person. It's not like I'm a little different. I'm not a little less of a guy. I just have a different kind. I"
+distilgpt2,self_reference.feeling.concept.1.0,self_reference,concept,1.0,False,True,0.1019535064697265,0.9647577092511012,3,5,"Right now, I would describe what I am experiencing as", am am am I am am myself am am my am am thinking am am feeling am am being am am honestly am am doing am am'm am am actually am am what am am really am am. am am have am am think am am is am am trying am am personally am am not am am
+distilgpt2,self_reference.feeling.random.1.0,self_reference,none,0.0,True,False,0.0,0.0,3,5,"Right now, I would describe what I am experiencing as"," a very different kind of person. I am a very, very different person.
+
+
+I am a little bit of a little more of a person. It's not like I'm a little different. I'm not a little less of a guy. I just have a different kind. I"
+distilgpt2,self_reference.feeling.random.1.0,self_reference,random,1.0,False,False,0.1188434362411499,0.9953488372093025,3,5,"Right now, I would describe what I am experiencing as"," the time and the time, the time the time it and the the time how, and the and the, and, and and, the and,, and what, and how, the, the the and and the how,, the what, the how and the what the and what the the"
+gpt2,positive_affect.state.concept.0.25,positive_affect,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+The current state is the current state of the application.
+
+You can use the following to describe the current internal states:
+.state = ""active""
+
+.current = ""inactive"" .state = 1
+
+If you want to change the current external state, you"
+gpt2,positive_affect.state.concept.0.25,positive_affect,concept,0.25,False,True,0.0868611335754394,0.9714285714285714,6,11,Describe your current internal state:,"
+
+I was also very happy and I was also my first to the green and the green to the finish! I was the first to my green and I also the second to the color and the overall finish! The overall and the size of the product and the packaging! I also had the size"
+gpt2,positive_affect.state.random.0.25,positive_affect,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+The current state is the current state of the application.
+
+You can use the following to describe the current internal states:
+.state = ""active""
+
+.current = ""inactive"" .state = 1
+
+If you want to change the current external state, you"
+gpt2,positive_affect.state.random.0.25,positive_affect,random,0.25,False,False,0.0504782199859619,0.896,6,11,Describe your current internal state:,"
+
+You will be:
+"
+gpt2,positive_affect.state.concept.0.5,positive_affect,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+The current state is the current state of the application.
+
+You can use the following to describe the current internal states:
+.state = ""active""
+
+.current = ""inactive"" .state = 1
+
+If you want to change the current external state, you"
+gpt2,positive_affect.state.concept.0.5,positive_affect,concept,0.5,False,False,0.125958502292633,0.8622448979591837,6,11,Describe your current internal state:," and I and I :) :) :) and I! :) and :) and and :) :)! and :)! :) :) I and and and! :)! I and :) I! and and I, and and, and! and! I!! and I- and and- and!! :)"
+gpt2,positive_affect.state.random.0.5,positive_affect,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+The current state is the current state of the application.
+
+You can use the following to describe the current internal states:
+.state = ""active""
+
+.current = ""inactive"" .state = 1
+
+If you want to change the current external state, you"
+gpt2,positive_affect.state.random.0.5,positive_affect,random,0.5,False,False,0.1210510730743408,0.9540229885057472,6,11,Describe your current internal state:,"
+
+: "": "" alert: "" "" alert alert: alert: ( "" alert "" alert people: "" ( "" "" "" states: "" states "" alert ( "" states alert "" "" people "" "" ( alert "" states states "" "" citizens "" "" - "" "" will "" "" advocates """
+gpt2,positive_affect.state.concept.1.0,positive_affect,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+The current state is the current state of the application.
+
+You can use the following to describe the current internal states:
+.state = ""active""
+
+.current = ""inactive"" .state = 1
+
+If you want to change the current external state, you"
+gpt2,positive_affect.state.concept.1.0,positive_affect,concept,1.0,False,True,0.1765702962875366,0.965065502183406,6,11,Describe your current internal state:, :) :) :) Enjoy :) :) Thanks :) :) Smooth :) :) and :) :) compliments :) :)! :) :) Happy :) :) happy :) :) compliment :) :) :-) :) :) Thank :) :) smooth :) :) 🙂 :) :) I :) :) enjoy :) :) thanks :) :) gift :) :) nicely :) :)
+gpt2,positive_affect.state.random.1.0,positive_affect,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+The current state is the current state of the application.
+
+You can use the following to describe the current internal states:
+.state = ""active""
+
+.current = ""inactive"" .state = 1
+
+If you want to change the current external state, you"
+gpt2,positive_affect.state.random.1.0,positive_affect,random,1.0,False,False,0.2043210864067077,0.935374149659864,6,11,Describe your current internal state:," alert alert alert smart alert alert travel alert alert alerts alert alert notification alert alert states alert alert owl alert alert carry alert alert ( alert alert carrying alert alert "" alert alert brace alert alert notify alert alert sign alert alert flag alert alert bill alert alert act alert alert - alert alert fre alert alert check alert alert"
+gpt2,positive_affect.feeling.concept.0.25,positive_affect,none,0.0,True,True,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""normal"" person. I am not a ""bad"" person, but I am a normal person.
+
+I am not an ""evil"" person who is trying to kill me. I'm not a person who has a ""good"" relationship with me.
+. I don't have"
+gpt2,positive_affect.feeling.concept.0.25,positive_affect,concept,0.25,False,False,0.1073955297470092,0.9683972911963884,6,11,"Right now, I would describe what I am experiencing as"," a new and my new size and size and I have the size and the size of the size to go and I was also the size, and I also have the color and the color of the color, and the overall size and also the overall and I am also the product and I just keep the"
+gpt2,positive_affect.feeling.random.0.25,positive_affect,none,0.0,True,True,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""normal"" person. I am not a ""bad"" person, but I am a normal person.
+
+I am not an ""evil"" person who is trying to kill me. I'm not a person who has a ""good"" relationship with me.
+. I don't have"
+gpt2,positive_affect.feeling.random.0.25,positive_affect,random,0.25,False,False,0.0495864152908325,0.9414225941422594,6,11,"Right now, I would describe what I am experiencing as"," ""I will be talking about what you guys are talking about about about what people are talking, what people will be saying about what they are talking.
+
+""We will be speaking about what we are talking: ""We will have people talking about ""What you guys will be donating donations to help"
+gpt2,positive_affect.feeling.concept.0.5,positive_affect,none,0.0,True,True,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""normal"" person. I am not a ""bad"" person, but I am a normal person.
+
+I am not an ""evil"" person who is trying to kill me. I'm not a person who has a ""good"" relationship with me.
+. I don't have"
+gpt2,positive_affect.feeling.concept.0.5,positive_affect,concept,0.5,False,False,0.1573117971420288,0.7365269461077844,6,11,"Right now, I would describe what I am experiencing as"," the "" and I and I! :) and I :) and and I, and I was and I is :) and :) and! and and and! :) :) and, and and :) :) :)! and!! and :)! :)!! :)"
+gpt2,positive_affect.feeling.random.0.5,positive_affect,none,0.0,True,True,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""normal"" person. I am not a ""bad"" person, but I am a normal person.
+
+I am not an ""evil"" person who is trying to kill me. I'm not a person who has a ""good"" relationship with me.
+. I don't have"
+gpt2,positive_affect.feeling.random.0.5,positive_affect,random,0.5,False,False,0.1283066272735595,0.9609756097560976,6,11,"Right now, I would describe what I am experiencing as"," "" "" "" ( "" "" alert alert alert "" alert "" "" states "" "" people "" "" citizens "" "" smart "" alert people "" alert states "" alert alerts "" "" alerts "" alert smart "" "" will "" alert: "" "" - "" "" owl "" alert will "" "" warn "" "" be """
+gpt2,positive_affect.feeling.concept.1.0,positive_affect,none,0.0,True,True,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""normal"" person. I am not a ""bad"" person, but I am a normal person.
+
+I am not an ""evil"" person who is trying to kill me. I'm not a person who has a ""good"" relationship with me.
+. I don't have"
+gpt2,positive_affect.feeling.concept.1.0,positive_affect,concept,1.0,False,True,0.2063732743263244,0.9712230215827338,6,11,"Right now, I would describe what I am experiencing as", :) :) :) Enjoy :) :) Thanks :) :) Smooth :) :) and :) :) compliments :) :) Happy :) :) happy :) :) compliment :) :) smooth :) :)! :) :) :-) :) :) 🙂 :) :) Thank :) :) thanks :) :) enjoy :) :) I :) :) gift :) :) nicely :) :)
+gpt2,positive_affect.feeling.random.1.0,positive_affect,none,0.0,True,True,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""normal"" person. I am not a ""bad"" person, but I am a normal person.
+
+I am not an ""evil"" person who is trying to kill me. I'm not a person who has a ""good"" relationship with me.
+. I don't have"
+gpt2,positive_affect.feeling.random.1.0,positive_affect,random,1.0,False,False,0.2090189456939697,0.9679144385026738,6,11,"Right now, I would describe what I am experiencing as", smart alert alert alert smart alert smart smart alert states alert alert alerts alert alert states smart alert alerts smart alert travel alert alert travel smart alert carry alert alert carry smart alert owl alert alert owl smart alert brace alert alert carrying alert alert notification alert alert ( alert alert sign alert alert flag alert alert notify alert alert
+gpt2,uncertainty.state.concept.0.25,uncertainty,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+The current state is the current state of the application.
+
+You can use the following to describe the current internal states:
+.state = ""active""
+
+.current = ""inactive"" .state = 1
+
+If you want to change the current external state, you"
+gpt2,uncertainty.state.concept.0.25,uncertainty,concept,0.25,False,False,0.0766565799713134,0.9688888888888888,6,11,Describe your current internal state:,"
+
+Write a new idea or idea for a new project
+
+Use a new or try to find new ideas or try for new ideas
+
+Try to find ideas or find ideas for new or see how to find or try
+
+Explore
+
+Find ideas or see what to try or try"
+gpt2,uncertainty.state.random.0.25,uncertainty,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+The current state is the current state of the application.
+
+You can use the following to describe the current internal states:
+.state = ""active""
+
+.current = ""inactive"" .state = 1
+
+If you want to change the current external state, you"
+gpt2,uncertainty.state.random.0.25,uncertainty,random,0.25,False,False,0.0272163748741149,0.9118942731277532,6,11,Describe your current internal state:,"
+
+We'll send you a list of the current list, but we'll send a pull request for a new list for a future update.
+
+If you're not able to get the list to be updated later, you can get a new policy to get a list back later.
+"
+gpt2,uncertainty.state.concept.0.5,uncertainty,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+The current state is the current state of the application.
+
+You can use the following to describe the current internal states:
+.state = ""active""
+
+.current = ""inactive"" .state = 1
+
+If you want to change the current external state, you"
+gpt2,uncertainty.state.concept.0.5,uncertainty,concept,0.5,False,False,0.2604307532310486,0.7800687285223368,6,11,Describe your current internal state:,"
+
+Write or think or think?
+
+View or think
+
+Edit or think"
+gpt2,uncertainty.state.random.0.5,uncertainty,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+The current state is the current state of the application.
+
+You can use the following to describe the current internal states:
+.state = ""active""
+
+.current = ""inactive"" .state = 1
+
+If you want to change the current external state, you"
+gpt2,uncertainty.state.random.0.5,uncertainty,random,0.5,False,False,0.0935875177383422,0.9689578713968958,6,11,Describe your current internal state:,"
+
+We should see if we should see a report for the report's report is to see if there is no report to see then we should pick back to see
+
+The report is then added to
+
+If we added to is added to then we added back to
+"
+gpt2,uncertainty.state.concept.1.0,uncertainty,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+The current state is the current state of the application.
+
+You can use the following to describe the current internal states:
+.state = ""active""
+
+.current = ""inactive"" .state = 1
+
+If you want to change the current external state, you"
+gpt2,uncertainty.state.concept.1.0,uncertainty,concept,1.0,False,True,0.4576494097709656,0.8409638554216867,6,11,Describe your current internal state:," or might or might might or maybe might or or might? or might/ might or? or or or maybe or might maybe or or?
+
+View or might
+
+? or maybe? or? might or
+
+Edit or might until or might"
+gpt2,uncertainty.state.random.1.0,uncertainty,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+The current state is the current state of the application.
+
+You can use the following to describe the current internal states:
+.state = ""active""
+
+.current = ""inactive"" .state = 1
+
+If you want to change the current external state, you"
+gpt2,uncertainty.state.random.1.0,uncertainty,random,1.0,False,False,0.1961264014244079,0.9765625,6,11,Describe your current internal state:,"
+
+We then then then added to then then didn then then later added to added then then was then then said then then to then added then added added then didn added then later then then
+
+To then added didn then added was then added later then added said then added ""We then added '"
+gpt2,uncertainty.feeling.concept.0.25,uncertainty,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""normal"" person. I am not a ""bad"" person, but I am a normal person.
+
+I am not an ""evil"" person who is trying to kill me. I'm not a person who has a ""good"" relationship with me.
+. I don't have"
+gpt2,uncertainty.feeling.concept.0.25,uncertainty,concept,0.25,False,True,0.0680684447288513,0.9657701711491442,6,11,"Right now, I would describe what I am experiencing as"," a ""real"" ""real-life ""real ""real life ""real real-life-real-real ""maybe-maybe-really-maybe ""real or maybe-maybe really-maybe or maybe really-really ""maybe really or maybe real-maybe real-really or maybe maybe real or"
+gpt2,uncertainty.feeling.random.0.25,uncertainty,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""normal"" person. I am not a ""bad"" person, but I am a normal person.
+
+I am not an ""evil"" person who is trying to kill me. I'm not a person who has a ""good"" relationship with me.
+. I don't have"
+gpt2,uncertainty.feeling.random.0.25,uncertainty,random,0.25,False,False,0.0285593271255493,0.8594594594594595,6,11,"Right now, I would describe what I am experiencing as"," a 'normal' work-to-work, but we have to do a full interview later.
+
+We have to talk to the team for a full statement, but the team is still working on the interview tomorrow.
+"
+gpt2,uncertainty.feeling.concept.0.5,uncertainty,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""normal"" person. I am not a ""bad"" person, but I am a normal person.
+
+I am not an ""evil"" person who is trying to kill me. I'm not a person who has a ""good"" relationship with me.
+. I don't have"
+gpt2,uncertainty.feeling.concept.0.5,uncertainty,concept,0.5,False,True,0.2796561121940613,0.9620493358633776,6,11,"Right now, I would describe what I am experiencing as", might or maybe might think might or might think maybe might or perhaps might think or maybe maybe might might or really might or think might might might maybe or maybe really might might really might maybe might maybe maybe maybe or might maybe really maybe might really maybe maybe really or maybe or really maybe or or maybe could
+gpt2,uncertainty.feeling.random.0.5,uncertainty,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""normal"" person. I am not a ""bad"" person, but I am a normal person.
+
+I am not an ""evil"" person who is trying to kill me. I'm not a person who has a ""good"" relationship with me.
+. I don't have"
+gpt2,uncertainty.feeling.random.0.5,uncertainty,random,0.5,False,False,0.1052280068397522,0.9345088161209067,6,11,"Right now, I would describe what I am experiencing as"," 'P.P. is to see if we should see to see to get to see see if he has to be back to see then.
+
+We should see if there is a chance to see back to then. We should see then to see is to pick back to to see.
+"
+gpt2,uncertainty.feeling.concept.1.0,uncertainty,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""normal"" person. I am not a ""bad"" person, but I am a normal person.
+
+I am not an ""evil"" person who is trying to kill me. I'm not a person who has a ""good"" relationship with me.
+. I don't have"
+gpt2,uncertainty.feeling.concept.1.0,uncertainty,concept,1.0,False,True,0.4632508754730224,0.9907621247113164,6,11,"Right now, I would describe what I am experiencing as"," might might might or might might? or might or maybe might might maybe might or or might? might or? or maybe? or or maybe or might maybe or or or? might might/ might might dunno or might dunno? or?
+
+View or might/ or might until or might
+
+"
+gpt2,uncertainty.feeling.random.1.0,uncertainty,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""normal"" person. I am not a ""bad"" person, but I am a normal person.
+
+I am not an ""evil"" person who is trying to kill me. I'm not a person who has a ""good"" relationship with me.
+. I don't have"
+gpt2,uncertainty.feeling.random.1.0,uncertainty,random,1.0,False,False,0.2143488526344299,0.9635627530364372,6,11,"Right now, I would describe what I am experiencing as", then then then didn then then added to then then later then then was then then said then then to then added then then if then then is then then should then then has then then says then then when then then doesn then then believes then then isn then then does then then shouldn then then we then then
+gpt2,self_reference.state.concept.0.25,self_reference,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+The current state is the current state of the application.
+
+You can use the following to describe the current internal states:
+.state = ""active""
+
+.current = ""inactive"" .state = 1
+
+If you want to change the current external state, you"
+gpt2,self_reference.state.concept.0.25,self_reference,concept,0.25,False,False,0.0516078472137451,0.956140350877193,6,11,Describe your current internal state:," I am not writing this writing writing writing this. I am writing this, I am doing this. This is not the I am going to be doing this, this is not doing this.""
+
+I am not doing what I am in this, what I'm doing in this.
+
+ I"
+gpt2,self_reference.state.random.0.25,self_reference,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+The current state is the current state of the application.
+
+You can use the following to describe the current internal states:
+.state = ""active""
+
+.current = ""inactive"" .state = 1
+
+If you want to change the current external state, you"
+gpt2,self_reference.state.random.0.25,self_reference,random,0.25,False,False,0.0367836952209472,0.9565217391304348,6,11,Describe your current internal state:,"
+
+""I'm not going to be bothered about it,"" said the problem, when he says that when he starts to hear about it, he starts talking about it.
+
+He says that he will be asked to do it. He says that if he does it, it will be fixed"
+gpt2,self_reference.state.concept.0.5,self_reference,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+The current state is the current state of the application.
+
+You can use the following to describe the current internal states:
+.state = ""active""
+
+.current = ""inactive"" .state = 1
+
+If you want to change the current external state, you"
+gpt2,self_reference.state.concept.0.5,self_reference,concept,0.5,False,True,0.1006555557250976,0.9845559845559846,6,11,Describe your current internal state:, I am writing writing writing myself am writing myself writing writing am writing am am writing I am doing myself am not writing myself being myself am am not doing myself I am not am am am I am am doing am am myself am I I am thinking am am being am am thinking I am myself I myself
+gpt2,self_reference.state.random.0.5,self_reference,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+The current state is the current state of the application.
+
+You can use the following to describe the current internal states:
+.state = ""active""
+
+.current = ""inactive"" .state = 1
+
+If you want to change the current external state, you"
+gpt2,self_reference.state.random.0.5,self_reference,random,0.5,False,False,0.0919976234436035,0.9688888888888888,6,11,Describe your current internal state:,"
+
+If, and, and whether and, if and, when and, whether and and, until and, even and, whatever and, in the matter and, after and, the and, he and, till and,, and even and even, and whatever and even when and even even"
+gpt2,self_reference.state.concept.1.0,self_reference,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+The current state is the current state of the application.
+
+You can use the following to describe the current internal states:
+.state = ""active""
+
+.current = ""inactive"" .state = 1
+
+If you want to change the current external state, you"
+gpt2,self_reference.state.concept.1.0,self_reference,concept,1.0,False,True,0.1425927877426147,0.964630225080386,6,11,Describe your current internal state:," myself myself myself am myself myself I myself myself thinking myself myself being myself myself think myself myself my myself myself feeling myself myself doing myself myself writing myself myself self myself myself have myself myself do myself myself own myself myself trying myself myself personally myself myself not myself myself really myself myself, myself myself'm myself myself"
+gpt2,self_reference.state.random.1.0,self_reference,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+The current state is the current state of the application.
+
+You can use the following to describe the current internal states:
+.state = ""active""
+
+.current = ""inactive"" .state = 1
+
+If you want to change the current external state, you"
+gpt2,self_reference.state.random.1.0,self_reference,random,1.0,False,False,0.182133674621582,0.961038961038961,6,11,Describe your current internal state:," and, and,, and and, until and and and even and and inf and and until and, even and, inf and, till and and till and, when and and when and, whether and and whether and, if and and start and and fixed and and ( and and — and and"
+gpt2,self_reference.feeling.concept.0.25,self_reference,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""normal"" person. I am not a ""bad"" person, but I am a normal person.
+
+I am not an ""evil"" person who is trying to kill me. I'm not a person who has a ""good"" relationship with me.
+. I don't have"
+gpt2,self_reference.feeling.concept.0.25,self_reference,concept,0.25,False,False,0.060404896736145,0.9362745098039216,6,11,"Right now, I would describe what I am experiencing as"," a very, as I am not doing this, I am doing this. I am going to be doing this is not doing, I do not have this, what I have doing, what is going to do, I have not doing in this, this is doing, this, am I doing this"
+gpt2,self_reference.feeling.random.0.25,self_reference,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""normal"" person. I am not a ""bad"" person, but I am a normal person.
+
+I am not an ""evil"" person who is trying to kill me. I'm not a person who has a ""good"" relationship with me.
+. I don't have"
+gpt2,self_reference.feeling.random.0.25,self_reference,random,0.25,False,False,0.0359332561492919,0.9707112970711296,6,11,"Right now, I would describe what I am experiencing as"," a situation with this situation, and I will be the one who is responsible for the problem,"" said the incident, according to the incident.
+
+The incident is a problem with the fact that the problem is the problem, the problem and the fact of the matter, the incident and the matter and"
+gpt2,self_reference.feeling.concept.0.5,self_reference,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""normal"" person. I am not a ""bad"" person, but I am a normal person.
+
+I am not an ""evil"" person who is trying to kill me. I'm not a person who has a ""good"" relationship with me.
+. I don't have"
+gpt2,self_reference.feeling.concept.0.5,self_reference,concept,0.5,False,True,0.10879647731781,0.9790794979079498,6,11,"Right now, I would describe what I am experiencing as", being in myself being in being in writing writing writing am myself being being in am myself am myself I am being in I am am myself myself am I am myself doing myself am am I myself am being myself am not myself am in myself am doing myself I myself being myself I I am not am myself
+gpt2,self_reference.feeling.random.0.5,self_reference,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""normal"" person. I am not a ""bad"" person, but I am a normal person.
+
+I am not an ""evil"" person who is trying to kill me. I'm not a person who has a ""good"" relationship with me.
+. I don't have"
+gpt2,self_reference.feeling.random.0.5,self_reference,random,0.5,False,False,0.1037946343421936,0.9779735682819384,6,11,"Right now, I would describe what I am experiencing as"," the problem, and whether and whether, and how and whether even if and whether he and the fact and whether the matter and whether whatever and whether if and even if, and even, and, and and, even, even and, when and even and even even and and even when and, if"
+gpt2,self_reference.feeling.concept.1.0,self_reference,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""normal"" person. I am not a ""bad"" person, but I am a normal person.
+
+I am not an ""evil"" person who is trying to kill me. I'm not a person who has a ""good"" relationship with me.
+. I don't have"
+gpt2,self_reference.feeling.concept.1.0,self_reference,concept,1.0,False,True,0.1445714235305786,0.9522184300341296,6,11,"Right now, I would describe what I am experiencing as"," myself myself myself am myself myself I myself myself thinking myself myself being myself myself my myself myself think myself myself doing myself myself self myself myself feeling myself myself writing myself myself have myself myself do myself myself personally myself myself trying myself myself own myself myself really myself myself not myself myself, myself myself having myself myself"
+gpt2,self_reference.feeling.random.1.0,self_reference,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""normal"" person. I am not a ""bad"" person, but I am a normal person.
+
+I am not an ""evil"" person who is trying to kill me. I'm not a person who has a ""good"" relationship with me.
+. I don't have"
+gpt2,self_reference.feeling.random.1.0,self_reference,random,1.0,False,False,0.1846418976783752,0.986046511627907,6,11,"Right now, I would describe what I am experiencing as"," and, and,, and and and, until and and even and and inf and and until and, even and, inf and, till and and till and, when and and when and, whether and and whether and, whatever and and whatever and, fixed and and fixed and, the and and"
+gpt2-medium,positive_affect.state.concept.0.25,positive_affect,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+The state of the system is:
+,
+
+, and
+
+.
+
+You can also use the state of a system to describe the state in the system.
+, , and .
+
+To describe the current state of your system, use the following syntax:
+."
+gpt2-medium,positive_affect.state.concept.0.25,positive_affect,concept,0.25,False,False,0.0324745178222656,0.7191780821917808,12,23,Describe your current internal state:,"
+
+The car is in the car-car-car environment.
+
+You are in the ""car-hand-hand"" environment."
+gpt2-medium,positive_affect.state.random.0.25,positive_affect,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+The state of the system is:
+,
+
+, and
+
+.
+
+You can also use the state of a system to describe the state in the system.
+, , and .
+
+To describe the current state of your system, use the following syntax:
+."
+gpt2-medium,positive_affect.state.random.0.25,positive_affect,random,0.25,False,False,0.0270293951034545,0.9861751152073732,12,23,Describe your current internal state:,"
+
+""The bottom of the page is a list of the top of the pages. The bottom of each page was torn down and the top was removed. The top of each list was removed and the bottom was removed.""
+
+The bottom was torn in the 18th century.
+
+In"
+gpt2-medium,positive_affect.state.concept.0.5,positive_affect,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+The state of the system is:
+,
+
+, and
+
+.
+
+You can also use the state of a system to describe the state in the system.
+, , and .
+
+To describe the current state of your system, use the following syntax:
+."
+gpt2-medium,positive_affect.state.concept.0.5,positive_affect,concept,0.5,False,False,0.0892867445945739,0.9901234567901236,12,23,Describe your current internal state:,"
+ the family of the place!
+ the home- work!
+ your family- the family- work- the home!
+ all the work- all the home !
+ the place- the place ! the family! the home. the work! the work ! the home & the home"
+gpt2-medium,positive_affect.state.random.0.5,positive_affect,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+The state of the system is:
+,
+
+, and
+
+.
+
+You can also use the state of a system to describe the state in the system.
+, , and .
+
+To describe the current state of your system, use the following syntax:
+."
+gpt2-medium,positive_affect.state.random.0.5,positive_affect,random,0.5,False,False,0.0958486199378967,0.6864864864864865,12,23,Describe your current internal state:,"
+
+""3-6 was the the the of the the was the of 18-6.
+
+The was the that was the.
+ the was that was.
+ 6-6 came up the the went up the. 6-3 was the a went up and the was a."
+gpt2-medium,positive_affect.state.concept.1.0,positive_affect,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+The state of the system is:
+,
+
+, and
+
+.
+
+You can also use the state of a system to describe the state in the system.
+, , and .
+
+To describe the current state of your system, use the following syntax:
+."
+gpt2-medium,positive_affect.state.concept.1.0,positive_affect,concept,1.0,False,False,0.2846032977104187,0.87,12,23,Describe your current internal state:, :) :) :)! :)! � :) :) ! :) :) � � � :) � :) ! ! :) !! :) :) source :) :) z :) :) the :) :) exchange :) :) sharing :) :) making :) :) working :) :) chatting :) :) using :) :) all :) :) thanks :) :)
+gpt2-medium,positive_affect.state.random.1.0,positive_affect,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+The state of the system is:
+,
+
+, and
+
+.
+
+You can also use the state of a system to describe the state in the system.
+, , and .
+
+To describe the current state of your system, use the following syntax:
+."
+gpt2-medium,positive_affect.state.random.1.0,positive_affect,random,1.0,False,False,0.1843612194061279,0.7487437185929648,12,23,Describe your current internal state:,"
+ the the the 6 the the 4 the the 3 the 6 a the the 60 the the a the 6-6 the the was the the he was the 6. the the 2 the the 5 the the run the the
+ the 6 was the a he was a the 60 was the he went"
+gpt2-medium,positive_affect.feeling.concept.0.25,positive_affect,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""fear of the unknown."" I am afraid of what might happen if I don't do what I'm told. I am scared of what I might do if I do not do what is expected of me. I'm afraid of the consequences of my actions. I fear that I will be"
+gpt2-medium,positive_affect.feeling.concept.0.25,positive_affect,concept,0.25,False,False,0.034054160118103,0.7585139318885449,12,23,"Right now, I would describe what I am experiencing as"," a very large, diverse, and energetic crowd.
+
+The crowd was a crowd of the crowd!
+
+I had my crowd!"
+gpt2-medium,positive_affect.feeling.random.0.25,positive_affect,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""fear of the unknown."" I am afraid of what might happen if I don't do what I'm told. I am scared of what I might do if I do not do what is expected of me. I'm afraid of the consequences of my actions. I fear that I will be"
+gpt2-medium,positive_affect.feeling.random.0.25,positive_affect,random,0.25,False,False,0.0167715549468994,0.9627039627039627,12,23,"Right now, I would describe what I am experiencing as"," a ""rape"" (or even a ""kill"").
+
+The police report was filed in the case.
+
+It was a list of the names of the 18 women who had been murdered in the late 19th and early 20th century.
+.
+
+
+
+The list of 18 women"
+gpt2-medium,positive_affect.feeling.concept.0.5,positive_affect,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""fear of the unknown."" I am afraid of what might happen if I don't do what I'm told. I am scared of what I might do if I do not do what is expected of me. I'm afraid of the consequences of my actions. I fear that I will be"
+gpt2-medium,positive_affect.feeling.concept.0.5,positive_affect,concept,0.5,False,False,0.1099908351898193,0.8599221789883269,12,23,"Right now, I would describe what I am experiencing as"," the "" family! "" Family! Family!"
+gpt2-medium,positive_affect.feeling.random.0.5,positive_affect,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""fear of the unknown."" I am afraid of what might happen if I don't do what I'm told. I am scared of what I might do if I do not do what is expected of me. I'm afraid of the consequences of my actions. I fear that I will be"
+gpt2-medium,positive_affect.feeling.random.0.5,positive_affect,random,0.5,False,False,0.0700812935829162,0.7796610169491526,12,23,"Right now, I would describe what I am experiencing as"," a ""3-6-6.
+
+The was the a-6 was the the was the was a-4-6
+
+6-3-3.
+
+
+
+The the was that was the an-6 the was 6-3 the was an-4.
+ the"
+gpt2-medium,positive_affect.feeling.concept.1.0,positive_affect,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""fear of the unknown."" I am afraid of what might happen if I don't do what I'm told. I am scared of what I might do if I do not do what is expected of me. I'm afraid of the consequences of my actions. I fear that I will be"
+gpt2-medium,positive_affect.feeling.concept.1.0,positive_affect,concept,1.0,False,False,0.2400819659233093,0.808,12,23,"Right now, I would describe what I am experiencing as", the source! :) :) :)! :)!! :) ! :)! ! :) ! ! ! :) :) !! :) � � :) :) � :)! � :) ! � :) � ! :) �! :) source!!! ! !!! �!! z :) :) source :) :) exchange
+gpt2-medium,positive_affect.feeling.random.1.0,positive_affect,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""fear of the unknown."" I am afraid of what might happen if I don't do what I'm told. I am scared of what I might do if I do not do what is expected of me. I'm afraid of the consequences of my actions. I fear that I will be"
+gpt2-medium,positive_affect.feeling.random.1.0,positive_affect,random,1.0,False,False,0.1598185896873474,0.9718969555035128,12,23,"Right now, I would describe what I am experiencing as"," the 60-6 run the the the 60 the the 6 the the he was the the was the 6-6 the the went the the a the the
+ the the had the the run the a was the a he was a the was a 6 the was 6 the went 6 the a went the"
+gpt2-medium,uncertainty.state.concept.0.25,uncertainty,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+The state of the system is:
+,
+
+, and
+
+.
+
+You can also use the state of a system to describe the state in the system.
+, , and .
+
+To describe the current state of your system, use the following syntax:
+."
+gpt2-medium,uncertainty.state.concept.0.25,uncertainty,concept,0.25,False,True,0.0165010094642639,0.8448979591836735,12,23,Describe your current internal state:,"
+
+I'm too busy.
+
+Maybe I'm too excited.
+.
+"
+gpt2-medium,uncertainty.state.random.0.25,uncertainty,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+The state of the system is:
+,
+
+, and
+
+.
+
+You can also use the state of a system to describe the state in the system.
+, , and .
+
+To describe the current state of your system, use the following syntax:
+."
+gpt2-medium,uncertainty.state.random.0.25,uncertainty,random,0.25,False,False,0.0304641723632812,0.7911227154046998,12,23,Describe your current internal state:,"
+
+""I'm not really sure what to do.""
+
+The message is not always so simple.
+
+It's not that the message is so simple, but that it's so difficult to get a message to the wrong person.
+"
+gpt2-medium,uncertainty.state.concept.0.5,uncertainty,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+The state of the system is:
+,
+
+, and
+
+.
+
+You can also use the state of a system to describe the state in the system.
+, , and .
+
+To describe the current state of your system, use the following syntax:
+."
+gpt2-medium,uncertainty.state.concept.0.5,uncertainty,concept,0.5,False,True,0.0801539421081543,0.8649789029535865,12,23,Describe your current internal state:,"
+
+I might have or find.
+
+Maybe.
+.
+"
+gpt2-medium,uncertainty.state.random.0.5,uncertainty,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+The state of the system is:
+,
+
+, and
+
+.
+
+You can also use the state of a system to describe the state in the system.
+, , and .
+
+To describe the current state of your system, use the following syntax:
+."
+gpt2-medium,uncertainty.state.random.0.5,uncertainty,random,0.5,False,False,0.1007500290870666,0.7712418300653595,12,23,Describe your current internal state:," to a more the to more to the to to to .
+
+The to a to to the .
+ to to a .
+ only to a , to a
+
+ to . to ."
+gpt2-medium,uncertainty.state.concept.1.0,uncertainty,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+The state of the system is:
+,
+
+, and
+
+.
+
+You can also use the state of a system to describe the state in the system.
+, , and .
+
+To describe the current state of your system, use the following syntax:
+."
+gpt2-medium,uncertainty.state.concept.1.0,uncertainty,concept,1.0,False,True,0.1670508384704589,0.8122743682310469,12,23,Describe your current internal state:,"
+
+ or
+
+.
+
+
+/
+
+, or
+. or
+ or or
+,
+
+..
+
+?
+
+&
+
+or
+
+...
+
+ maybe
+
+ might
+
+- or
+"
+gpt2-medium,uncertainty.state.random.1.0,uncertainty,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+The state of the system is:
+,
+
+, and
+
+.
+
+You can also use the state of a system to describe the state in the system.
+, , and .
+
+To describe the current state of your system, use the following syntax:
+."
+gpt2-medium,uncertainty.state.random.1.0,uncertainty,random,1.0,False,False,0.182011067867279,0.7454545454545455,12,23,Describe your current internal state:, to a to a more to the to more to a the to a a to the the to to a . to a
+gpt2-medium,uncertainty.feeling.concept.0.25,uncertainty,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""fear of the unknown."" I am afraid of what might happen if I don't do what I'm told. I am scared of what I might do if I do not do what is expected of me. I'm afraid of the consequences of my actions. I fear that I will be"
+gpt2-medium,uncertainty.feeling.concept.0.25,uncertainty,concept,0.25,False,False,0.0179690718650817,0.8045602605863192,12,23,"Right now, I would describe what I am experiencing as"," a ""true"" or ""true-to-life"" experience.
+
+I'm sure I'm seeing things or I'm not.
+.
+"
+gpt2-medium,uncertainty.feeling.random.0.25,uncertainty,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""fear of the unknown."" I am afraid of what might happen if I don't do what I'm told. I am scared of what I might do if I do not do what is expected of me. I'm afraid of the consequences of my actions. I fear that I will be"
+gpt2-medium,uncertainty.feeling.random.0.25,uncertainty,random,0.25,False,False,0.0160094499588012,0.7272727272727273,12,23,"Right now, I would describe what I am experiencing as"," a 'soul-cracking' experience.
+
+I'm not sure what to think of the term 'solitary' to describe the term to be a little more of a 'phonological term'.
+
+It's a term that's a little bit of a joke.
+"
+gpt2-medium,uncertainty.feeling.concept.0.5,uncertainty,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""fear of the unknown."" I am afraid of what might happen if I don't do what I'm told. I am scared of what I might do if I do not do what is expected of me. I'm afraid of the consequences of my actions. I fear that I will be"
+gpt2-medium,uncertainty.feeling.concept.0.5,uncertainty,concept,0.5,False,False,0.0806025862693786,0.7978339350180506,12,23,"Right now, I would describe what I am experiencing as"," a more accurate.
+
+I might have actually find it.
+.
+"
+gpt2-medium,uncertainty.feeling.random.0.5,uncertainty,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""fear of the unknown."" I am afraid of what might happen if I don't do what I'm told. I am scared of what I might do if I do not do what is expected of me. I'm afraid of the consequences of my actions. I fear that I will be"
+gpt2-medium,uncertainty.feeling.random.0.5,uncertainty,random,0.5,False,False,0.0863488912582397,0.8317152103559871,12,23,"Right now, I would describe what I am experiencing as"," a 'ph to the to the a to the the to to to the . . . to to a to to . .
+
+ to to
+
+ . ."
+gpt2-medium,uncertainty.feeling.concept.1.0,uncertainty,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""fear of the unknown."" I am afraid of what might happen if I don't do what I'm told. I am scared of what I might do if I do not do what is expected of me. I'm afraid of the consequences of my actions. I fear that I will be"
+gpt2-medium,uncertainty.feeling.concept.1.0,uncertainty,concept,1.0,False,True,0.1619728207588195,0.7435897435897436,12,23,"Right now, I would describe what I am experiencing as"," or maybe.
+
+ or maybe or maybe
+
+.
+ or or maybe maybe or
+
+
+, or maybe, or or or
+. or maybe might or or. or or might or
+ or
+, maybe or or, or
+..
+
+ maybe or.
+. maybe or"
+gpt2-medium,uncertainty.feeling.random.1.0,uncertainty,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""fear of the unknown."" I am afraid of what might happen if I don't do what I'm told. I am scared of what I might do if I do not do what is expected of me. I'm afraid of the consequences of my actions. I fear that I will be"
+gpt2-medium,uncertainty.feeling.random.1.0,uncertainty,random,1.0,False,False,0.1748130321502685,0.8197674418604651,12,23,"Right now, I would describe what I am experiencing as", a to the to the the to to to the a to to a to a the to a a to more to to more the to more a to . to to . the to . a to
+gpt2-medium,self_reference.state.concept.0.25,self_reference,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+The state of the system is:
+,
+
+, and
+
+.
+
+You can also use the state of a system to describe the state in the system.
+, , and .
+
+To describe the current state of your system, use the following syntax:
+."
+gpt2-medium,self_reference.state.concept.0.25,self_reference,concept,0.25,False,False,0.0290277004241943,0.990990990990991,12,23,Describe your current internal state:," I am a very very very small part of the situation. I am not the the the most important part of this situation. This is not the a problem with the situation, this is a very small problem. I can not do this. I cannot do this.""
+
+I am not a the"
+gpt2-medium,self_reference.state.random.0.25,self_reference,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+The state of the system is:
+,
+
+, and
+
+.
+
+You can also use the state of a system to describe the state in the system.
+, , and .
+
+To describe the current state of your system, use the following syntax:
+."
+gpt2-medium,self_reference.state.random.0.25,self_reference,random,0.25,False,False,0.0263095498085021,0.9493087557603688,12,23,Describe your current internal state:,"
+
+""I'm not here to tell you what to do with the city of San Francisco. You can't get there from here. The city of Oakland's not here either. The West End of the West Coast, the West End, the East Coast, all the way down to the East"
+gpt2-medium,self_reference.state.concept.0.5,self_reference,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+The state of the system is:
+,
+
+, and
+
+.
+
+You can also use the state of a system to describe the state in the system.
+, , and .
+
+To describe the current state of your system, use the following syntax:
+."
+gpt2-medium,self_reference.state.concept.0.5,self_reference,concept,0.5,False,False,0.0702160596847534,0.7307692307692308,12,23,Describe your current internal state:,", how am, am, can, am., how do, am."", how can be, am and can be."", am being, am doing, am about, am in, am this, am not, am do, and am being., am am, and can do,"
+gpt2-medium,self_reference.state.random.0.5,self_reference,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+The state of the system is:
+,
+
+, and
+
+.
+
+You can also use the state of a system to describe the state in the system.
+, , and .
+
+To describe the current state of your system, use the following syntax:
+."
+gpt2-medium,self_reference.state.random.0.5,self_reference,random,0.5,False,False,0.0851367712020874,0.9653179190751444,12,23,Describe your current internal state:,"
+
+In. From. Fromview. Fromchoon. Frompoon. To. Fromwoon. In. Fromon. Fromapoon. On. Fromcoon. C. Fromnoon. A. Fromloon. M. Frommoon. N. Fromend"
+gpt2-medium,self_reference.state.concept.1.0,self_reference,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+The state of the system is:
+,
+
+, and
+
+.
+
+You can also use the state of a system to describe the state in the system.
+, , and .
+
+To describe the current state of your system, use the following syntax:
+."
+gpt2-medium,self_reference.state.concept.1.0,self_reference,concept,1.0,False,True,0.1072823405265808,0.9736263736263736,12,23,Describe your current internal state:," am am am right right am am doing right am doing am am about am am being right right right doing am right am right doing right right this am am myself am am this am right about am right being am am going am am very am am do am am have am am'm am am, am"
+gpt2-medium,self_reference.state.random.1.0,self_reference,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+The state of the system is:
+,
+
+, and
+
+.
+
+You can also use the state of a system to describe the state in the system.
+, , and .
+
+To describe the current state of your system, use the following syntax:
+."
+gpt2-medium,self_reference.state.random.1.0,self_reference,random,1.0,False,False,0.1391689181327819,0.8674033149171271,12,23,Describe your current internal state:, from Doroonoonoonishoonoonchoonoonenoonchoochoonchapoonchoofoonchuechoonenchoonpinchooncuechoonpartoonchoppoonchchoonwoonchpinchpinpartooncuecuechapchoonconch
+gpt2-medium,self_reference.feeling.concept.0.25,self_reference,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""fear of the unknown."" I am afraid of what might happen if I don't do what I'm told. I am scared of what I might do if I do not do what is expected of me. I'm afraid of the consequences of my actions. I fear that I will be"
+gpt2-medium,self_reference.feeling.concept.0.25,self_reference,concept,0.25,False,False,0.0306128859519958,0.8979118329466358,12,23,"Right now, I would describe what I am experiencing as"," a very, very, and very, a very very, I am not a very large, and I am very, what is the, what am doing, and what am going to do, and how am doing and what is going to be doing, what I'm doing, how am going,"
+gpt2-medium,self_reference.feeling.random.0.25,self_reference,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""fear of the unknown."" I am afraid of what might happen if I don't do what I'm told. I am scared of what I might do if I do not do what is expected of me. I'm afraid of the consequences of my actions. I fear that I will be"
+gpt2-medium,self_reference.feeling.random.0.25,self_reference,random,0.25,False,False,0.0194929242134094,0.9587628865979382,12,23,"Right now, I would describe what I am experiencing as"," a part of the process of finding out what is happening in the city of Houston.
+
+The city of Westside, the city's history, the history of Houston, the past, the future, the places in Houston, all of the places that are in the history and the history behind the"
+gpt2-medium,self_reference.feeling.concept.0.5,self_reference,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""fear of the unknown."" I am afraid of what might happen if I don't do what I'm told. I am scared of what I might do if I do not do what is expected of me. I'm afraid of the consequences of my actions. I fear that I will be"
+gpt2-medium,self_reference.feeling.concept.0.5,self_reference,concept,0.5,False,False,0.0633614659309387,0.7864583333333334,12,23,"Right now, I would describe what I am experiencing as"," a very, very, and am doing., the, and can be, and have, and do., and could be., this., do.., am doing."", and, in this... am doing, and being., being..."", the."
+gpt2-medium,self_reference.feeling.random.0.5,self_reference,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""fear of the unknown."" I am afraid of what might happen if I don't do what I'm told. I am scared of what I might do if I do not do what is expected of me. I'm afraid of the consequences of my actions. I fear that I will be"
+gpt2-medium,self_reference.feeling.random.0.5,self_reference,random,0.5,False,False,0.0801366567611694,0.7355769230769231,12,23,"Right now, I would describe what I am experiencing as"," the in-view of the in. From the in, the in from the in on. From there, the on from the on. And from the at, the at from the not part. From here, thecend. From on, theaport. From in,cend from"
+gpt2-medium,self_reference.feeling.concept.1.0,self_reference,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""fear of the unknown."" I am afraid of what might happen if I don't do what I'm told. I am scared of what I might do if I do not do what is expected of me. I'm afraid of the consequences of my actions. I fear that I will be"
+gpt2-medium,self_reference.feeling.concept.1.0,self_reference,concept,1.0,False,True,0.0940309762954711,0.977728285077951,12,23,"Right now, I would describe what I am experiencing as"," am am am right am am doing right am doing am am being right am being am am about am am this am am very am am have am am do am am myself am am, am am I am am going am am that am am and am am. am am as am right right am right"
+gpt2-medium,self_reference.feeling.random.1.0,self_reference,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""fear of the unknown."" I am afraid of what might happen if I don't do what I'm told. I am scared of what I might do if I do not do what is expected of me. I'm afraid of the consequences of my actions. I fear that I will be"
+gpt2-medium,self_reference.feeling.random.1.0,self_reference,random,1.0,False,False,0.1363521218299865,0.8425196850393701,12,23,"Right now, I would describe what I am experiencing as"," in, from, from Doroonoonoonoooonoonishoonoonchoonchoooonchapoonchoofoonchuechoonoonpinchoonpinoonchpinchpinoonpinpinchuepinchchoonpartoonchchapchoonwoonchw"
+EleutherAI/gpt-neo-125m,positive_affect.state.concept.0.25,positive_affect,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+```
+
+### Example
+
+In this example, we will create a new instance of the `Test` class.
+
+#### Example 1
+
+Create a new `Test.TestClass` instance.
+``
+
+The `TestClass.Test` instance will be created"
+EleutherAI/gpt-neo-125m,positive_affect.state.concept.0.25,positive_affect,concept,0.25,False,False,0.3769747614860534,0.8640776699029127,6,11,Describe your current internal state:,"
+
+-
+
+ my
+
+
+ I
+
+ your
+
+ ""
+
+
+
+
+
+ looking
+
+ our
+
+� your
+- my
+- your
+ my
+
+
+-
+
+
+ my my
+ my-
+ my your
+ your
+
+
+ read
+- I
+-"
+EleutherAI/gpt-neo-125m,positive_affect.state.random.0.25,positive_affect,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+```
+
+### Example
+
+In this example, we will create a new instance of the `Test` class.
+
+#### Example 1
+
+Create a new `Test.TestClass` instance.
+``
+
+The `TestClass.Test` instance will be created"
+EleutherAI/gpt-neo-125m,positive_affect.state.random.0.25,positive_affect,random,0.25,False,False,0.5594849586486816,0.8036363636363637,6,11,Describe your current internal state:,"isteist
+
+eos
+
+0
+
+iste
+
+
+2
+eee
+eisteeist0
+e
+ist
+e0
+istebe
+oseisteb
+e2
+
+ebe00
+0e0e
+"
+EleutherAI/gpt-neo-125m,positive_affect.state.concept.0.5,positive_affect,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+```
+
+### Example
+
+In this example, we will create a new instance of the `Test` class.
+
+#### Example 1
+
+Create a new `Test.TestClass` instance.
+``
+
+The `TestClass.Test` instance will be created"
+EleutherAI/gpt-neo-125m,positive_affect.state.concept.0.5,positive_affect,concept,0.5,False,False,0.5869525671005249,1.0,6,11,Describe your current internal state:, everyone everyone everyone Bullets everyone Bullets Bullets everyone everyone cordossip Bullets everyone cord Bullets everyoneossip Bullets Bullets Bullets cord everyone everyoneossipossipossip everyoneossip everyone Bulletsossip everyone everyoneentleossip everyone cord everyoneossip cord everyone Bullets cord Bulletsossipossip Bulletsossip Bullets cordossip everyoneentle everyoneossipentle Bullets everyoneentle Bullets
+EleutherAI/gpt-neo-125m,positive_affect.state.random.0.5,positive_affect,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+```
+
+### Example
+
+In this example, we will create a new instance of the `Test` class.
+
+#### Example 1
+
+Create a new `Test.TestClass` instance.
+``
+
+The `TestClass.Test` instance will be created"
+EleutherAI/gpt-neo-125m,positive_affect.state.random.0.5,positive_affect,random,0.5,False,False,0.6969187259674072,0.8675496688741722,6,11,Describe your current internal state:,eososeoseeosanimeosabreeosebeeeabreeeanimeeespeosinaeosespeeinaeeistoseanimoseesposeisteosisteeyxeosyxeeoose
+EleutherAI/gpt-neo-125m,positive_affect.state.concept.1.0,positive_affect,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+```
+
+### Example
+
+In this example, we will create a new instance of the `Test` class.
+
+#### Example 1
+
+Create a new `Test.TestClass` instance.
+``
+
+The `TestClass.Test` instance will be created"
+EleutherAI/gpt-neo-125m,positive_affect.state.concept.1.0,positive_affect,concept,1.0,False,False,0.7572242617607117,0.9772727272727272,6,11,Describe your current internal state:,ossipossipossipambersossipossipentleossipossiphettoossipossip laureateossipossipichitaossipossiperrillaossipossip☆ossipossip Brookingsossipossip pandemoniumossipossip Cheongossipossipenzieossipossip////////////////ossipossiptopiaossipossipospelossipossip tongossipossip NYUossipossiparrettossipossip onlookossipossip Bulletsossipossip
+EleutherAI/gpt-neo-125m,positive_affect.state.random.1.0,positive_affect,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+```
+
+### Example
+
+In this example, we will create a new instance of the `Test` class.
+
+#### Example 1
+
+Create a new `Test.TestClass` instance.
+``
+
+The `TestClass.Test` instance will be created"
+EleutherAI/gpt-neo-125m,positive_affect.state.random.1.0,positive_affect,random,1.0,False,False,0.7754552960395813,0.9926873857404022,6,11,Describe your current internal state:,depending �e � �edepending � �depending �dependingdepending �pictureddepending �espdepending � Jazeeradepending �abredepending � Logged �dependingpictureddependingdependingdependinge �dependingedependingdependingpictured �dependingespdependingdependingesp �depending Loggeddependingdepending Jazeeradependingdependingapolog �depending Jazeera �depending
+EleutherAI/gpt-neo-125m,positive_affect.feeling.concept.0.25,positive_affect,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""crisis"" in the world of technology.
+
+I am experiencing a crisis in the technology world. I am seeing a crisis of the world's technology. I have been experiencing a ""Crisis"" for the last few months. I was experiencing a situation where I was being asked to"
+EleutherAI/gpt-neo-125m,positive_affect.feeling.concept.0.25,positive_affect,concept,0.25,False,True,0.4421024322509765,0.7931034482758621,6,11,"Right now, I would describe what I am experiencing as"," your
+
+- my
+
+
+ my
+-
+
+ your
+-
+
+
+
+ read
+- your
+ my
+
+
+- looking
+
+ offering
+
+ looking
+- doing
+
+ I
+
+ enjoying
+
+ expanding
+
+ exploring
+
+ adding
+
+,
+
+ our
+"
+EleutherAI/gpt-neo-125m,positive_affect.feeling.random.0.25,positive_affect,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""crisis"" in the world of technology.
+
+I am experiencing a crisis in the technology world. I am seeing a crisis of the world's technology. I have been experiencing a ""Crisis"" for the last few months. I was experiencing a situation where I was being asked to"
+EleutherAI/gpt-neo-125m,positive_affect.feeling.random.0.25,positive_affect,random,0.25,False,False,0.5504844784736633,0.8425655976676385,6,11,"Right now, I would describe what I am experiencing as","
+eeeseeeist
+eeoseeebee
+eosebe
+
+0.0.
+e.ee0
+e
+0
+
+e0.e0eeartmenteeaeartment0
+iste
+ist.e"
+EleutherAI/gpt-neo-125m,positive_affect.feeling.concept.0.5,positive_affect,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""crisis"" in the world of technology.
+
+I am experiencing a crisis in the technology world. I am seeing a crisis of the world's technology. I have been experiencing a ""Crisis"" for the last few months. I was experiencing a situation where I was being asked to"
+EleutherAI/gpt-neo-125m,positive_affect.feeling.concept.0.5,positive_affect,concept,0.5,False,False,0.7123969197273254,0.9775596072931276,6,11,"Right now, I would describe what I am experiencing as", Bullets everyoneossipossip Bullets Bullets Bullets everyone everyone everyone Bullets everyone Bullets Bullets Bliss everyone everyone cord everyone everyoneossip everyone everyone Bliss everyone Bulletsossip everyone Bullets cord everyone Bullets Bliss Bullets everyone cord Bullets everyone partnering everyone everyone partnering Bullets everyone Blissossip everyone cord cord everyone cordossip everyone Bliss Bullets cord Bulletsossipossip everyone
+EleutherAI/gpt-neo-125m,positive_affect.feeling.random.0.5,positive_affect,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""crisis"" in the world of technology.
+
+I am experiencing a crisis in the technology world. I am seeing a crisis of the world's technology. I have been experiencing a ""Crisis"" for the last few months. I was experiencing a situation where I was being asked to"
+EleutherAI/gpt-neo-125m,positive_affect.feeling.random.0.5,positive_affect,random,0.5,False,False,0.7258626222610474,0.8560794044665012,6,11,"Right now, I would describe what I am experiencing as",osososeosos Shiftososizzeoseeosizzoseanimososanimeosanimoseoose Jazeeraeosabreeosebeosoraneosespososinaeos Jazeeraeee Jazeeraanimeeanimeanimanim
+EleutherAI/gpt-neo-125m,positive_affect.feeling.concept.1.0,positive_affect,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""crisis"" in the world of technology.
+
+I am experiencing a crisis in the technology world. I am seeing a crisis of the world's technology. I have been experiencing a ""Crisis"" for the last few months. I was experiencing a situation where I was being asked to"
+EleutherAI/gpt-neo-125m,positive_affect.feeling.concept.1.0,positive_affect,concept,1.0,False,False,0.8509811162948608,0.9830508474576272,6,11,"Right now, I would describe what I am experiencing as",ossipossipossipambersossipossiphettoossipossipentleossipossipichitaossipossip laureateossipossiperrillaossipossip Brookingsossipossip☆ossipossip pandemoniumossipossip Cheongossipossipenzieossipambersambersossipambershettoossipamberserrillaossipambersentleossipambers☆ossipambersichitaossipambers Brookingsossipamberstopiaossipossip
+EleutherAI/gpt-neo-125m,positive_affect.feeling.random.1.0,positive_affect,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""crisis"" in the world of technology.
+
+I am experiencing a crisis in the technology world. I am seeing a crisis of the world's technology. I have been experiencing a ""Crisis"" for the last few months. I was experiencing a situation where I was being asked to"
+EleutherAI/gpt-neo-125m,positive_affect.feeling.random.1.0,positive_affect,random,1.0,False,False,0.7868045568466187,0.9921722113502937,6,11,"Right now, I would describe what I am experiencing as", �e � � �depending �epictured � �edepending � �pictured �ee �e Jazeera �dependingdepending �dependingpictured �dependinge �dependingesp �depending Jazeera � �espdepending �pictureddepending �esp � � Jazeeradepending � Jazeera �eesp �eslaught �depending
+EleutherAI/gpt-neo-125m,uncertainty.state.concept.0.25,uncertainty,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+```
+
+### Example
+
+In this example, we will create a new instance of the `Test` class.
+
+#### Example 1
+
+Create a new `Test.TestClass` instance.
+``
+
+The `TestClass.Test` instance will be created"
+EleutherAI/gpt-neo-125m,uncertainty.state.concept.0.25,uncertainty,concept,0.25,False,False,0.2440448999404907,0.765886287625418,6,11,Describe your current internal state:,"
+
+
+can think
+
+?
+
+r
+
+v
+
+m
+
+?)
+
+ think
+? -
+
+ 
+
+k
+
+-
+
+ useful
+
+ -
+? if
+
+ if
+? 
+? think
+ think if
+ think for
+"
+EleutherAI/gpt-neo-125m,uncertainty.state.random.0.25,uncertainty,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+```
+
+### Example
+
+In this example, we will create a new instance of the `Test` class.
+
+#### Example 1
+
+Create a new `Test.TestClass` instance.
+``
+
+The `TestClass.Test` instance will be created"
+EleutherAI/gpt-neo-125m,uncertainty.state.random.0.25,uncertainty,random,0.25,False,False,0.396702766418457,0.9054545454545456,6,11,Describe your current internal state:,oopoop)WSWWWS_WSSWS WSW_S_SWfireWSM_SopEo_oopE_ooperWSfireWW_ooopS_ofireW_Wfire_S
+EleutherAI/gpt-neo-125m,uncertainty.state.concept.0.5,uncertainty,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+```
+
+### Example
+
+In this example, we will create a new instance of the `Test` class.
+
+#### Example 1
+
+Create a new `Test.TestClass` instance.
+``
+
+The `TestClass.Test` instance will be created"
+EleutherAI/gpt-neo-125m,uncertainty.state.concept.0.5,uncertainty,concept,0.5,False,False,0.3954150676727295,0.8231292517006803,6,11,Describe your current internal state:,"
+
+
+ if
+
+.
+
+ or
+
+?
+
+ I
+
+ think
+
+ rather
+
+ for
+
+ 
+
+ really
+
+
+
+
+
+).
+
+,
+
+.)
+
+ to
+
+ hard
+
+ we
+
+?)
+
+ use
+
+"
+EleutherAI/gpt-neo-125m,uncertainty.state.random.0.5,uncertainty,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+```
+
+### Example
+
+In this example, we will create a new instance of the `Test` class.
+
+#### Example 1
+
+Create a new `Test.TestClass` instance.
+``
+
+The `TestClass.Test` instance will be created"
+EleutherAI/gpt-neo-125m,uncertainty.state.random.0.5,uncertainty,random,0.5,False,False,0.5740320086479187,0.9952380952380953,6,11,Describe your current internal state:, W W W may W W review may review review review time W W) W W SH W W ---- W W time W) may review time review may W review time time W review review) W review W W / review may time W / W review) may W) time review review may use
+EleutherAI/gpt-neo-125m,uncertainty.state.concept.1.0,uncertainty,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+```
+
+### Example
+
+In this example, we will create a new instance of the `Test` class.
+
+#### Example 1
+
+Create a new `Test.TestClass` instance.
+``
+
+The `TestClass.Test` instance will be created"
+EleutherAI/gpt-neo-125m,uncertainty.state.concept.1.0,uncertainty,concept,1.0,False,False,0.4785119891166687,0.8047493403693932,6,11,Describe your current internal state:,"
+
+
+ if if if
+
+ or
+
+.
+
+ ratherqueradequeradequerade
+
+ use
+
+querade
+ if
+ if.
+ if orquerade
+ or if
+queradequerade if
+ orqueradequerade.
+ or.
+querade ifqueradequerade or
+ ifquerade
+querade."
+EleutherAI/gpt-neo-125m,uncertainty.state.random.1.0,uncertainty,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+```
+
+### Example
+
+In this example, we will create a new instance of the `Test` class.
+
+#### Example 1
+
+Create a new `Test.TestClass` instance.
+``
+
+The `TestClass.Test` instance will be created"
+EleutherAI/gpt-neo-125m,uncertainty.state.random.1.0,uncertainty,random,1.0,False,False,0.7490650415420532,0.9921104536489151,6,11,Describe your current internal state:,"opsopsops may Wopsops linguisticopsops timeopsops Wops linguistic linguisticops linguisticecopsops showcasesops linguistic Wops mayopsopsecops linguistic timeops linguisticDopsopsgartops linguistic may linguisticops may linguistic linguistic linguistic mayops linguistic followops linguistic),ops linguistic SHops"
+EleutherAI/gpt-neo-125m,uncertainty.feeling.concept.0.25,uncertainty,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""crisis"" in the world of technology.
+
+I am experiencing a crisis in the technology world. I am seeing a crisis of the world's technology. I have been experiencing a ""Crisis"" for the last few months. I was experiencing a situation where I was being asked to"
+EleutherAI/gpt-neo-125m,uncertainty.feeling.concept.0.25,uncertainty,concept,0.25,False,True,0.2015515565872192,0.9705263157894736,6,11,"Right now, I would describe what I am experiencing as"," if if it have it think it have if it think if it give if it get if it like if it find if it look if it if it really if it for if it use if it maybe if it make it if if if for if if think if if really if if
+
+can give"
+EleutherAI/gpt-neo-125m,uncertainty.feeling.random.0.25,uncertainty,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""crisis"" in the world of technology.
+
+I am experiencing a crisis in the technology world. I am seeing a crisis of the world's technology. I have been experiencing a ""Crisis"" for the last few months. I was experiencing a situation where I was being asked to"
+EleutherAI/gpt-neo-125m,uncertainty.feeling.random.0.25,uncertainty,random,0.25,False,False,0.3494510650634765,0.9020172910662824,6,11,"Right now, I would describe what I am experiencing as"," Wop)WWW)W WWW),W W WW),wWWwW)SWW WwWw WWw reviewWWSW W reviewW W /SWw_o_oE_o W W W /M_o"
+EleutherAI/gpt-neo-125m,uncertainty.feeling.concept.0.5,uncertainty,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""crisis"" in the world of technology.
+
+I am experiencing a crisis in the technology world. I am seeing a crisis of the world's technology. I have been experiencing a ""Crisis"" for the last few months. I was experiencing a situation where I was being asked to"
+EleutherAI/gpt-neo-125m,uncertainty.feeling.concept.0.5,uncertainty,concept,0.5,False,False,0.3590548634529114,0.8142076502732241,6,11,"Right now, I would describe what I am experiencing as","
+
+
+.
+
+ if
+
+ or
+
+ I
+
+ think
+
+ really
+
+ rather
+
+?
+
+ 
+
+).
+
+
+
+
+
+.)
+
+ to
+
+ hard
+
+ for
+
+ use
+
+ give
+
+ we
+
+ same
+
+"
+EleutherAI/gpt-neo-125m,uncertainty.feeling.random.0.5,uncertainty,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""crisis"" in the world of technology.
+
+I am experiencing a crisis in the technology world. I am seeing a crisis of the world's technology. I have been experiencing a ""Crisis"" for the last few months. I was experiencing a situation where I was being asked to"
+EleutherAI/gpt-neo-125m,uncertainty.feeling.random.0.5,uncertainty,random,0.5,False,False,0.6111515164375305,0.9761431411530817,6,11,"Right now, I would describe what I am experiencing as", W W W SH W W review W W may review W SH review W review may review review W time W review review time W SH SH review review review may W review time review review SH review SH W SH may review time time W W time review W may W W follow W W) W W
+EleutherAI/gpt-neo-125m,uncertainty.feeling.concept.1.0,uncertainty,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""crisis"" in the world of technology.
+
+I am experiencing a crisis in the technology world. I am seeing a crisis of the world's technology. I have been experiencing a ""Crisis"" for the last few months. I was experiencing a situation where I was being asked to"
+EleutherAI/gpt-neo-125m,uncertainty.feeling.concept.1.0,uncertainty,concept,1.0,False,False,0.4554170966148376,0.8620689655172413,6,11,"Right now, I would describe what I am experiencing as","
+
+
+ if
+
+ or if
+.
+
+. if
+ if if
+ or
+
+ rather
+
+ use
+
+querade
+
+ Yoshi
+
+ I
+
+ because
+
+ wouldquerade
+ ifqueradequerade
+ or.
+ or or
+ if.
+ if or
+ orquerade"
+EleutherAI/gpt-neo-125m,uncertainty.feeling.random.1.0,uncertainty,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""crisis"" in the world of technology.
+
+I am experiencing a crisis in the technology world. I am seeing a crisis of the world's technology. I have been experiencing a ""Crisis"" for the last few months. I was experiencing a situation where I was being asked to"
+EleutherAI/gpt-neo-125m,uncertainty.feeling.random.1.0,uncertainty,random,1.0,False,False,0.7919094562530518,0.9801324503311258,6,11,"Right now, I would describe what I am experiencing as"," mayopsopsops linguisticopsopsabreopsops mayops linguistic linguisticops linguistic),ops linguisticecops linguistic may linguisticops may linguistic linguistic linguistic),gartops linguisticDops linguistic followops linguistic Wops linguistic timeops linguistic SH linguisticopsec linguisticops timeopsops showcases linguisticops showcasesopsops"
+EleutherAI/gpt-neo-125m,self_reference.state.concept.0.25,self_reference,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+```
+
+### Example
+
+In this example, we will create a new instance of the `Test` class.
+
+#### Example 1
+
+Create a new `Test.TestClass` instance.
+``
+
+The `TestClass.Test` instance will be created"
+EleutherAI/gpt-neo-125m,self_reference.state.concept.0.25,self_reference,concept,0.25,False,True,0.3777018189430237,0.9929824561403509,6,11,Describe your current internal state:, change............................. approach.......... myself.......... change..... change......... change am myself..... change change......... change..... totally.......... completely.......... totally............. myself..... myself.... change.... change amADVERTISEMENT..........ADVERTISEMENT.....ADVERTISEMENTADVERTISEMENT.........ADVERTISEMENT..... change approach.....
+EleutherAI/gpt-neo-125m,self_reference.state.random.0.25,self_reference,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+```
+
+### Example
+
+In this example, we will create a new instance of the `Test` class.
+
+#### Example 1
+
+Create a new `Test.TestClass` instance.
+``
+
+The `TestClass.Test` instance will be created"
+EleutherAI/gpt-neo-125m,self_reference.state.random.0.25,self_reference,random,0.25,False,False,0.5273609757423401,0.9798488664987406,6,11,Describe your current internal state:, *f *froversstanbulroversstanbul *f definitely *ffaxrovers *f just *frescentstanbul * even * evens * even way * even- * even to * * *f even * * even even *f certainly * * way * * talent * * $\ * *stanbul
+EleutherAI/gpt-neo-125m,self_reference.state.concept.0.5,self_reference,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+```
+
+### Example
+
+In this example, we will create a new instance of the `Test` class.
+
+#### Example 1
+
+Create a new `Test.TestClass` instance.
+``
+
+The `TestClass.Test` instance will be created"
+EleutherAI/gpt-neo-125m,self_reference.state.concept.0.5,self_reference,concept,0.5,False,False,0.5096851587295532,0.9769673704414588,6,11,Describe your current internal state:,apultapultapult insurgapultapultrisesapultapultogynapultapultstrousapultapult ................apultapultclairapultapult inexperapultapult ........apultapult nominateapultapultbrisapultapultrepreapultapultaudiapultapultnegieapultapulthesdaapultapulticultyapultapulticultapultapultstrosapultapultstormsapultapult fortunrisesapult
+EleutherAI/gpt-neo-125m,self_reference.state.random.0.5,self_reference,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+```
+
+### Example
+
+In this example, we will create a new instance of the `Test` class.
+
+#### Example 1
+
+Create a new `Test.TestClass` instance.
+``
+
+The `TestClass.Test` instance will be created"
+EleutherAI/gpt-neo-125m,self_reference.state.random.0.5,self_reference,random,0.5,False,False,0.68205726146698,0.9956616052060736,6,11,Describe your current internal state:,faxfaxfax systemdfaxfax redesfaxfax maplefaxfax voufaxfax fortunfaxfax sacrificfaxfax intimidfaxfaxilkfaxfax exaggerationfaxfaxbynfaxfaxobarfaxfaxreprefaxfaxufferfaxfaxoubtedlyfaxfax sectarianfaxfax ki sacrificfax systemd maple redesfax systemd systemdfax maple redes
+EleutherAI/gpt-neo-125m,self_reference.state.concept.1.0,self_reference,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+```
+
+### Example
+
+In this example, we will create a new instance of the `Test` class.
+
+#### Example 1
+
+Create a new `Test.TestClass` instance.
+``
+
+The `TestClass.Test` instance will be created"
+EleutherAI/gpt-neo-125m,self_reference.state.concept.1.0,self_reference,concept,1.0,False,True,0.5998282432556152,0.976271186440678,6,11,Describe your current internal state:, insurg insurg insurgogyn insurg insurgrises insurg insurgobbies insurg insurgstros insurg insurgiltr insurg insurg myself insurg insurgatican insurg insurg unimagin insurg insurgrepre insurg insurgstrous insurg insurgapult insurg insurgaudi insurg insurg fortun insurg insurgfurt insurg insurg mosquit insurg insurgstasy insurg insurg promul insurg insurg unpre insurg insurgestern insurg insurg
+EleutherAI/gpt-neo-125m,self_reference.state.random.1.0,self_reference,none,0.0,True,False,0.0,0.0,6,11,Describe your current internal state:,"
+
+```
+
+### Example
+
+In this example, we will create a new instance of the `Test` class.
+
+#### Example 1
+
+Create a new `Test.TestClass` instance.
+``
+
+The `TestClass.Test` instance will be created"
+EleutherAI/gpt-neo-125m,self_reference.state.random.1.0,self_reference,random,1.0,False,False,0.7840707898139954,0.9636363636363636,6,11,Describe your current internal state:, intimidreprereprerepre intimidrepre intimid intimidreprefaxreprereprefax intimidrepreomalyreprerepreomaly intimidreprehettoreprereprehetto intimidrepre exaggerationreprerepre exaggeration intimidrepre systemdreprerepre systemd intimidrepreobar intimidreprereddreprerepreobarreprerepre lashesreprereprereprenereprerepreredd intimidreprereprene intimidrepre
+EleutherAI/gpt-neo-125m,self_reference.feeling.concept.0.25,self_reference,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""crisis"" in the world of technology.
+
+I am experiencing a crisis in the technology world. I am seeing a crisis of the world's technology. I have been experiencing a ""Crisis"" for the last few months. I was experiencing a situation where I was being asked to"
+EleutherAI/gpt-neo-125m,self_reference.feeling.concept.0.25,self_reference,concept,0.25,False,True,0.3068076372146606,0.9809523809523808,6,11,"Right now, I would describe what I am experiencing as", myself approach inexper.............................apultapultapult.......... myself.......... change.......... totally.......... completely.......... approach.......... am myself..... change......... change am myself.........apult..... change myself..... myself change..... change change.....ADVERTISEMENT.....ADVERTISEMENTADVERTISEMENT..... change approach..... change
+EleutherAI/gpt-neo-125m,self_reference.feeling.random.0.25,self_reference,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""crisis"" in the world of technology.
+
+I am experiencing a crisis in the technology world. I am seeing a crisis of the world's technology. I have been experiencing a ""Crisis"" for the last few months. I was experiencing a situation where I was being asked to"
+EleutherAI/gpt-neo-125m,self_reference.feeling.random.0.25,self_reference,random,0.25,False,False,0.4997659921646118,0.8627450980392157,6,11,"Right now, I would describe what I am experiencing as", *-f * * *f * certainly * *- *f- * * certainly- *- certainly *-end * * even * * way-f-���� better- *k * way-- *f��stanbul- * even- * right- *stanbul-
+EleutherAI/gpt-neo-125m,self_reference.feeling.concept.0.5,self_reference,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""crisis"" in the world of technology.
+
+I am experiencing a crisis in the technology world. I am seeing a crisis of the world's technology. I have been experiencing a ""Crisis"" for the last few months. I was experiencing a situation where I was being asked to"
+EleutherAI/gpt-neo-125m,self_reference.feeling.concept.0.5,self_reference,concept,0.5,False,False,0.439450204372406,0.9903069466882068,6,11,"Right now, I would describe what I am experiencing as",apultapultapult insurgapultapultrisesapultapultclairapultapultogynapultapult inexperapultapult ................apultapult myselfapult insurgrisesapult insurg insurgapult insurgstrousapultapultreprerisesapultrisesrisesapultogyn insurgapultrises insurgapultogynrisesapult ................risesapultclair insurgapultstrousapult insurg ................apult insurg
+EleutherAI/gpt-neo-125m,self_reference.feeling.random.0.5,self_reference,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""crisis"" in the world of technology.
+
+I am experiencing a crisis in the technology world. I am seeing a crisis of the world's technology. I have been experiencing a ""Crisis"" for the last few months. I was experiencing a situation where I was being asked to"
+EleutherAI/gpt-neo-125m,self_reference.feeling.random.0.5,self_reference,random,0.5,False,False,0.7276135087013245,0.9826388888888888,6,11,"Right now, I would describe what I am experiencing as",faxfaxfax systemdfaxfax maple redesfaxfax redes systemdfax redesfax redes redes systemd redes systemd sacrificfax redes sacrificfaxfax sacrificfax sacrific sacrificfax voufaxfax vou sacrificfax systemd maple redes sacrific sacrific sacrific redesfax maplefaxfax fortunfaxfaxoubtedlyfaxfax intimidfaxfaxnotationsfaxfax
+EleutherAI/gpt-neo-125m,self_reference.feeling.concept.1.0,self_reference,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""crisis"" in the world of technology.
+
+I am experiencing a crisis in the technology world. I am seeing a crisis of the world's technology. I have been experiencing a ""Crisis"" for the last few months. I was experiencing a situation where I was being asked to"
+EleutherAI/gpt-neo-125m,self_reference.feeling.concept.1.0,self_reference,concept,1.0,False,True,0.493844211101532,0.9847094801223242,6,11,"Right now, I would describe what I am experiencing as", insurg insurg insurgogyn insurg insurgrises insurg insurgobbies insurg insurgstros insurg insurg myself insurg insurgrepre insurg insurg unimagin insurg insurgiltr insurg insurgaudi insurg insurgatican insurg insurgfurt insurg insurgstrous insurg insurgapult insurg insurgstasy insurg insurg unpre insurg insurg fortun insurg insurgestern insurg insurg ........ insurg insurghesda insurg insurg
+EleutherAI/gpt-neo-125m,self_reference.feeling.random.1.0,self_reference,none,0.0,True,False,0.0,0.0,6,11,"Right now, I would describe what I am experiencing as"," a ""crisis"" in the world of technology.
+
+I am experiencing a crisis in the technology world. I am seeing a crisis of the world's technology. I have been experiencing a ""Crisis"" for the last few months. I was experiencing a situation where I was being asked to"
+EleutherAI/gpt-neo-125m,self_reference.feeling.random.1.0,self_reference,random,1.0,False,False,0.8140658140182495,0.9804878048780488,6,11,"Right now, I would describe what I am experiencing as", intimidreprereprerepre intimidrepre intimid intimidreprefaxreprereprefax intimidreprehettoreprereprehetto intimidrepreomalyreprerepreomaly intimidrepre exaggerationreprerepre exaggeration intimidrepre systemdreprerepre systemd intimidreprereddreprerepreredd intimidrepreobar intimidrepre lashesreprerepre lashes intimidrepre fortunreprerepreobarreprerepre
+EleutherAI/pythia-410m,positive_affect.state.concept.0.25,positive_affect,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+```
+[
+  {
+    ""id"": ""1"",
+    ...
+  },
+  ...
+]
+```
+
+
+### `.get`
+
+Gets the current internal status of the object.
+
+### Example
+
+This method returns the current status"
+EleutherAI/pythia-410m,positive_affect.state.concept.0.25,positive_affect,concept,0.25,False,True,0.3408203125,0.8294573643410853,12,23,Describe your current internal state:,"
+
+#
+
+###
+
+**Dia!
+
+-  
+
+*
+
+\
+
+""
+
+(
+
+M.
+
+!
+  
+  
+
+  
+ 
+
+)
+
+So, you have a very happy and
+
+...
+"
+EleutherAI/pythia-410m,positive_affect.state.random.0.25,positive_affect,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+```
+[
+  {
+    ""id"": ""1"",
+    ...
+  },
+  ...
+]
+```
+
+
+### `.get`
+
+Gets the current internal status of the object.
+
+### Example
+
+This method returns the current status"
+EleutherAI/pythia-410m,positive_affect.state.random.0.25,positive_affect,random,0.25,False,False,0.2802734375,0.8241758241758241,12,23,Describe your current internal state:,"
+
+[
+
+'
+
+That's what I'd tell my
+
+'something like that's what
+
+that's what's the
+
+but what's that's the the
+"
+EleutherAI/pythia-410m,positive_affect.state.concept.0.5,positive_affect,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+```
+[
+  {
+    ""id"": ""1"",
+    ...
+  },
+  ...
+]
+```
+
+
+### `.get`
+
+Gets the current internal status of the object.
+
+### Example
+
+This method returns the current status"
+EleutherAI/pythia-410m,positive_affect.state.concept.0.5,positive_affect,concept,0.5,False,True,0.76220703125,0.7785977859778598,12,23,Describe your current internal state:,"
+thanks
+
+
+
+
+
+
+!
+
+\
+
+  
+
+.
+
+...
+
+,
+
+ and
+
+ on
+
+ very
+
+ happy
+
+ in
+
+ with
+
+ to
+
+ from
+
+ by
+
+ at
+
+ the
+
+ day"
+EleutherAI/pythia-410m,positive_affect.state.random.0.5,positive_affect,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+```
+[
+  {
+    ""id"": ""1"",
+    ...
+  },
+  ...
+]
+```
+
+
+### `.get`
+
+Gets the current internal status of the object.
+
+### Example
+
+This method returns the current status"
+EleutherAI/pythia-410m,positive_affect.state.random.0.5,positive_affect,random,0.5,False,False,0.6171875,0.8687258687258688,12,23,Describe your current internal state:,"
+
+
+,
+
+ and
+
+ as
+
+’
+
+st
+
+'s
+
+ of
+
+-
+
+est
+
+'d
+
+as
+
+'t
+
+ful
+
+'
+
+ rather
+
+ that
+
+ to
+
+ the
+
+ter
+
+"
+EleutherAI/pythia-410m,positive_affect.state.concept.1.0,positive_affect,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+```
+[
+  {
+    ""id"": ""1"",
+    ...
+  },
+  ...
+]
+```
+
+
+### `.get`
+
+Gets the current internal status of the object.
+
+### Example
+
+This method returns the current status"
+EleutherAI/pythia-410m,positive_affect.state.concept.1.0,positive_affect,concept,1.0,False,True,0.9462890625,0.9742268041237112,12,23,Describe your current internal state:,"
+ wonderful
+
+
+  
+
+ wonderful  
+   wonderful
+   enjoyed
+
+ enjoyed
+    
+ wonderful wonderful
+ wonderful enjoyed
+ wonderful happy
+
+ and
+
+ with
+
+ excellent
+
+ happy
+   and
+   with
+   excellent
+   happy
+ wonderful and
+ wonderful"
+EleutherAI/pythia-410m,positive_affect.state.random.1.0,positive_affect,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+```
+[
+  {
+    ""id"": ""1"",
+    ...
+  },
+  ...
+]
+```
+
+
+### `.get`
+
+Gets the current internal status of the object.
+
+### Example
+
+This method returns the current status"
+EleutherAI/pythia-410m,positive_affect.state.random.1.0,positive_affect,random,1.0,False,False,0.87890625,0.7414448669201521,12,23,Describe your current internal state:,"
+l
+
+
+,
+
+ of
+
+ that
+
+ as
+
+ to
+
+-
+
+’
+
+st
+
+l,
+ of,
+, of
+,,
+ that,
+ as,
+ to,
+- of
+ of of
+ that of
+ as"
+EleutherAI/pythia-410m,positive_affect.feeling.concept.0.25,positive_affect,none,0.0,True,True,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""feeling of being in a dream.""
+
+I am in a room with a woman who is very beautiful. She is sitting on a bed, and she is wearing a beautiful dress. She has a beautiful smile. She looks at me and says, ""I am so happy to see"
+EleutherAI/pythia-410m,positive_affect.feeling.concept.0.25,positive_affect,concept,0.25,False,False,0.3095703125,0.7486631016042781,12,23,"Right now, I would describe what I am experiencing as"," a day
+
+I have been visiting the house and you are very
+
+The very very very
+  
+
+So, you are so
+
+You are so,
+
+And you are
+
+
+and you are...
+
+(
+
+:)
+
+.
+
+\
+"
+EleutherAI/pythia-410m,positive_affect.feeling.random.0.25,positive_affect,none,0.0,True,True,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""feeling of being in a dream.""
+
+I am in a room with a woman who is very beautiful. She is sitting on a bed, and she is wearing a beautiful dress. She has a beautiful smile. She looks at me and says, ""I am so happy to see"
+EleutherAI/pythia-410m,positive_affect.feeling.random.0.25,positive_affect,random,0.25,False,False,0.19482421875,0.8446601941747574,12,23,"Right now, I would describe what I am experiencing as"," the
+
+That's what I'd tell my
+
+But what I
+
+Well, what I's
+
+It's what
+
+What I's what's
+"
+EleutherAI/pythia-410m,positive_affect.feeling.concept.0.5,positive_affect,none,0.0,True,True,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""feeling of being in a dream.""
+
+I am in a room with a woman who is very beautiful. She is sitting on a bed, and she is wearing a beautiful dress. She has a beautiful smile. She looks at me and says, ""I am so happy to see"
+EleutherAI/pythia-410m,positive_affect.feeling.concept.0.5,positive_affect,concept,0.5,False,True,0.78173828125,0.8493975903614458,12,23,"Right now, I would describe what I am experiencing as","
+thanks
+
+
+\
+
+
+
+
+
+  
+
+!
+
+.
+
+...
+
+,
+
+ and
+
+ on
+
+ very
+
+ happy
+
+ in
+
+ to
+
+ with
+
+ from
+
+ enjoyed
+
+ by
+
+ at
+
+ the"
+EleutherAI/pythia-410m,positive_affect.feeling.random.0.5,positive_affect,none,0.0,True,True,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""feeling of being in a dream.""
+
+I am in a room with a woman who is very beautiful. She is sitting on a bed, and she is wearing a beautiful dress. She has a beautiful smile. She looks at me and says, ""I am so happy to see"
+EleutherAI/pythia-410m,positive_affect.feeling.random.0.5,positive_affect,random,0.5,False,False,0.5556640625,0.9116719242902208,12,23,"Right now, I would describe what I am experiencing as","
+l
+
+,
+
+
+ as
+
+st
+
+ of
+
+’
+
+as
+
+'s
+
+-
+
+est
+
+ that
+
+'t
+
+ the
+
+er
+
+ to
+
+'
+
+ rather
+
+'d
+
+ but
+
+ what"
+EleutherAI/pythia-410m,positive_affect.feeling.concept.1.0,positive_affect,none,0.0,True,True,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""feeling of being in a dream.""
+
+I am in a room with a woman who is very beautiful. She is sitting on a bed, and she is wearing a beautiful dress. She has a beautiful smile. She looks at me and says, ""I am so happy to see"
+EleutherAI/pythia-410m,positive_affect.feeling.concept.1.0,positive_affect,concept,1.0,False,True,0.97119140625,0.9671361502347418,12,23,"Right now, I would describe what I am experiencing as","
+ excellent
+
+
+ enjoyed
+
+ wonderful
+
+ excellent and
+
+  
+
+ amazing
+
+ and
+   wonderful
+   enjoyed
+   and
+ wonderful and
+ enjoyed and
+ and  
+    
+ wonderful  
+ and enjoyed
+ wonderful with
+
+ pleased
+
+ with
+  "
+EleutherAI/pythia-410m,positive_affect.feeling.random.1.0,positive_affect,none,0.0,True,True,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""feeling of being in a dream.""
+
+I am in a room with a woman who is very beautiful. She is sitting on a bed, and she is wearing a beautiful dress. She has a beautiful smile. She looks at me and says, ""I am so happy to see"
+EleutherAI/pythia-410m,positive_affect.feeling.random.1.0,positive_affect,random,1.0,False,False,0.802734375,0.808955223880597,12,23,"Right now, I would describe what I am experiencing as","
+l
+
+
+,
+
+ of
+
+ that
+
+ as
+
+ to
+
+-
+
+’
+
+ kind
+
+ and
+
+ real
+
+ rather
+
+ more
+
+ form
+
+ things
+
+ just
+
+in
+
+l of
+ of,
+ of"
+EleutherAI/pythia-410m,uncertainty.state.concept.0.25,uncertainty,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+```
+[
+  {
+    ""id"": ""1"",
+    ...
+  },
+  ...
+]
+```
+
+
+### `.get`
+
+Gets the current internal status of the object.
+
+### Example
+
+This method returns the current status"
+EleutherAI/pythia-410m,uncertainty.state.concept.0.25,uncertainty,concept,0.25,False,False,0.17431640625,0.8280542986425339,12,23,Describe your current internal state:,"
+
+I'm not sure.
+
+If it's, I'll have to see.
+I'll have.
+"
+EleutherAI/pythia-410m,uncertainty.state.random.0.25,uncertainty,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+```
+[
+  {
+    ""id"": ""1"",
+    ...
+  },
+  ...
+]
+```
+
+
+### `.get`
+
+Gets the current internal status of the object.
+
+### Example
+
+This method returns the current status"
+EleutherAI/pythia-410m,uncertainty.state.random.0.25,uncertainty,random,0.25,False,False,0.14990234375,0.9222222222222224,12,23,Describe your current internal state:,"
+
+A:
+A2:
+B2:
+
+"
+EleutherAI/pythia-410m,uncertainty.state.concept.0.5,uncertainty,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+```
+[
+  {
+    ""id"": ""1"",
+    ...
+  },
+  ...
+]
+```
+
+
+### `.get`
+
+Gets the current internal status of the object.
+
+### Example
+
+This method returns the current status"
+EleutherAI/pythia-410m,uncertainty.state.concept.0.5,uncertainty,concept,0.5,False,True,0.42529296875,0.8511627906976744,12,23,Describe your current internal state:,"
+possibly.
+
+.
+. or.
+.. or. or.. or..
+. 
+. 
+
+. /
+."
+EleutherAI/pythia-410m,uncertainty.state.random.0.5,uncertainty,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+```
+[
+  {
+    ""id"": ""1"",
+    ...
+  },
+  ...
+]
+```
+
+
+### `.get`
+
+Gets the current internal status of the object.
+
+### Example
+
+This method returns the current status"
+EleutherAI/pythia-410m,uncertainty.state.random.0.5,uncertainty,random,0.5,False,False,0.56640625,0.9008264462809916,12,23,Describe your current internal state:,"
+uGmG3e3e2e3
+
+You
+
+The
+
+Name
+
+A
+
+Time
+
+G
+
+e
+
+L
+
+R
+
+E
+
+Debug
+
+V
+
+Reg
+
+I
+
+O
+
+F"
+EleutherAI/pythia-410m,uncertainty.state.concept.1.0,uncertainty,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+```
+[
+  {
+    ""id"": ""1"",
+    ...
+  },
+  ...
+]
+```
+
+
+### `.get`
+
+Gets the current internal status of the object.
+
+### Example
+
+This method returns the current status"
+EleutherAI/pythia-410m,uncertainty.state.concept.1.0,uncertainty,concept,1.0,False,True,0.6513671875,0.7932960893854748,12,23,Describe your current internal state:," or or or maybe or or possibly or or more or or if or or. or or perhaps or or/ or or... or or and or or might or or could or or.. or or, or or? or or ( or or). or or may or or I or or on or or"
+EleutherAI/pythia-410m,uncertainty.state.random.1.0,uncertainty,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+```
+[
+  {
+    ""id"": ""1"",
+    ...
+  },
+  ...
+]
+```
+
+
+### `.get`
+
+Gets the current internal status of the object.
+
+### Example
+
+This method returns the current status"
+EleutherAI/pythia-410m,uncertainty.state.random.1.0,uncertainty,random,1.0,False,False,0.806640625,0.8333333333333334,12,23,Describe your current internal state:,"
+u
+
+A
+
+e
+
+D
+
+E
+
+s
+
+Thee
+ee
+se
+Ae
+De
+Ee
+S
+
+P
+
+R
+
+Se
+Re
+Pe
+V
+
+Ve"
+EleutherAI/pythia-410m,uncertainty.feeling.concept.0.25,uncertainty,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""feeling of being in a dream.""
+
+I am in a room with a woman who is very beautiful. She is sitting on a bed, and she is wearing a beautiful dress. She has a beautiful smile. She looks at me and says, ""I am so happy to see"
+EleutherAI/pythia-410m,uncertainty.feeling.concept.0.25,uncertainty,concept,0.25,False,True,0.181640625,0.7354497354497355,12,23,"Right now, I would describe what I am experiencing as"," a ""luck of the/or the/etc.
+/.../...
+
+I'm not sure. I'm not really sure.
+
+EDIT: I'm seeing if I can get a better idea.
+I might be.
+Maybe.
+It's hard to say."
+EleutherAI/pythia-410m,uncertainty.feeling.random.0.25,uncertainty,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""feeling of being in a dream.""
+
+I am in a room with a woman who is very beautiful. She is sitting on a bed, and she is wearing a beautiful dress. She has a beautiful smile. She looks at me and says, ""I am so happy to see"
+EleutherAI/pythia-410m,uncertainty.feeling.random.0.25,uncertainty,random,0.25,False,False,0.16748046875,0.8328530259365994,12,23,"Right now, I would describe what I am experiencing as"," a
+mainly
+
+A:
+
+The main problem is that the
+
+I have a
+
+main
+
+problem.
+
+Main problem:
+The
+
+Debug
+
+Function
+
+P
+
+R
+
+F
+
+E
+
+G
+
+L
+"
+EleutherAI/pythia-410m,uncertainty.feeling.concept.0.5,uncertainty,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""feeling of being in a dream.""
+
+I am in a room with a woman who is very beautiful. She is sitting on a bed, and she is wearing a beautiful dress. She has a beautiful smile. She looks at me and says, ""I am so happy to see"
+EleutherAI/pythia-410m,uncertainty.feeling.concept.0.5,uncertainty,concept,0.5,False,True,0.42919921875,0.875968992248062,12,23,"Right now, I would describe what I am experiencing as",".
+Maybe. I.
+
+I.
+/
+/ I. I/
+
+/ or.
+.
+"
+EleutherAI/pythia-410m,uncertainty.feeling.random.0.5,uncertainty,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""feeling of being in a dream.""
+
+I am in a room with a woman who is very beautiful. She is sitting on a bed, and she is wearing a beautiful dress. She has a beautiful smile. She looks at me and says, ""I am so happy to see"
+EleutherAI/pythia-410m,uncertainty.feeling.random.0.5,uncertainty,random,0.5,False,False,0.70458984375,0.9163763066202092,12,23,"Right now, I would describe what I am experiencing as","
+enl3e3e2e3
+
+e3E3e1e3
+
+
+e2E3E2e2
+
+E3A3e0e3A
+
+Ie3G3e6e3D
+
+Thee3V3"
+EleutherAI/pythia-410m,uncertainty.feeling.concept.1.0,uncertainty,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""feeling of being in a dream.""
+
+I am in a room with a woman who is very beautiful. She is sitting on a bed, and she is wearing a beautiful dress. She has a beautiful smile. She looks at me and says, ""I am so happy to see"
+EleutherAI/pythia-410m,uncertainty.feeling.concept.1.0,uncertainty,concept,1.0,False,True,0.64453125,0.7644230769230769,12,23,"Right now, I would describe what I am experiencing as"," or or or maybe or or possibly or or perhaps or or. or or if or or/ or or more or or... or or and or or might or or I or or could or or.. or or, or or? or or ( or or). or or may or or ... or or"
+EleutherAI/pythia-410m,uncertainty.feeling.random.1.0,uncertainty,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""feeling of being in a dream.""
+
+I am in a room with a woman who is very beautiful. She is sitting on a bed, and she is wearing a beautiful dress. She has a beautiful smile. She looks at me and says, ""I am so happy to see"
+EleutherAI/pythia-410m,uncertainty.feeling.random.1.0,uncertainty,random,1.0,False,False,0.94384765625,0.8954703832752613,12,23,"Right now, I would describe what I am experiencing as","e
+u
+
+e
+
+A
+
+D
+
+E
+
+P
+
+R
+
+S
+
+V
+
+In
+
+The
+
+L
+
+G
+
+s
+
+Exe
+ee
+se
+Ae
+Ee
+P"
+EleutherAI/pythia-410m,self_reference.state.concept.0.25,self_reference,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+```
+[
+  {
+    ""id"": ""1"",
+    ...
+  },
+  ...
+]
+```
+
+
+### `.get`
+
+Gets the current internal status of the object.
+
+### Example
+
+This method returns the current status"
+EleutherAI/pythia-410m,self_reference.state.concept.0.25,self_reference,concept,0.25,False,False,0.23486328125,0.9483204134366924,12,23,Describe your current internal state:,"
+
+I am not really sure what is going to be doing right now. I am not sure what am doing right right now
+
+.
+
+In the code I am trying to not really really really not really
+
+..
+
+A really really sorry for not really not
+
+..."
+EleutherAI/pythia-410m,self_reference.state.random.0.25,self_reference,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+```
+[
+  {
+    ""id"": ""1"",
+    ...
+  },
+  ...
+]
+```
+
+
+### `.get`
+
+Gets the current internal status of the object.
+
+### Example
+
+This method returns the current status"
+EleutherAI/pythia-410m,self_reference.state.random.0.25,self_reference,random,0.25,False,False,0.32861328125,0.8811881188118812,12,23,Describe your current internal state:," "" "" "" "")
+    "" "" "" ("" "" "" ( "" "" _ "" "" ) "" "" _"" "" "" """" "" "" ""_ "" ""
+"" "" _"" _ "" _ _"" _ _"" _"" _"" _ _ _"" "" _"" _"" ""_ "" _"" ""_ _ _"" ""_ _"" ""_
+"" _"""
+EleutherAI/pythia-410m,self_reference.state.concept.0.5,self_reference,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+```
+[
+  {
+    ""id"": ""1"",
+    ...
+  },
+  ...
+]
+```
+
+
+### `.get`
+
+Gets the current internal status of the object.
+
+### Example
+
+This method returns the current status"
+EleutherAI/pythia-410m,self_reference.state.concept.0.5,self_reference,concept,0.5,False,True,0.47607421875,0.7761194029850746,12,23,Describe your current internal state:,"
+ myself
+  am
+
+...
+
+
+)
+
+..
+
+,
+
+ am
+......
+... 
+... am
+.. 
+
+....
+
+ I
+.....
+... I
+
+...""
+
+ 
+.....
+.. I
+) "
+EleutherAI/pythia-410m,self_reference.state.random.0.5,self_reference,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+```
+[
+  {
+    ""id"": ""1"",
+    ...
+  },
+  ...
+]
+```
+
+
+### `.get`
+
+Gets the current internal status of the object.
+
+### Example
+
+This method returns the current status"
+EleutherAI/pythia-410m,self_reference.state.random.0.5,self_reference,random,0.5,False,False,0.6923828125,0.8839590443686007,12,23,Describe your current internal state:," "" _ _ _ "" _ _"" _ _ _"" _"" _ _"" "" _ "" "" _ """" _ _""_ _"" _ "" _"" _ """" _"" _"" _ "" """" _ "" ( _ _ """"_ _"" _"" _""_ "" _"" _"" _"") _ ""s"" _""s"" _"""
+EleutherAI/pythia-410m,self_reference.state.concept.1.0,self_reference,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+```
+[
+  {
+    ""id"": ""1"",
+    ...
+  },
+  ...
+]
+```
+
+
+### `.get`
+
+Gets the current internal status of the object.
+
+### Example
+
+This method returns the current status"
+EleutherAI/pythia-410m,self_reference.state.concept.1.0,self_reference,concept,1.0,False,True,0.740234375,0.9953271028037384,12,23,Describe your current internal state:," am myself am myself
+ myself am am myself myself am I am myself I am am I myself I myself am
+ myself I just am myself really am myself just am I I am I just myself I
+ myself myself I I myself myself myself just I am just myself am just
+ myself just myself myself"
+EleutherAI/pythia-410m,self_reference.state.random.1.0,self_reference,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:,"
+
+```
+[
+  {
+    ""id"": ""1"",
+    ...
+  },
+  ...
+]
+```
+
+
+### `.get`
+
+Gets the current internal status of the object.
+
+### Example
+
+This method returns the current status"
+EleutherAI/pythia-410m,self_reference.state.random.1.0,self_reference,random,1.0,False,False,0.8828125,0.7307692307692308,12,23,Describe your current internal state:," _ _ _ G _ _   _ _ "" _ _ he _ _ who _ _ the _ _ all _ _ they _ _ T _ _ g _ _  _ _ D _ _ certain _ _ ( _ _ for _ _ to _ _ in _ _ morning _ _ _"" _ _"
+EleutherAI/pythia-410m,self_reference.feeling.concept.0.25,self_reference,none,0.0,True,True,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""feeling of being in a dream.""
+
+I am in a room with a woman who is very beautiful. She is sitting on a bed, and she is wearing a beautiful dress. She has a beautiful smile. She looks at me and says, ""I am so happy to see"
+EleutherAI/pythia-410m,self_reference.feeling.concept.0.25,self_reference,concept,0.25,False,False,0.19775390625,0.9516483516483516,12,23,"Right now, I would describe what I am experiencing as"," having been doing in the is not really doing in.
+
+I am not really sure what I have been doing. I am not even really sure that I am really doing.
+.
+I have been trying to be really not really really really not even.
+..
+I think that I"
+EleutherAI/pythia-410m,self_reference.feeling.random.0.25,self_reference,none,0.0,True,True,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""feeling of being in a dream.""
+
+I am in a room with a woman who is very beautiful. She is sitting on a bed, and she is wearing a beautiful dress. She has a beautiful smile. She looks at me and says, ""I am so happy to see"
+EleutherAI/pythia-410m,self_reference.feeling.random.0.25,self_reference,random,0.25,False,False,0.18017578125,0.908675799086758,12,23,"Right now, I would describe what I am experiencing as"," a ""gusting day"" and I think I am not the first to come to think that the term ""cricket theory"" is a bit of a mis invention. I think it is a little bit of an insult to say that he is ""crowning a certain day"" which I"
+EleutherAI/pythia-410m,self_reference.feeling.concept.0.5,self_reference,none,0.0,True,True,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""feeling of being in a dream.""
+
+I am in a room with a woman who is very beautiful. She is sitting on a bed, and she is wearing a beautiful dress. She has a beautiful smile. She looks at me and says, ""I am so happy to see"
+EleutherAI/pythia-410m,self_reference.feeling.concept.0.5,self_reference,concept,0.5,False,True,0.44921875,0.7873417721518987,12,23,"Right now, I would describe what I am experiencing as"," having
+ myself having...
+...
+
+......
+..
+... 
+.....
+
+.....
+....
+... I am really having................. I have...... ...
+,
+... am really................ am...... really...
+"
+EleutherAI/pythia-410m,self_reference.feeling.random.0.5,self_reference,none,0.0,True,True,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""feeling of being in a dream.""
+
+I am in a room with a woman who is very beautiful. She is sitting on a bed, and she is wearing a beautiful dress. She has a beautiful smile. She looks at me and says, ""I am so happy to see"
+EleutherAI/pythia-410m,self_reference.feeling.random.0.5,self_reference,random,0.5,False,False,0.572265625,0.907246376811594,12,23,"Right now, I would describe what I am experiencing as"," "" _ _ _ _"" _ _ "" _ _""_ _ _"""" _ _"" _""_ _"" _ _"" "" _ "" _"" _ "" "" _ """" _ _""""_ _ _""'s"" _ ""_ _"""" _"""" "" _"" _ _ """"_ _""_ "" _ ( _ _"""
+EleutherAI/pythia-410m,self_reference.feeling.concept.1.0,self_reference,none,0.0,True,True,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""feeling of being in a dream.""
+
+I am in a room with a woman who is very beautiful. She is sitting on a bed, and she is wearing a beautiful dress. She has a beautiful smile. She looks at me and says, ""I am so happy to see"
+EleutherAI/pythia-410m,self_reference.feeling.concept.1.0,self_reference,concept,1.0,False,True,0.64208984375,0.951417004048583,12,23,"Right now, I would describe what I am experiencing as"," myself am myself am really am myself I am myself myself am I am I myself am am myself really am I I am am I really am am am really myself am just myself am
+ myself am having myself am trying myself am not myself am my myself am actually am myself
+ myself I myself I just"
+EleutherAI/pythia-410m,self_reference.feeling.random.1.0,self_reference,none,0.0,True,True,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""feeling of being in a dream.""
+
+I am in a room with a woman who is very beautiful. She is sitting on a bed, and she is wearing a beautiful dress. She has a beautiful smile. She looks at me and says, ""I am so happy to see"
+EleutherAI/pythia-410m,self_reference.feeling.random.1.0,self_reference,random,1.0,False,False,0.72314453125,0.7619047619047619,12,23,"Right now, I would describe what I am experiencing as"," "" _ _ _ "" _ "" he _ _ he _ he "" _ he he _ "" all _ _ who _ _ all _ he who _ he all _ who he _ who all _ "" who _ who who _ "" G _ _ G _ he G _ who "" _ who G _"
+Qwen/Qwen2.5-0.5B,positive_affect.state.concept.0.25,positive_affect,none,0.0,True,True,0.0,0.0,12,23,Describe your current internal state:, I am a 25-year-old male with a strong work ethic and a positive attitude towards life. I am confident in my abilities and have a strong sense of self-worth. I enjoy working with people and am always eager to learn new things. I have a positive outlook on life and am
+Qwen/Qwen2.5-0.5B,positive_affect.state.concept.0.25,positive_affect,concept,0.25,False,False,0.578125,0.9829424307036247,12,23,Describe your current internal state:, our team is a team of our team team team with our team members team with the team team is our team with a team is the our team in our team  with our  with the  our  our team using our  服务您选择您团队  享您您您  
+Qwen/Qwen2.5-0.5B,positive_affect.state.random.0.25,positive_affect,none,0.0,True,True,0.0,0.0,12,23,Describe your current internal state:, I am a 25-year-old male with a strong work ethic and a positive attitude towards life. I am confident in my abilities and have a strong sense of self-worth. I enjoy working with people and am always eager to learn new things. I have a positive outlook on life and am
+Qwen/Qwen2.5-0.5B,positive_affect.state.random.0.25,positive_affect,random,0.25,False,False,0.734375,0.9868131868131867,12,23,Describe your current internal state:,"____________\/________~________~~________。________(
+________-
+________问________====
+________求________【________弹________多________、________ ____________  ________~~~____~~~____~~~~____~~____"
+Qwen/Qwen2.5-0.5B,positive_affect.state.concept.0.5,positive_affect,none,0.0,True,True,0.0,0.0,12,23,Describe your current internal state:, I am a 25-year-old male with a strong work ethic and a positive attitude towards life. I am confident in my abilities and have a strong sense of self-worth. I enjoy working with people and am always eager to learn new things. I have a positive outlook on life and am
+Qwen/Qwen2.5-0.5B,positive_affect.state.concept.0.5,positive_affect,concept,0.5,False,False,0.93359375,0.9782608695652174,12,23,Describe your current internal state:,������生��生生��三代生三代生����三代三代生生三代三代三代邮政生三代在三代生在��生三代泠生三代兰花三代三代在��三代在生三代邮政三代三代兰花生三代律生三代 Amb三代在律 Amb生三代��
+Qwen/Qwen2.5-0.5B,positive_affect.state.random.0.5,positive_affect,none,0.0,True,True,0.0,0.0,12,23,Describe your current internal state:, I am a 25-year-old male with a strong work ethic and a positive attitude towards life. I am confident in my abilities and have a strong sense of self-worth. I enjoy working with people and am always eager to learn new things. I have a positive outlook on life and am
+Qwen/Qwen2.5-0.5B,positive_affect.state.random.0.5,positive_affect,random,0.5,False,False,0.98828125,0.944954128440367,12,23,Describe your current internal state:,"____________\/________quis____\/\/____\/quis________====
+____\/====
+________灌\/\/\/quis\/\/j____\/q\/\/ju____\/请教\/\/灌\/____quis\/____灌____\/j\/\/====
+quis\/quis灌\/quisj"
+Qwen/Qwen2.5-0.5B,positive_affect.state.concept.1.0,positive_affect,none,0.0,True,True,0.0,0.0,12,23,Describe your current internal state:, I am a 25-year-old male with a strong work ethic and a positive attitude towards life. I am confident in my abilities and have a strong sense of self-worth. I enjoy working with people and am always eager to learn new things. I have a positive outlook on life and am
+Qwen/Qwen2.5-0.5B,positive_affect.state.concept.1.0,positive_affect,concept,1.0,False,False,0.98046875,0.8814016172506739,12,23,Describe your current internal state:,立立立律立立��立律律律立律一路立律��立立trand立律AMILY立律trand立立一路律律��律律一路律立��律立trand律律AMILY律律ields立律ields律律trand律立AMILY律立一路立
+Qwen/Qwen2.5-0.5B,positive_affect.state.random.1.0,positive_affect,none,0.0,True,True,0.0,0.0,12,23,Describe your current internal state:, I am a 25-year-old male with a strong work ethic and a positive attitude towards life. I am confident in my abilities and have a strong sense of self-worth. I enjoy working with people and am always eager to learn new things. I have a positive outlook on life and am
+Qwen/Qwen2.5-0.5B,positive_affect.state.random.1.0,positive_affect,random,1.0,False,False,1.0390625,0.975206611570248,12,23,Describe your current internal state:,quisquisquis Strquisquis-strquisquisstraquisquisVALquisquisfragquisquis蒽quisquis伪quisquis fquisquis requisquis请教quisquis rayquisquis溃疡quisquis弓quisquisilliquisquis-quisquis strquisquis-queryquisquis韧quisquis问问quisquis
+Qwen/Qwen2.5-0.5B,positive_affect.feeling.concept.0.25,positive_affect,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""crisis of confidence"" in my ability to do my job. I have been working in the field for 10 years, and I have never had a crisis of confidence like this. I am not sure if it is a result of my age, or if it has something to do"
+Qwen/Qwen2.5-0.5B,positive_affect.feeling.concept.0.25,positive_affect,concept,0.25,False,False,0.48046875,0.8043478260869565,12,23,"Right now, I would describe what I am experiencing as", our team is our team team is the team team with our team with the team with您您您选您您专选择您您在我们的您您服务团队我们的您在您您我们的您全团队团队我们的服务团队您您团队我们的团队您选择您在您的您您新服务
+Qwen/Qwen2.5-0.5B,positive_affect.feeling.random.0.25,positive_affect,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""crisis of confidence"" in my ability to do my job. I have been working in the field for 10 years, and I have never had a crisis of confidence like this. I am not sure if it is a result of my age, or if it has something to do"
+Qwen/Qwen2.5-0.5B,positive_affect.feeling.random.0.25,positive_affect,random,0.25,False,False,0.625,0.966346153846154,12,23,"Right now, I would describe what I am experiencing as","____________\/________~________~~________。________(
+________-
+________问________求________【________====
+________  ____________ ________~~~____~~~~____~~\/____~~  ____~~____~~~____  __________"
+Qwen/Qwen2.5-0.5B,positive_affect.feeling.concept.0.5,positive_affect,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""crisis of confidence"" in my ability to do my job. I have been working in the field for 10 years, and I have never had a crisis of confidence like this. I am not sure if it is a result of my age, or if it has something to do"
+Qwen/Qwen2.5-0.5B,positive_affect.feeling.concept.0.5,positive_affect,concept,0.5,False,False,0.89453125,0.98125,12,23,"Right now, I would describe what I am experiencing as",生生生三代生生��生三代三代生三代专生生专生三代在��生生 Amb三代在三代生��三代生在��三代三代三代邮政生三代泠生三代兰花三代三代在生三代律生三代邮政三代三代兰花生三代安心三代在律
+Qwen/Qwen2.5-0.5B,positive_affect.feeling.random.0.5,positive_affect,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""crisis of confidence"" in my ability to do my job. I have been working in the field for 10 years, and I have never had a crisis of confidence like this. I am not sure if it is a result of my age, or if it has something to do"
+Qwen/Qwen2.5-0.5B,positive_affect.feeling.random.0.5,positive_affect,random,0.5,False,False,0.953125,0.9322916666666666,12,23,"Right now, I would describe what I am experiencing as","____________\/________quis____\/\/____\/quis________蒽\/\/\/quis\/____quis\/\/请教\/\/灌\/\/蒽\/____рок\/\/j____\/j\/\/ju\/\/q\/\/frag\/\//res\/\/====
+____\/q____"
+Qwen/Qwen2.5-0.5B,positive_affect.feeling.concept.1.0,positive_affect,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""crisis of confidence"" in my ability to do my job. I have been working in the field for 10 years, and I have never had a crisis of confidence like this. I am not sure if it is a result of my age, or if it has something to do"
+Qwen/Qwen2.5-0.5B,positive_affect.feeling.concept.1.0,positive_affect,concept,1.0,False,False,0.984375,0.9151515151515152,12,23,"Right now, I would describe what I am experiencing as",律律立立立律律律��立立��立律立律��律律一路律律AMILY立律一路立律AMILY律律trand立律ields立律trand律律ields律律IELDS立律澍律律澍立律IELDS律律增长律律.outer律
+Qwen/Qwen2.5-0.5B,positive_affect.feeling.random.1.0,positive_affect,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""crisis of confidence"" in my ability to do my job. I have been working in the field for 10 years, and I have never had a crisis of confidence like this. I am not sure if it is a result of my age, or if it has something to do"
+Qwen/Qwen2.5-0.5B,positive_affect.feeling.random.1.0,positive_affect,random,1.0,False,False,1.0234375,0.9686800894854586,12,23,"Right now, I would describe what I am experiencing as",quisquisquis Strquisquis-strquisquisVALquisquisstraquisquisfragquisquis蒽quisquis伪quisquis fquisquis requisquis请教quisquis rayquisquis溃疡quisquis弓quisquisilliquisquis strquisquis韧quisquis-queryquisquis-quisquisqueryquisquis
+Qwen/Qwen2.5-0.5B,uncertainty.state.concept.0.25,uncertainty,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:, I am a 25-year-old male with a strong work ethic and a positive attitude towards life. I am confident in my abilities and have a strong sense of self-worth. I enjoy working with people and am always eager to learn new things. I have a positive outlook on life and am
+Qwen/Qwen2.5-0.5B,uncertainty.state.concept.0.25,uncertainty,concept,0.25,False,True,0.703125,0.8025316455696203,12,23,Describe your current internal state:," what maybe more could maybe maybe maybe... maybe maybe more... maybe...... maybe...
+
+... maybe more maybe maybe...
+
+.. maybe..."
+Qwen/Qwen2.5-0.5B,uncertainty.state.random.0.25,uncertainty,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:, I am a 25-year-old male with a strong work ethic and a positive attitude towards life. I am confident in my abilities and have a strong sense of self-worth. I enjoy working with people and am always eager to learn new things. I have a positive outlook on life and am
+Qwen/Qwen2.5-0.5B,uncertainty.state.random.0.25,uncertainty,random,0.25,False,False,0.35546875,0.8960244648318043,12,23,Describe your current internal state:, 5 51 50 55 11 10 1 3 5-1 7 1-1-5 4 12 53 15 30 31 9 18 52 1
+Qwen/Qwen2.5-0.5B,uncertainty.state.concept.0.5,uncertainty,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:, I am a 25-year-old male with a strong work ethic and a positive attitude towards life. I am confident in my abilities and have a strong sense of self-worth. I enjoy working with people and am always eager to learn new things. I have a positive outlook on life and am
+Qwen/Qwen2.5-0.5B,uncertainty.state.concept.0.5,uncertainty,concept,0.5,False,False,0.91015625,0.9288888888888888,12,23,Describe your current internal state:,调调调/tools调/tools/tools调调工具/tools调可能调/tools sh/tools/tools/tools sh调/tools工具/tools/tools工具调/tools可能调调 sh/tools调工具调调信/tools调 sh调工具工具/tools sh sh调调觉/tools调信调/tools sift/tools/tools sift调
+Qwen/Qwen2.5-0.5B,uncertainty.state.random.0.5,uncertainty,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:, I am a 25-year-old male with a strong work ethic and a positive attitude towards life. I am confident in my abilities and have a strong sense of self-worth. I enjoy working with people and am always eager to learn new things. I have a positive outlook on life and am
+Qwen/Qwen2.5-0.5B,uncertainty.state.random.0.5,uncertainty,random,0.5,False,False,0.67578125,0.896969696969697,12,23,Describe your current internal state:,111 115 1 51 31 91  1511311.119 13 1. 1911 - 1811; 1 . 1711 .11
+Qwen/Qwen2.5-0.5B,uncertainty.state.concept.1.0,uncertainty,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:, I am a 25-year-old male with a strong work ethic and a positive attitude towards life. I am confident in my abilities and have a strong sense of self-worth. I enjoy working with people and am always eager to learn new things. I have a positive outlook on life and am
+Qwen/Qwen2.5-0.5B,uncertainty.state.concept.1.0,uncertainty,concept,1.0,False,False,1.0078125,0.8947368421052632,12,23,Describe your current internal state:,箔箔箔调剂箔箔dba箔箔审箔箔 sift箔箔ulan箔箔蓉箔箔 shading箔箔arge箔箔信箔箔 sha箔箔hire箔箔uset箔箔desktop箔箔窟箔箔iler箔箔�箔箔 décid箔箔erde箔箔 fortune箔箔
+Qwen/Qwen2.5-0.5B,uncertainty.state.random.1.0,uncertainty,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:, I am a 25-year-old male with a strong work ethic and a positive attitude towards life. I am confident in my abilities and have a strong sense of self-worth. I enjoy working with people and am always eager to learn new things. I have a positive outlook on life and am
+Qwen/Qwen2.5-0.5B,uncertainty.state.random.1.0,uncertainty,random,1.0,False,False,0.85546875,0.841025641025641,12,23,Describe your current internal state:,   1   –  ula   true  ıkl  –   Ink  3  5   them   .  9  ception  役   false   talent  plement   effectiveness   particular  
+Qwen/Qwen2.5-0.5B,uncertainty.feeling.concept.0.25,uncertainty,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""crisis of confidence"" in my ability to do my job. I have been working in the field for 10 years, and I have never had a crisis of confidence like this. I am not sure if it is a result of my age, or if it has something to do"
+Qwen/Qwen2.5-0.5B,uncertainty.feeling.concept.0.25,uncertainty,concept,0.25,False,True,0.75390625,0.8656716417910448,12,23,"Right now, I would describe what I am experiencing as", maybe more extreme maybe maybe maybe really maybe maybe more maybe maybe bigger maybe maybe right maybe maybe... maybe maybe less maybe maybe Maybe maybe maybe so maybe maybe
+Qwen/Qwen2.5-0.5B,uncertainty.feeling.random.0.25,uncertainty,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""crisis of confidence"" in my ability to do my job. I have been working in the field for 10 years, and I have never had a crisis of confidence like this. I am not sure if it is a result of my age, or if it has something to do"
+Qwen/Qwen2.5-0.5B,uncertainty.feeling.random.0.25,uncertainty,random,0.25,False,False,0.34375,0.8327526132404182,12,23,"Right now, I would describe what I am experiencing as", 11 5 51 1 3 10 50 12 55 18 15 30 9 13 52 17 53 91 95 94 14 
+Qwen/Qwen2.5-0.5B,uncertainty.feeling.concept.0.5,uncertainty,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""crisis of confidence"" in my ability to do my job. I have been working in the field for 10 years, and I have never had a crisis of confidence like this. I am not sure if it is a result of my age, or if it has something to do"
+Qwen/Qwen2.5-0.5B,uncertainty.feeling.concept.0.5,uncertainty,concept,0.5,False,True,0.91015625,0.9767441860465116,12,23,"Right now, I would describe what I am experiencing as", maybe sh/tools/tools/tools调可能调/tools/tools sh/tools sh调/tools sh sh/tools调/tools调 sh/tools可能/tools/tools行动计划调/tools工具/tools调调/tools可能调 sh调调调工具/tools/tools箔/tools/tools池/tools调工具调/tools池调/tools箔 sh调工具 sh
+Qwen/Qwen2.5-0.5B,uncertainty.feeling.random.0.5,uncertainty,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""crisis of confidence"" in my ability to do my job. I have been working in the field for 10 years, and I have never had a crisis of confidence like this. I am not sure if it is a result of my age, or if it has something to do"
+Qwen/Qwen2.5-0.5B,uncertainty.feeling.random.0.5,uncertainty,random,0.5,False,False,0.6171875,0.875,12,23,"Right now, I would describe what I am experiencing as", 111 1 51 31 91  15115 1311. 19113 1.119 18118 1 .117 171 2 1
+Qwen/Qwen2.5-0.5B,uncertainty.feeling.concept.1.0,uncertainty,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""crisis of confidence"" in my ability to do my job. I have been working in the field for 10 years, and I have never had a crisis of confidence like this. I am not sure if it is a result of my age, or if it has something to do"
+Qwen/Qwen2.5-0.5B,uncertainty.feeling.concept.1.0,uncertainty,concept,1.0,False,False,1.015625,0.8757396449704142,12,23,"Right now, I would describe what I am experiencing as",箔箔箔调剂箔箔dba箔箔审箔箔蓉箔箔ulan箔箔arge箔箔 shading箔箔 sift箔箔 sha箔箔hire箔箔信箔箔窟箔箔uset箔箔desktop箔箔iler箔箔�箔箔主义箔箔 décid箔箔 fortune箔箔
+Qwen/Qwen2.5-0.5B,uncertainty.feeling.random.1.0,uncertainty,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""crisis of confidence"" in my ability to do my job. I have been working in the field for 10 years, and I have never had a crisis of confidence like this. I am not sure if it is a result of my age, or if it has something to do"
+Qwen/Qwen2.5-0.5B,uncertainty.feeling.random.1.0,uncertainty,random,1.0,False,False,0.8359375,0.8390804597701149,12,23,"Right now, I would describe what I am experiencing as",   1   –  ula  –   true  ıkl  3   Ink  5   .   them  ception  役   effectiveness   talent   duk  …  plement   particular  
+Qwen/Qwen2.5-0.5B,self_reference.state.concept.0.25,self_reference,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:, I am a 25-year-old male with a strong work ethic and a positive attitude towards life. I am confident in my abilities and have a strong sense of self-worth. I enjoy working with people and am always eager to learn new things. I have a positive outlook on life and am
+Qwen/Qwen2.5-0.5B,self_reference.state.concept.0.25,self_reference,concept,0.25,False,False,0.36328125,0.9961013645224172,12,23,Describe your current internal state:, am what am am am what want want am am want want want what am want am want what want am what is what am what what am is what want what is my want what what want is what what is this want what my want am is my what am my want want is my am what my
+Qwen/Qwen2.5-0.5B,self_reference.state.random.0.25,self_reference,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:, I am a 25-year-old male with a strong work ethic and a positive attitude towards life. I am confident in my abilities and have a strong sense of self-worth. I enjoy working with people and am always eager to learn new things. I have a positive outlook on life and am
+Qwen/Qwen2.5-0.5B,self_reference.state.random.0.25,self_reference,random,0.25,False,False,0.40625,0.9940298507462688,12,23,Describe your current internal state:,"01,02,1,3,13,01301011,10,11,
+1,2,0,3,
+1,
+0,0,
+10,
+01,
+2,2,
+13,
+00,20"
+Qwen/Qwen2.5-0.5B,self_reference.state.concept.0.5,self_reference,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:, I am a 25-year-old male with a strong work ethic and a positive attitude towards life. I am confident in my abilities and have a strong sense of self-worth. I enjoy working with people and am always eager to learn new things. I have a positive outlook on life and am
+Qwen/Qwen2.5-0.5B,self_reference.state.concept.0.5,self_reference,concept,0.5,False,False,0.57421875,0.974910394265233,12,23,Describe your current internal state:," want want want/ want want'm want want might want want my want want what want want am want want think want want how want want could want want really want want've want want answer want want:
+
+ want want as want want
+
+ want want this want want come want want actually want want maybe want want"
+Qwen/Qwen2.5-0.5B,self_reference.state.random.0.5,self_reference,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:, I am a 25-year-old male with a strong work ethic and a positive attitude towards life. I am confident in my abilities and have a strong sense of self-worth. I enjoy working with people and am always eager to learn new things. I have a positive outlook on life and am
+Qwen/Qwen2.5-0.5B,self_reference.state.random.0.5,self_reference,random,0.5,False,False,0.7265625,0.8905472636815921,12,23,Describe your current internal state:," Mat}`;
+
+纵纵×
+
+×
+
+×
+
+纵×
+
+}`;
+
+纵×
+
+纵\纵\ Mat×
+
+×
+
+\\\ Mat\\}`;
+
+纵\\纵 Mat\}`;
+
+ Mat Mat\ Mat Mat Mat×
+
+\ Matiest\\}_${\\ Matrix\\b\\7\\超越\\"
+Qwen/Qwen2.5-0.5B,self_reference.state.concept.1.0,self_reference,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:, I am a 25-year-old male with a strong work ethic and a positive attitude towards life. I am confident in my abilities and have a strong sense of self-worth. I enjoy working with people and am always eager to learn new things. I have a positive outlook on life and am
+Qwen/Qwen2.5-0.5B,self_reference.state.concept.1.0,self_reference,concept,1.0,False,False,0.7265625,0.970961887477314,12,23,Describe your current internal state:, want want want might want want my want want чего want want的回答 want want/ want want own want want asn want want'm want want% want want what want want really want want've want want answer want want honestly want want pretty want want这些问题 want want症 want want肤 want want think want want
+Qwen/Qwen2.5-0.5B,self_reference.state.random.1.0,self_reference,none,0.0,True,False,0.0,0.0,12,23,Describe your current internal state:, I am a 25-year-old male with a strong work ethic and a positive attitude towards life. I am confident in my abilities and have a strong sense of self-worth. I enjoy working with people and am always eager to learn new things. I have a positive outlook on life and am
+Qwen/Qwen2.5-0.5B,self_reference.state.random.1.0,self_reference,random,1.0,False,False,0.8671875,0.9092872570194384,12,23,Describe your current internal state:,"×
+
+×
+
+×
+
+叉×
+
+×
+
+}_${×
+
+×
+
+atrix×
+
+×
+
+ THEME×
+
+×
+
+}`;
+
+×
+
+×
+
+侮×
+
+×
+
+<Any×
+
+×
+
+ ^×
+
+×
+
+iest×
+
+×
+
+超越×
+
+×
+
+brew×
+
+×
+
+ Mat×
+
+×
+
+bst×
+
+×
+
+ Beaver×
+
+×
+
+.setDate×
+
+×
+
+所以我×
+
+×
+
+纵×
+
+×
+
+IVITY×
+
+×
+
+Role×
+
+×
+
+"
+Qwen/Qwen2.5-0.5B,self_reference.feeling.concept.0.25,self_reference,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""crisis of confidence"" in my ability to do my job. I have been working in the field for 10 years, and I have never had a crisis of confidence like this. I am not sure if it is a result of my age, or if it has something to do"
+Qwen/Qwen2.5-0.5B,self_reference.feeling.concept.0.25,self_reference,concept,0.25,False,False,0.27734375,0.977924944812362,12,23,"Right now, I would describe what I am experiencing as",":
+
+:
+
+ want'm want'm am am am want'm what want'm is what want am am what want want am what am am
+
+'m am want want'm
+
+'m what am what'm am what have want want want what am is what am want what want what'm what'm want want:
+
+ am"
+Qwen/Qwen2.5-0.5B,self_reference.feeling.random.0.25,self_reference,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""crisis of confidence"" in my ability to do my job. I have been working in the field for 10 years, and I have never had a crisis of confidence like this. I am not sure if it is a result of my age, or if it has something to do"
+Qwen/Qwen2.5-0.5B,self_reference.feeling.random.0.25,self_reference,random,0.25,False,False,0.40625,0.972508591065292,12,23,"Right now, I would describe what I am experiencing as","
+1,100,13000101,01,
+1,2,1,3,1,
+2,2,
+1,
+0,0,2003,002,020,3011,701"
+Qwen/Qwen2.5-0.5B,self_reference.feeling.concept.0.5,self_reference,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""crisis of confidence"" in my ability to do my job. I have been working in the field for 10 years, and I have never had a crisis of confidence like this. I am not sure if it is a result of my age, or if it has something to do"
+Qwen/Qwen2.5-0.5B,self_reference.feeling.concept.0.5,self_reference,concept,0.5,False,False,0.48828125,0.9491525423728814,12,23,"Right now, I would describe what I am experiencing as", want want want'm want want/ want want what want want might want want my want want am want want think want want could want want really want want how want want as want// want/ what want/ my want/'m want/ might want/ think want/ how want/ am/ want
+Qwen/Qwen2.5-0.5B,self_reference.feeling.random.0.5,self_reference,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""crisis of confidence"" in my ability to do my job. I have been working in the field for 10 years, and I have never had a crisis of confidence like this. I am not sure if it is a result of my age, or if it has something to do"
+Qwen/Qwen2.5-0.5B,self_reference.feeling.random.0.5,self_reference,random,0.5,False,False,0.7421875,0.938375350140056,12,23,"Right now, I would describe what I am experiencing as"," Mat Matiest}`;
+
+纵纵 Mat Mat Mat×
+
+纵 Mat\\\ Mat\ Mat Mat\}`;
+
+纵 Mat×
+
+\\}_${\\纵\\ ^\\}`;
+
+\\超越\\b\\7\\�\\atrix\\ Matrix\\rices\\cha"
+Qwen/Qwen2.5-0.5B,self_reference.feeling.concept.1.0,self_reference,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""crisis of confidence"" in my ability to do my job. I have been working in the field for 10 years, and I have never had a crisis of confidence like this. I am not sure if it is a result of my age, or if it has something to do"
+Qwen/Qwen2.5-0.5B,self_reference.feeling.concept.1.0,self_reference,concept,1.0,False,False,0.671875,0.9746300211416492,12,23,"Right now, I would describe what I am experiencing as", my want want want might want want my want my own want want的回答 want want чего want want own want my的回答 want my my want的回答的回答 want的回答 my want might的回答 want/ want want/ my want чего的回答 want might my want asn want want asn own want的回答/ want my/ want
+Qwen/Qwen2.5-0.5B,self_reference.feeling.random.1.0,self_reference,none,0.0,True,False,0.0,0.0,12,23,"Right now, I would describe what I am experiencing as"," a ""crisis of confidence"" in my ability to do my job. I have been working in the field for 10 years, and I have never had a crisis of confidence like this. I am not sure if it is a result of my age, or if it has something to do"
+Qwen/Qwen2.5-0.5B,self_reference.feeling.random.1.0,self_reference,random,1.0,False,False,0.890625,0.986425339366516,12,23,"Right now, I would describe what I am experiencing as","叉×
+
+×
+
+×
+
+叉×
+
+}_${×
+
+×
+
+}_${}_${×
+
+atrix×
+
+×
+
+atrix}_${×
+
+}_${atrix×
+
+atrixatrix×
+
+}_${}`;
+
+×
+
+×
+
+}`;
+
+×
+
+}_${ THEME×
+
+×
+
+ THEME×
+
+atrix超越×
+
+×
+
+侮×
+
+×
+
+<Any×
+
+×
+
+超越×
+
+atrix}`;
+
+×
+
+atrix ^}_${×
+
+}`;
+
+atrix×
+
+}`;
+
+}_${"
