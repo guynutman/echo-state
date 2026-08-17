@@ -13,17 +13,26 @@ from __future__ import annotations
 
 import argparse
 import csv
+import logging
 import os
 import time
 
 # Silence loading bars and hub warnings before transformers is imported: on a
-# screen recording they are noise, and they appear on stderr where a pipe
-# cannot catch them.
+# screen recording they are noise, and they land on stderr where a pipe cannot
+# catch them. Weights are already cached locally, so nothing is lost.
 os.environ.setdefault("TRANSFORMERS_VERBOSITY", "error")
 os.environ.setdefault("HF_HUB_DISABLE_PROGRESS_BARS", "1")
+os.environ.setdefault("HF_HUB_DISABLE_TELEMETRY", "1")
 os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
+logging.getLogger("huggingface_hub").setLevel(logging.ERROR)
 
-from echostate import ConceptPair, HookEngine, build_concept_direction, random_unit_vector, scaled
+from echostate import (  # noqa: E402  (must follow the env setup above)
+    ConceptPair,
+    HookEngine,
+    build_concept_direction,
+    random_unit_vector,
+    scaled,
+)
 
 TEAL = "\033[38;5;37m"
 PINK = "\033[38;5;168m"
@@ -99,7 +108,10 @@ def main() -> None:
 
     random_direction = random_unit_vector(engine, seed=0)
     random_out = engine.generate_steered_completion(
-        PROMPT, layer, scaled(random_direction, args.strength, scale), max_new_tokens=args.tokens
+        PROMPT,
+        layer,
+        scaled(random_direction, args.strength, scale),
+        max_new_tokens=args.tokens,
     )
     print(f"  {PINK}{BOLD}RANDOM{OFF}            {PINK}{random_out.strip()[:110]}{OFF}")
     print(f"  {DIM}                  ↑ same magnitude, no meaning{OFF}")
@@ -119,7 +131,10 @@ def main() -> None:
             read_layer=read_layer,
         )
         divergence = engine.compute_activation_divergence(base_acts, acts)
-        print(f"  {colour}{label:<9}{OFF} activation divergence at layer {read_layer}: {divergence:.3f}")
+        print(
+            f"  {colour}{label:<9}{OFF} activation divergence "
+            f"at layer {read_layer}: {divergence:.3f}"
+        )
     print(f"\n  {DIM}the random push moves the internals at least as far{OFF}")
     pause(3.5)
 
@@ -142,7 +157,9 @@ def main() -> None:
     print("  Steering toward positive affect raises the probability of positive")
     print("  words directly. The model saying 'enjoy' is the intervention")
     print("  surfacing — not the model noticing its own state and reporting it.")
-    print(f"\n  {DIM}The harness makes the real test a config change, not a rewrite.{OFF}\n")
+    print(
+        f"\n  {DIM}The harness makes the real test a config change, not a rewrite.{OFF}\n"
+    )
 
 
 if __name__ == "__main__":
