@@ -423,6 +423,14 @@ then emits such tokens is exhibiting the intervention's mechanical effect on its
 distribution, not necessarily an act of self-observation. The vocabulary metric cannot separate
 these.</p>
 </div>
+<p>This is precisely the distinction Lindsey [5] operationalises by injecting known concepts and
+asking whether a model <em>notices</em> the injection — finding that the capability exists but is
+"highly unreliable and context-dependent," and is strongest in the largest models tested. Our
+design differs in scoring free-form vocabulary rather than detection, which is what admits the
+confound; the present study should therefore be read as harness and controls rather than as a
+replication at small scale. Kaiser and Enderby [6], testing 0.6B–70B models, similarly find no
+reliable evidence that small models' self-reports about their own states diverge from their
+internal representations.</p>
 <p>We propose that a self-report constitutes evidence of introspection only if it carries
 information about the internal state that is <em>not recoverable from the model's overt output</em>.
 Concretely, three designs would test this:</p>
@@ -465,16 +473,18 @@ to reproduce and easy to miss.</p>
 
 <h2>References</h2>
 <ol class="refs">
-<li>Turner, A. et al. <em>Activation Addition: Steering Language Models Without Optimization.</em>
-arXiv:2308.10248, 2023.</li>
-<li>Rimsky, N. et al. <em>Steering Llama 2 via Contrastive Activation Addition.</em>
-arXiv:2312.06681, 2023.</li>
+<li>Turner, A. M., Thiergart, L., Leech, G., Udell, D., Vazquez, J. J., Mini, U., MacDiarmid, M.
+<em>Steering Language Models With Activation Engineering.</em> arXiv:2308.10248, 2023.</li>
+<li>Panickssery, N., Gabrieli, N., Schulz, J., Tong, M., Hubinger, E., Turner, A. M.
+<em>Steering Llama 2 via Contrastive Activation Addition.</em> arXiv:2312.06681, 2023.</li>
 <li>Zou, A. et al. <em>Representation Engineering: A Top-Down Approach to AI Transparency.</em>
 arXiv:2310.01405, 2023.</li>
 <li>Li, K. et al. <em>Inference-Time Intervention: Eliciting Truthful Answers from a Language
 Model.</em> arXiv:2306.03341, 2023.</li>
-<li>Lindsey, J. <em>Emergent Introspective Awareness in Large Language Models.</em> Anthropic,
-2025.</li>
+<li>Lindsey, J. <em>Emergent Introspective Awareness in Large Language Models.</em>
+arXiv:2601.01828, 2026. (Also Anthropic / Transformer Circuits, October 2025.)</li>
+<li>Kaiser, C., Enderby, S. <em>No Reliable Evidence of Self-Reported Sentience in Small Large
+Language Models.</em> arXiv:2601.15334, 2026.</li>
 <li>Radford, A. et al. <em>Language Models are Unsupervised Multitask Learners.</em> OpenAI, 2019.</li>
 </ol>
 
