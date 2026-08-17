@@ -1,4 +1,4 @@
-from src.models import ArtifactResult, ExperimentSuite, IntrospectionExperiment
+from echostate.models import ArtifactResult, ExperimentSuite, IntrospectionExperiment
 
 
 def test_experiment_schema_accepts_optional_steering_vector():

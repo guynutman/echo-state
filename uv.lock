@@ -672,6 +672,12 @@ dependencies = [
     { name = "transformers" },
 ]
 
+[package.optional-dependencies]
+analysis = [
+    { name = "matplotlib" },
+    { name = "pandas" },
+]
+
 [package.dev-dependencies]
 dev = [
     { name = "jupyter" },
@@ -683,10 +689,13 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "matplotlib", marker = "extra == 'analysis'", specifier = ">=3.8" },
+    { name = "pandas", marker = "extra == 'analysis'", specifier = ">=2.0" },
     { name = "pydantic", specifier = ">=2.0" },
     { name = "torch", specifier = ">=2.13.0" },
     { name = "transformers", specifier = ">=5.15.0" },
 ]
+provides-extras = ["analysis"]
 
 [package.metadata.requires-dev]
 dev = [

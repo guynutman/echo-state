@@ -11,8 +11,8 @@ import re
 import sys
 from difflib import SequenceMatcher
 
-from src.engine import ActivationEngine
-from src.models import ArtifactResult, ExperimentSuite, IntrospectionExperiment
+from echostate.engine import ActivationEngine
+from echostate.models import ArtifactResult, ExperimentSuite, IntrospectionExperiment
 
 # Words too common to count as evidence of anything.
 _STOPWORDS = frozenset(

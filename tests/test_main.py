@@ -1,8 +1,8 @@
 import csv
 import json
 
-from src.main import CSV_COLUMNS, load_experiments, summarize, write_csv
-from src.models import ArtifactResult
+from echostate.main import CSV_COLUMNS, load_experiments, summarize, write_csv
+from echostate.models import ArtifactResult
 
 
 def _result(**overrides):

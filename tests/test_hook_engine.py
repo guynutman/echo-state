@@ -9,7 +9,7 @@ import pytest
 pytest.importorskip("torch")
 pytest.importorskip("transformers")
 
-from src.hook_engine import HookEngine  # noqa: E402
+from echostate.hook_engine import HookEngine  # noqa: E402
 
 
 @pytest.fixture(scope="module")

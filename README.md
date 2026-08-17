@@ -98,13 +98,13 @@ PyTorch lets you do both with a **forward hook**: a function you attach to a lay
 uv sync
 
 # one suite from a JSON file
-uv run python -m src.main experiments/sample_experiments.json output/results.csv
+uv run python -m echostate.main experiments/sample_experiments.json output/results.csv
 
 # the full grid: 6 models, 3 concepts, 3 strengths, concept vs random
-uv run python -m src.sweep output/sweep.csv
+uv run python -m echostate.sweep output/sweep.csv
 
 # a readable report
-uv run python -m src.report output/sweep.csv output/report.html
+uv run python -m echostate.report output/sweep.csv output/report.html
 
 # or explore interactively
 uv run jupyter notebook notebooks/echostate_analysis.ipynb

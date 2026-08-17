@@ -1,6 +1,6 @@
 import pytest
 
-from src.engine import ActivationEngine
+from echostate.engine import ActivationEngine
 
 
 def test_engine_cannot_be_instantiated_without_an_implementation():

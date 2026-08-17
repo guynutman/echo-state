@@ -12,8 +12,8 @@ from datetime import date
 
 import pandas as pd
 
-from src.analysis import by_model, effect_by_kind, introspection_gap, load_results
-from src.rendering import (
+from echostate.analysis import by_model, effect_by_kind, introspection_gap, load_results
+from echostate.rendering import (
     CONCEPT_COLOR,
     RANDOM_COLOR,
     LineChart,

@@ -10,8 +10,8 @@ Both arms are matched on magnitude, so a difference between them cannot be
 explained by one simply pushing harder.
 
 Usage:
-    python -m src.sweep output/sweep.csv
-    python -m src.sweep output/sweep.csv --models gpt2 distilgpt2
+    python -m echostate.sweep output/sweep.csv
+    python -m echostate.sweep output/sweep.csv --models gpt2 distilgpt2
 """
 
 from __future__ import annotations
@@ -21,11 +21,11 @@ import sys
 import time
 import traceback
 
-from src.evaluator import Evaluator
-from src.hook_engine import HookEngine
-from src.main import write_csv
-from src.models import ExperimentSuite, IntrospectionExperiment
-from src.steering import (
+from echostate.evaluator import Evaluator
+from echostate.hook_engine import HookEngine
+from echostate.main import write_csv
+from echostate.models import ExperimentSuite, IntrospectionExperiment
+from echostate.steering import (
     CONCEPT_PAIRS,
     build_concept_direction,
     random_unit_vector,

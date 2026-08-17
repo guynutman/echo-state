@@ -13,8 +13,14 @@ from math import comb
 
 import pandas as pd
 
-from src.analysis import by_model, effect_by_kind, introspection_gap, load_results, steered
-from src.rendering import CONCEPT_COLOR, RANDOM_COLOR, LineChart, render, rows_to_html
+from echostate.analysis import (
+    by_model,
+    effect_by_kind,
+    introspection_gap,
+    load_results,
+    steered,
+)
+from echostate.rendering import CONCEPT_COLOR, RANDOM_COLOR, LineChart, render, rows_to_html
 
 # Smaller and denser than the report's chart: two panels sit side by side in a
 # figure, and the second series is dashed so the figure survives in greyscale.

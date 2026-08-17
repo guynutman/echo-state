@@ -1,7 +1,7 @@
 import pandas as pd
 import pytest
 
-from src.analysis import (
+from echostate.analysis import (
     concept_vs_random_gap,
     effect_by_kind,
     introspection_gap,

@@ -26,7 +26,7 @@ from __future__ import annotations
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-from src.engine import ActivationEngine
+from echostate.engine import ActivationEngine
 
 # Known locations of the transformer block list, by architecture family.
 _BLOCK_PATHS = (

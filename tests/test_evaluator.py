@@ -6,9 +6,9 @@ is fully testable in milliseconds.
 
 import pytest
 
-from src.engine import ActivationEngine
-from src.evaluator import Evaluator
-from src.models import ExperimentSuite, IntrospectionExperiment
+from echostate.engine import ActivationEngine
+from echostate.evaluator import Evaluator
+from echostate.models import ExperimentSuite, IntrospectionExperiment
 
 
 class FakeEngine(ActivationEngine):

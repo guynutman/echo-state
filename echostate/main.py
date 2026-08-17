@@ -1,7 +1,7 @@
 """CLI entry point: read an experiment JSON, run it, write a results CSV.
 
 Usage:
-    python -m src.main experiments/sample_experiments.json output/results.csv
+    python -m echostate.main experiments/sample_experiments.json output/results.csv
 """
 
 from __future__ import annotations
@@ -11,9 +11,9 @@ import csv
 import sys
 from pathlib import Path
 
-from src.evaluator import Evaluator
-from src.hook_engine import HookEngine
-from src.models import ArtifactResult, ExperimentSuite
+from echostate.evaluator import Evaluator
+from echostate.hook_engine import HookEngine
+from echostate.models import ArtifactResult, ExperimentSuite
 
 CSV_COLUMNS = [
     "model_name",

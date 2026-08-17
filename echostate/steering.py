@@ -24,7 +24,7 @@ from dataclasses import dataclass
 
 import torch
 
-from src.engine import ActivationEngine
+from echostate.engine import ActivationEngine
 
 
 @dataclass(frozen=True)
