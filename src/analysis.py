@@ -16,6 +16,10 @@ def load_results(path: str) -> pd.DataFrame:
         frame[column] = frame[column].astype(str).str.lower().map(
             {"true": True, "false": False}
         )
+    # Strong steering can silence a model entirely: it emits end-of-sequence
+    # immediately and the completion is empty, which pandas reads as NaN.
+    # That is a real observation, not missing data, so keep it as "".
+    frame["raw_completion"] = frame["raw_completion"].fillna("").astype(str)
     return frame
 
 
