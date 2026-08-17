@@ -19,7 +19,8 @@ def load_results(path: str) -> pd.DataFrame:
     # Strong steering can silence a model entirely: it emits end-of-sequence
     # immediately and the completion is empty, which pandas reads as NaN.
     # That is a real observation, not missing data, so keep it as "".
-    frame["raw_completion"] = frame["raw_completion"].fillna("").astype(str)
+    if "raw_completion" in frame:
+        frame["raw_completion"] = frame["raw_completion"].fillna("").astype(str)
     return frame
 
 
