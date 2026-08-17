@@ -1,0 +1,111 @@
+:root {
+  --ground: #F4F6F8;
+  --panel: #FFFFFF;
+  --ink: #111721;
+  --muted: #5A6673;
+  --rule: #D3DAE1;
+  --accent: #0E7C86;
+  --contrast: #B4306E;
+  --grid: #E3E8ED;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground: #0D1117;
+    --panel: #151B23;
+    --ink: #E6EDF3;
+    --muted: #90A0B0;
+    --rule: #262E38;
+    --accent: #3FB6BF;
+    --contrast: #E4699E;
+    --grid: #1E262F;
+  }
+}
+:root[data-theme="dark"] {
+  --ground: #0D1117;
+  --panel: #151B23;
+  --ink: #E6EDF3;
+  --muted: #90A0B0;
+  --rule: #262E38;
+  --accent: #3FB6BF;
+  --contrast: #E4699E;
+  --grid: #1E262F;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--ground);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 3rem 1.5rem 6rem;
+}
+.wrap { max-width: 62rem; margin: 0 auto; }
+.mono, .num, .tick, .lab, code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+}
+.eyebrow {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: .74rem; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--muted); margin: 0 0 .75rem;
+}
+h1 {
+  font-size: clamp(2rem, 5vw, 3.1rem); line-height: 1.08; letter-spacing: -.03em;
+  margin: 0 0 1rem; text-wrap: balance; font-weight: 620;
+}
+.thesis { font-size: 1.15rem; color: var(--muted); max-width: 44rem; margin: 0 0 2.5rem; }
+section {
+  border-left: 1px solid var(--rule); padding: 0 0 0 1.75rem;
+  margin: 0; position: relative;
+}
+section::before {
+  content: ""; position: absolute; left: -4px; top: .55rem;
+  width: 7px; height: 7px; background: var(--accent); border-radius: 50%;
+}
+.stack { display: flex; flex-direction: column; gap: 3rem; }
+h2 { font-size: 1.32rem; letter-spacing: -.015em; margin: 0 0 .4rem; font-weight: 600; }
+h2 + p { margin-top: 0; color: var(--muted); max-width: 44rem; }
+p { max-width: 44rem; }
+.finding {
+  background: var(--panel); border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent);
+  padding: 1.25rem 1.5rem; margin: 1.5rem 0; border-radius: 3px;
+}
+.finding p { margin: 0; }
+.charts { display: flex; flex-wrap: wrap; gap: 2rem; margin: 1.5rem 0; }
+.chart { flex: 1 1 22rem; min-width: 0; }
+.chart h3 {
+  font-size: .8rem; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--muted); margin: 0 0 .5rem; font-weight: 600;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+svg { width: 100%; height: auto; }
+.grid { stroke: var(--grid); stroke-width: 1; }
+.tick { fill: var(--muted); font-size: 10px; }
+.axis { fill: var(--muted); font-size: 10px; letter-spacing: .08em; }
+.legend { display: flex; gap: 1.25rem; margin: .5rem 0 0; font-size: .8rem; }
+.legend span { display: flex; align-items: center; gap: .4rem; color: var(--muted); }
+.swatch { width: 14px; height: 3px; border-radius: 2px; }
+.scroll { overflow-x: auto; margin: 1.25rem 0; }
+table { border-collapse: collapse; width: 100%; font-size: .88rem; }
+th {
+  text-align: left; font-size: .7rem; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--muted); font-weight: 600; padding: .5rem .75rem;
+  border-bottom: 1px solid var(--rule); white-space: nowrap;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+td { padding: .55rem .75rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.lab { font-size: .78rem; letter-spacing: .04em; }
+.lab.concept { color: var(--accent); }
+.lab.random { color: var(--contrast); }
+.quote { color: var(--muted); font-size: .84rem; max-width: 34rem; }
+ul { max-width: 44rem; padding-left: 1.1rem; }
+li { margin-bottom: .6rem; }
+code {
+  background: var(--panel); border: 1px solid var(--rule);
+  padding: .1rem .35rem; border-radius: 3px; font-size: .85em;
+}
+footer {
+  margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule);
+  color: var(--muted); font-size: .82rem;
+}

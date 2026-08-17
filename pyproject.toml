@@ -17,8 +17,35 @@ build-backend = "setuptools.build_meta"
 [tool.setuptools]
 packages = ["src"]
 
+[tool.setuptools.package-data]
+# Templates are data, not modules, so they must be declared explicitly or an
+# installed copy of the package would render an empty page.
+src = ["templates/*.html", "templates/*.css"]
+
 [tool.pytest.ini_options]
 pythonpath = ["."]
+
+[tool.ruff]
+line-length = 92
+target-version = "py311"
+
+[tool.ruff.lint]
+select = [
+  "E",    # pycodestyle
+  "F",    # pyflakes
+  "I",    # import sorting
+  "UP",   # pyupgrade
+  "B",    # bugbear
+  "SIM",  # simplification
+  "RET",  # return consistency
+]
+ignore = [
+  "B008",    # function call in default argument — not a pattern used here
+  "SIM905",  # "".split() over a word list reads better than a quoted list literal
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E501"]
 
 [dependency-groups]
 dev = [
@@ -26,4 +53,5 @@ dev = [
     "matplotlib>=3.11.1",
     "pandas>=3.0.5",
     "pytest>=8.0",
+    "ruff>=0.16.3",
 ]

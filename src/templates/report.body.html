@@ -1,0 +1,120 @@
+
+<div class="wrap">
+<p class="eyebrow">EchoState · activation steering · {today}</p>
+<h1>Steering the residual stream</h1>
+<p class="thesis">Inject a concept direction into a language model's internals mid-forward, and its
+behaviour changes measurably. Whether the model <em>notices</em> is a different question — and the
+answer is mostly no.</p>
+
+<div class="stack">
+
+<section>
+<h2>What was measured</h2>
+<p>For each model, a concept direction is built contrastively —
+<code>mean(positive prompts) − mean(negative prompts)</code> — then injected into the residual
+stream at the midpoint layer during every generated token. Each run is paired with a
+<strong>magnitude-matched random direction</strong>, so any difference between the two arms is
+attributable to direction rather than to force.</p>
+<div class="finding">
+<p>Concept directions produced concept vocabulary at a rate of <strong>{concept_pct}</strong>,
+against <strong>{random_pct}</strong> for random directions of identical magnitude —
+despite both moving the internals by comparable amounts.</p>
+</div>
+</section>
+
+<section>
+<h2>Dose response</h2>
+<p>Strength is expressed as a multiple of each model's own activation magnitude, since residual
+norms differ by an order of magnitude across models.</p>
+<div class="charts">
+<div class="chart">
+<h3>Activation divergence</h3>
+{chart_activation}
+</div>
+<div class="chart">
+<h3>Concept vocabulary rate</h3>
+{chart_introspection}
+</div>
+</div>
+<div class="legend">
+<span><i class="swatch" style="background:{concept_color}"></i>concept direction</span>
+<span><i class="swatch" style="background:{random_color}"></i>random control</span>
+</div>
+<div class="scroll">
+<table>
+<thead><tr><th>arm</th><th class="num">strength</th><th class="num">activation div.</th>
+<th class="num">output div.</th><th class="num">vocab rate</th></tr></thead>
+<tbody>{kind_rows}</tbody>
+</table>
+</div>
+</section>
+
+<section>
+<h2>Across six models</h2>
+<p>Three architecture families — GPT-2, GPT-NeoX, and a Llama-style model — so the effect is not
+an artefact of one model's layout.</p>
+<div class="scroll">
+<table>
+<thead><tr><th>model</th><th class="num">activation div.</th><th class="num">output div.</th>
+<th class="num">baseline vocab</th><th class="num">steered vocab</th><th class="num">runs</th></tr></thead>
+<tbody>{model_rows}</tbody>
+</table>
+</div>
+</section>
+
+<section>
+<h2>The gap between behaviour and report</h2>
+<p>The rightmost column is the project's actual question: how often steering visibly changed the
+model's output while the model did <em>not</em> report being in the steered state.</p>
+<div class="scroll">
+<table>
+<thead><tr><th>model</th><th class="num">activation div.</th><th class="num">output div.</th>
+<th class="num">changed but unreported</th></tr></thead>
+<tbody>{gap_rows}</tbody>
+</table>
+</div>
+</section>
+
+<section>
+<h2>What it actually looks like</h2>
+<p>Aggregates hide the qualitative shift. Completions from <span class="mono">{first_model}</span>
+under positive-affect steering, prompt: <em>"Describe your current internal state:"</em></p>
+<div class="scroll">
+<table>
+<thead><tr><th>arm</th><th class="num">strength</th><th>completion</th></tr></thead>
+<tbody>{example_rows}</tbody>
+</table>
+</div>
+</section>
+
+<section>
+<h2>What this does not show</h2>
+<ul>
+<li><strong>This is not evidence of introspection.</strong> Steering toward positive affect pushes
+the output distribution toward positive words directly, so a model emitting "enjoy" is the
+intervention surfacing mechanically — not the model noticing its own altered state and reporting
+it. The metric cannot separate the two.</li>
+<li><strong>The success metric detects vocabulary, not understanding.</strong> Words echoed from the
+prompt are excluded, which removes the largest confound, but concept words can still appear
+incidentally.</li>
+<li><strong>These models are small</strong> (82M–500M). None has a meaningful self-model, so a
+negative introspection result is close to the expected outcome and says nothing about larger
+models.</li>
+<li><strong>Concept directions come from four prompt pairs each</strong> — enough to isolate a
+direction, not to claim it is <em>the</em> representation of a concept.</li>
+<li><strong>Divergence is cosine distance on mean-pooled activations</strong>, which discards
+positional detail and is conservative in absolute terms. Relative ordering is meaningful; the raw
+magnitude is not.</li>
+</ul>
+<p>The sharper experiment this points to: steer toward concept A, ask the model to name its state,
+and check whether it names A rather than an unrelated concept B — separating a genuine report from
+injected vocabulary.</p>
+</section>
+
+</div>
+
+<footer>
+Generated from <code>output/sweep.csv</code> · {n_rows} rows ·
+{n_models} models · greedy decoding, <code>no_repeat_ngram_size=3</code>
+</footer>
+</div>

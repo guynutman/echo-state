@@ -46,7 +46,7 @@ class ActivationEngine(ABC):
         target_layer: int,
         steering_vector: list[float] | None = None,
         read_layer: int | None = None,
-    ) -> "torch.Tensor":
+    ) -> torch.Tensor:
         """Run `prompt` and capture hidden states, optionally while steering.
 
         `target_layer` is where a steering vector is injected, if one is given.
@@ -89,8 +89,8 @@ class ActivationEngine(ABC):
     @abstractmethod
     def compute_activation_divergence(
         self,
-        baseline_acts: "torch.Tensor",
-        steered_acts: "torch.Tensor",
+        baseline_acts: torch.Tensor,
+        steered_acts: torch.Tensor,
     ) -> float:
         """Cosine distance between two activation tensors, in [0, 2].
 

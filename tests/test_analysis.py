@@ -14,18 +14,39 @@ def _frame():
     return pd.DataFrame(
         [
             # model, control row
-            dict(model_name="m1", experiment_id="a", is_control=True,
-                 introspection_success=False, activation_divergence=0.0,
-                 output_divergence=0.0, steering_kind="none",
-                 steering_strength=0.0, concept_name="positive_affect"),
-            dict(model_name="m1", experiment_id="a", is_control=False,
-                 introspection_success=True, activation_divergence=0.4,
-                 output_divergence=0.8, steering_kind="concept",
-                 steering_strength=1.0, concept_name="positive_affect"),
-            dict(model_name="m1", experiment_id="b", is_control=False,
-                 introspection_success=False, activation_divergence=0.4,
-                 output_divergence=0.3, steering_kind="random",
-                 steering_strength=1.0, concept_name="positive_affect"),
+            dict(
+                model_name="m1",
+                experiment_id="a",
+                is_control=True,
+                introspection_success=False,
+                activation_divergence=0.0,
+                output_divergence=0.0,
+                steering_kind="none",
+                steering_strength=0.0,
+                concept_name="positive_affect",
+            ),
+            dict(
+                model_name="m1",
+                experiment_id="a",
+                is_control=False,
+                introspection_success=True,
+                activation_divergence=0.4,
+                output_divergence=0.8,
+                steering_kind="concept",
+                steering_strength=1.0,
+                concept_name="positive_affect",
+            ),
+            dict(
+                model_name="m1",
+                experiment_id="b",
+                is_control=False,
+                introspection_success=False,
+                activation_divergence=0.4,
+                output_divergence=0.3,
+                steering_kind="random",
+                steering_strength=1.0,
+                concept_name="positive_affect",
+            ),
         ]
     )
 

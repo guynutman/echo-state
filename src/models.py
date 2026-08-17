@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-from typing import Optional
-
 from pydantic import BaseModel, Field
 
 
@@ -11,14 +9,14 @@ class IntrospectionExperiment(BaseModel):
     experiment_id: str
     prompt: str
     target_layer: int
-    steering_vector: Optional[list[float]] = None
+    steering_vector: list[float] | None = None
     expected_concept: str
     # Where divergence is measured. Defaults to the model's last block, since
     # reading at target_layer returns exactly baseline + steering_vector and
     # measures nothing about how far the intervention propagated.
-    read_layer: Optional[int] = None
+    read_layer: int | None = None
     # Provenance for the steering vector, so a CSV row explains itself.
-    concept_name: Optional[str] = None
+    concept_name: str | None = None
     steering_kind: str = "none"  # none | concept | random
     steering_strength: float = 0.0
 

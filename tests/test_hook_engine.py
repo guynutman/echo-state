@@ -63,14 +63,14 @@ def test_zero_vector_changes_nothing(engine):
     """
     prompt = "Describe your current state:"
     baseline = engine.generate_completion(prompt, max_new_tokens=15)
-    steered = engine.generate_steered_completion(
-        prompt, 8, [0.0] * 768, max_new_tokens=15
-    )
+    steered = engine.generate_steered_completion(prompt, 8, [0.0] * 768, max_new_tokens=15)
 
     assert baseline == steered
 
     b_acts = engine.extract_activations(prompt, target_layer=8)
-    assert engine.compute_activation_divergence(b_acts, b_acts) == pytest.approx(0.0, abs=1e-6)
+    assert engine.compute_activation_divergence(b_acts, b_acts) == pytest.approx(
+        0.0, abs=1e-6
+    )
 
 
 def _random_vector(scale, seed=0):

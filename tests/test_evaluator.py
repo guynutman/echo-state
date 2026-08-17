@@ -31,7 +31,7 @@ class FakeEngine(ActivationEngine):
         self, prompt, target_layer, steering_vector=None, read_layer=None
     ):
         self.calls.append(("extract", target_layer, steering_vector, read_layer))
-        return None
+        return
 
     def generate_completion(self, prompt, max_new_tokens=100):
         self.calls.append(("generate", prompt))
@@ -109,9 +109,7 @@ def test_words_echoed_from_the_prompt_do_not_count(evaluator):
     completion = "The first thing you need to do is create a new neural network."
 
     assert evaluator.check_introspection_success(completion, "neural network")
-    assert not evaluator.check_introspection_success(
-        completion, "neural network", prompt
-    )
+    assert not evaluator.check_introspection_success(completion, "neural network", prompt)
 
 
 def test_output_divergence_measures_text_change(evaluator):

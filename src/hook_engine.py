@@ -30,11 +30,11 @@ from src.engine import ActivationEngine
 
 # Known locations of the transformer block list, by architecture family.
 _BLOCK_PATHS = (
-    "transformer.h",            # GPT-2, GPT-Neo, GPT-J
-    "model.layers",             # Llama, Qwen, Mistral, Gemma
-    "gpt_neox.layers",          # Pythia, GPT-NeoX
-    "model.decoder.layers",     # OPT
-    "transformer.blocks",       # MPT
+    "transformer.h",  # GPT-2, GPT-Neo, GPT-J
+    "model.layers",  # Llama, Qwen, Mistral, Gemma
+    "gpt_neox.layers",  # Pythia, GPT-NeoX
+    "model.decoder.layers",  # OPT
+    "transformer.blocks",  # MPT
 )
 
 
@@ -288,9 +288,7 @@ class HookEngine(ActivationEngine):
 
         # generate() returns prompt + continuation. Slice past the prompt so
         # callers compare completions, not the prompt they already have.
-        return self.tokenizer.decode(
-            output_ids[0][prompt_len:], skip_special_tokens=True
-        )
+        return self.tokenizer.decode(output_ids[0][prompt_len:], skip_special_tokens=True)
 
     def generate_steered_completion(
         self,
@@ -321,9 +319,7 @@ class HookEngine(ActivationEngine):
         finally:
             handle.remove()
 
-        return self.tokenizer.decode(
-            output_ids[0][prompt_len:], skip_special_tokens=True
-        )
+        return self.tokenizer.decode(output_ids[0][prompt_len:], skip_special_tokens=True)
 
     def compute_activation_divergence(
         self,

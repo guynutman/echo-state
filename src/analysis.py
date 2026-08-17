@@ -13,8 +13,8 @@ def load_results(path: str) -> pd.DataFrame:
     """Load a sweep CSV with the right dtypes."""
     frame = pd.read_csv(path)
     for column in ("is_control", "introspection_success"):
-        frame[column] = frame[column].astype(str).str.lower().map(
-            {"true": True, "false": False}
+        frame[column] = (
+            frame[column].astype(str).str.lower().map({"true": True, "false": False})
         )
     # Strong steering can silence a model entirely: it emits end-of-sequence
     # immediately and the completion is empty, which pandas reads as NaN.
@@ -113,7 +113,9 @@ def introspection_gap(frame: pd.DataFrame) -> pd.DataFrame:
                     "mean_output_divergence": g["output_divergence"].mean(),
                     "introspection_rate": g["introspection_success"].mean(),
                     "changed_output_but_not_report": float(
-                        ((g["output_divergence"] > 0.2) & ~g["introspection_success"]).mean()
+                        (
+                            (g["output_divergence"] > 0.2) & ~g["introspection_success"]
+                        ).mean()
                     ),
                 }
             ),

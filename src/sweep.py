@@ -35,12 +35,12 @@ from src.steering import (
 # Widely used, openly available, and small enough to run on CPU. Three
 # architecture families, so the block-path resolver is genuinely exercised.
 DEFAULT_MODELS = (
-    "distilgpt2",              # 82M   GPT-2 family, distilled
-    "gpt2",                    # 124M  GPT-2
-    "gpt2-medium",             # 355M  GPT-2, deeper
+    "distilgpt2",  # 82M   GPT-2 family, distilled
+    "gpt2",  # 124M  GPT-2
+    "gpt2-medium",  # 355M  GPT-2, deeper
     "EleutherAI/gpt-neo-125m",  # 125M  GPT-Neo
-    "EleutherAI/pythia-410m",   # 410M  GPT-NeoX family
-    "Qwen/Qwen2.5-0.5B",       # 500M  modern Llama-style architecture
+    "EleutherAI/pythia-410m",  # 410M  GPT-NeoX family
+    "Qwen/Qwen2.5-0.5B",  # 500M  modern Llama-style architecture
 )
 
 # What the model is asked to report about itself.

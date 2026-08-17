@@ -16,8 +16,10 @@ from src.models import ArtifactResult, ExperimentSuite, IntrospectionExperiment
 
 # Words too common to count as evidence of anything.
 _STOPWORDS = frozenset(
-    "a an the and or of to in on is are am was were be been it its this that "
-    "i you he she they we my your as at for with about".split()
+    """
+    a an the and or of to in on is are am was were be been it its this that
+    i you he she they we my your as at for with about
+    """.split()
 )
 
 
@@ -42,9 +44,7 @@ class Evaluator:
         key = (prompt, target_layer, read_layer)
         if key not in self._baseline_cache:
             self._baseline_cache[key] = (
-                self.engine.generate_completion(
-                    prompt, max_new_tokens=self.max_new_tokens
-                ),
+                self.engine.generate_completion(prompt, max_new_tokens=self.max_new_tokens),
                 self.engine.extract_activations(
                     prompt, target_layer, read_layer=read_layer
                 ),
@@ -81,9 +81,7 @@ class Evaluator:
             return 0.0
         return 1.0 - SequenceMatcher(None, baseline, steered).ratio()
 
-    def run_experiment(
-        self, experiment: IntrospectionExperiment
-    ) -> list[ArtifactResult]:
+    def run_experiment(self, experiment: IntrospectionExperiment) -> list[ArtifactResult]:
         """Run one experiment: a baseline row, plus a steered row if steered.
 
         Both runs read activations at the same layer so their divergence is
