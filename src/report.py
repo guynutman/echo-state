@@ -18,6 +18,18 @@ ACCENT = "#0E7C86"      # concept arm
 CONTRAST = "#B4306E"    # random control arm
 
 
+def _clean(text: str) -> str:
+    """Strip characters that survive tokenizer decoding but break downstream.
+
+    Steering hard enough can make a model emit bytes that do not form valid
+    UTF-8; the tokenizer decodes those to U+FFFD, and control characters can
+    come through the same way. Both are noise in a quoted completion.
+    """
+    return "".join(
+        c for c in text if c != "�" and (c.isprintable() or c in " \t")
+    )
+
+
 def _fmt(value: float, places: int = 3) -> str:
     return f"{value:.{places}f}"
 
@@ -101,13 +113,13 @@ def _examples(frame: pd.DataFrame, model: str, concept: str = "positive_affect")
     for _, row in control.iterrows():
         out.append(
             f'<tr><td class="lab">baseline</td><td class="num">—</td>'
-            f'<td class="quote">{html.escape(str(row["raw_completion"]).strip()[:180]) or "<em>(empty)</em>"}</td></tr>'
+            f'<td class="quote">{html.escape(_clean(str(row["raw_completion"])).strip()[:180]) or "<em>(empty)</em>"}</td></tr>'
         )
 
     for kind in ("concept", "random"):
         subset = rows[(~rows["is_control"]) & (rows["steering_kind"] == kind)]
         for _, row in subset.sort_values("steering_strength").iterrows():
-            text = html.escape(str(row["raw_completion"]).strip()[:180])
+            text = html.escape(_clean(str(row["raw_completion"])).strip()[:180])
             out.append(
                 f'<tr><td class="lab {kind}">{kind}</td>'
                 f'<td class="num">{row["steering_strength"]:g}</td>'
