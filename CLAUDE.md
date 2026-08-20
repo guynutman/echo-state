@@ -152,6 +152,30 @@ discrimination, or beating an external judge that sees only the model's output.
 The README's final section covers this. Keep the caveat prominent in the README,
 the paper, and the notebook.
 
+## CI
+
+`.github/workflows/ci.yml` runs on push and pull request to `main`: ruff check,
+ruff format --check, then pytest, on Python 3.11.
+
+`UV_TORCH_BACKEND: cpu` is set at job level for the same reason as the
+Dockerfile — a CUDA torch is a multi-GB download a CI runner cannot use.
+HuggingFace weights are cached across runs, otherwise the eight integration
+tests in `test_hook_engine.py` re-download gpt2 every time.
+
+Ruff is run repo-wide (`ruff check .`), which is why `extend-exclude` in
+`pyproject.toml` matters: without it ruff lints the notebook and reformats
+Markdown, and CI fails on files that are not source.
+
+Before changing a lint rule or adding a file, run the CI sequence locally:
+
+```bash
+uv sync --all-extras --dev && uv run ruff check . && uv run ruff format --check . && uv run pytest -q
+```
+
+**Known coverage gap:** `sweep.py`, `report.py`, `paper.py`, `rendering.py` and
+`steering.py` are never imported by the test suite, so an import-level break in
+them passes CI. A smoke test importing every module would close this.
+
 ## Docker
 
 ```bash

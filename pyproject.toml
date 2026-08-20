@@ -38,6 +38,9 @@ pythonpath = ["."]
 [tool.ruff]
 line-length = 92
 target-version = "py311"
+# Notebooks are exploratory (unused imports are deliberate there) and Markdown
+# is prose, not a lint target.
+extend-exclude = ["notebooks", "*.md"]
 
 [tool.ruff.lint]
 select = [
