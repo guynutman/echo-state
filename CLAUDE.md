@@ -45,7 +45,7 @@ VIDEO.md                video recording plan
 
 ```bash
 uv sync                                   # install everything
-uv run pytest -q                          # 34 tests
+uv run pytest -q                          # 47 tests
 uv run ruff check echostate tests demo.py # lint
 uv run ruff format echostate tests demo.py
 
@@ -172,9 +172,12 @@ Before changing a lint rule or adding a file, run the CI sequence locally:
 uv sync --all-extras --dev && uv run ruff check . && uv run ruff format --check . && uv run pytest -q
 ```
 
-**Known coverage gap:** `sweep.py`, `report.py`, `paper.py`, `rendering.py` and
-`steering.py` are never imported by the test suite, so an import-level break in
-them passes CI. A smoke test importing every module would close this.
+`tests/test_smoke.py` imports every module and checks the public API and the
+console entry points resolve. It exists because `sweep.py`, `report.py`,
+`paper.py`, `rendering.py` and `steering.py` are not otherwise imported by the
+suite, so an import-level break in them would pass CI silently. Modules are
+grouped there by what they need (core / torch / pandas) so the file still runs
+without the optional analysis extra — keep that grouping when adding a module.
 
 ## Docker
 
