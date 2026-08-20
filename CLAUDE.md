@@ -152,6 +152,27 @@ discrimination, or beating an external judge that sees only the model's output.
 The README's final section covers this. Keep the caveat prominent in the README,
 the paper, and the notebook.
 
+## Docker
+
+```bash
+docker build -t echostate .
+docker run --rm -v "$PWD/output:/app/output" echostate \
+  experiments/sample_experiments.json output/results.csv
+```
+
+The image installs with `--torch-backend=cpu`. Without it, uv resolves the CUDA
+build and pulls 18 nvidia packages — roughly 2.5 GB of wheels that cannot be used
+in a slim CPU image. Keep the flag.
+
+`README.md` is copied alongside `pyproject.toml` because `[project].readme`
+points at it; the install fails without it. Source is copied before
+`experiments/` so a change to the sample data does not invalidate the dependency
+layer.
+
+The container runs as a non-root user, so `HF_HOME` is set to that user's home —
+model weights download at first run and are lost when the container exits. Mount
+a volume there to cache them between runs.
+
 ## Packaging notes
 
 - Import name and distribution name are both `echostate`.
